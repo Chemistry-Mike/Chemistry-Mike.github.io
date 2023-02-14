@@ -11,3 +11,5 @@ icon: # flavicon.ico  # the emoji used as the favicon (alternatively, provide im
 
 url: https://Chemistry-Mike.github.io
 
+highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
