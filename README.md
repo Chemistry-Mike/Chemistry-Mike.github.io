@@ -1,5 +1,5 @@
 
-GitHub is a great platform for creating and hosting websites. With Markdown, you can easily create a website in no time.
+Our Laboratory is investigating the trends and behavior of Intrinsically Disordered Proteins using computational chemistry means. Specifically, our focus involves examinations of chemical shifts by DFT methodology using machine learning sampling methods.
 
 # Welcome to My Example Website
 
