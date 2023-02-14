@@ -1,26 +1,26 @@
 
 Our Laboratory is investigating the trends and behavior of Intrinsically Disordered Proteins using computational chemistry means. Specifically, our focus involves examinations of chemical shifts by DFT methodology using machine learning sampling methods.
 
-# Welcome to My Example Website
+# What are we working on?
 
-This is a simple website created using Markdown. It is designed to show how easy it is to create a website using GitHub.
+Intrinsically Disordered Proteins are proteins which lack robust or well defined secondary structure. [1-4] The typical biochemistry paradigm relies on the dogma that structure leads to function and thus investigations into the structure will be give the investigator information about how the protein interacts with the environment, ligands, and other proteins. [5-11] This paradigm fails in cases of "wild-type" proteins, which rely on the inherent flexibility incorporated to perform a wide range of tasks related to the cellular behavior.
 
-## About
+## Current State of the Arts
 
-This website is just a simple example of how to create a website using GitHub. It is written in Markdown and hosted on GitHub.
+[current state of the arts]
 
-## Content
+## Machine Learning
 
-This website contains a few pages of content, including an "About" page and a "Contact" page.
+[machine learning]
 
-### About
+## DFT Calculations
 
-This page contains information about the website and the author.
+[DFT calculations]
 
-### Contact
+## Fragmentation
 
-This page contains contact information for the author.
+[fragmentation]
 
-## Conclusion
+## J-Coupling
 
-Creating a website with GitHub and Markdown is easy and fun. With a few lines of code, you can quickly create a website that is hosted on GitHub.
+[j-coupling calculations]
