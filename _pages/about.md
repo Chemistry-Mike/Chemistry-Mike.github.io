@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-Principal Investigator: Eugen Hruška <br>
-I'm an academic assistant (tenure track) at [Faculty of Pharmacy, Charles University](https://portal.faf.cuni.cz/Profile/Hruska-Eugen/), which is located in [Hradec Králové, Czechia.](https://en.mapy.cz/zakladni?source=firm&id=360719&ds=2&x=15.8358164&y=50.2015221&z=5) 
+Principal Investigator: Jana Pavlikova <br>
+I'm an PhD doctorate student at [Faculty of Pharmacy, Charles University]([https://portal.faf.cuni.cz/Profile/Hruska-Eugen/](https://www.linkedin.com/in/michael-bakker-696b84239/?originalSubdomain=cz)), which is located in [Hradec Králové, Czechia.](https://en.mapy.cz/zakladni?source=firm&id=360719&ds=2&x=15.8358164&y=50.2015221&z=5) 
 Published research is described in [Section Research](projects). 
-For news follow on [Twitter](https://twitter.com/HruskaEugen). 
+# For news follow on [Twitter](https://twitter.com/HruskaEugen). 
