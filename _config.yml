@@ -40,7 +40,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : "bakkerm@faf.cuni.cz"
   generatedFields:
     date:
       type               : "date"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/Chemistry-Mike/Chemistry-Mike.github.io"
   google_plus      :
   keybase          :
   instagram        :
