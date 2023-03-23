@@ -17,16 +17,18 @@ Intrinsically Disordered Proteins
 Intrinsically Disordered Proteins (IDPs) are an important area of study and research for scientists due to their unique nature and the potential for a wide range of applications. IDPs are proteins that lack a stable three-dimensional structure and are instead formed by a large number of conformers in equilibrium. This makes them difficult to study using traditional methods such as crystallography or NMR. However, advances in computational methods have enabled researchers to study IDPs using molecular dynamics simulations. These simulations allow for the calculation of chemical shifts from these proteins, which can be used to derive their structure and investigate their properties. This has opened up new opportunities for the study of IDPs, from their structure and function to their interactions with other molecules. The potential applications of this research are vast and include the development of new therapeutic treatments, drug delivery systems, and materials.
 
 **My research interests include:**
-- Statherin 
-- Human Tyrosine Hydroxylase 1
-- MAP2C 
-- Histatin 5
-- Tau 
-- RNA Polymerase II CTD Heptad Repeats
 
-Site-wide configuration
+- **Statherin:** A salivary protein found in humans and other mammals that has a variety of functions, including protecting the teeth from acidic conditions. 
+- **Human Tyrosine Hydroxylase 1:** An enzyme that is responsible for the production of dopamine, norepinephrine, and epinephrine, which are important neurotransmitters in the brain.
+- **MAP2C:** A neuron-specific microtubule-associated protein that plays an important role in maintaining neuronal structure and function. 
+- **Histatin 5:** An antifungal peptide found in saliva that can also act as an anti-inflammatory agent. 
+- **Tau:** A microtubule-associated protein found in neurons that is implicated in Alzheimer’s disease. 
+- **RNA Polymerase II CTD Heptad Repeats:** A repeating sequence in the RNA polymerase II molecule involved in transcriptional regulation.
+
+Computing NMR Chemical Shifts
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+
+Currently, the most common method for calculating NMR chemical shifts from IDPs is through molecular dynamics simulations. These simulations allow for the calculation of the conformations of the protein in order to generate an average chemical shift for each residue. This average can then be used to infer the structure of the IDP. There are several software packages available for this purpose, such as Sparta+, ShiftX, and AMBER, that excel in different areas but all have their limitations. For example, Sparta+ is capable of efficiently calculating chemical shifts but is limited in its accuracy, while ShiftX can provide more accurate results but is less efficient. It is important to understand the strengths and weaknesses of each software in order to select the best one for the task at hand.
 
 Create content & metadata
 ------
