@@ -16,14 +16,13 @@ Intrinsically Disordered Proteins
 ======
 Intrinsically Disordered Proteins (IDPs) are an important area of study and research for scientists due to their unique nature and the potential for a wide range of applications. IDPs are proteins that lack a stable three-dimensional structure and are instead formed by a large number of conformers in equilibrium. This makes them difficult to study using traditional methods such as crystallography or NMR. However, advances in computational methods have enabled researchers to study IDPs using molecular dynamics simulations. These simulations allow for the calculation of chemical shifts from these proteins, which can be used to derive their structure and investigate their properties. This has opened up new opportunities for the study of IDPs, from their structure and function to their interactions with other molecules. The potential applications of this research are vast and include the development of new therapeutic treatments, drug delivery systems, and materials.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+**My research interests include:**
+- Statherin 
+- Human Tyrosine Hydroxylase 1
+- MAP2C 
+- Histatin 5
+- Tau 
+- RNA Polymerase II CTD Heptad Repeats
 
 Site-wide configuration
 ------
