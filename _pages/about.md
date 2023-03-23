@@ -28,6 +28,8 @@ Intrinsically Disordered Proteins (IDPs) are an important area of study and rese
 Computing NMR Chemical Shifts
 ------
 
+Calculating the chemical shifts of IDPs can be of great interest to researchers due to its potential applications. Chemical shifts can provide valuable insights into the structure and dynamics of IDPs, which can be used to further our understanding of their behavior and interactions with other molecules. This can be used to develop new therapeutic treatments, drug delivery systems, and materials. Additionally, chemical shifts can be used to study the conformational phase space of IDPs, which can lead to a better understanding of their function and behavior.
+
 Currently, the most common method for calculating NMR chemical shifts from IDPs is through molecular dynamics simulations. These simulations allow for the calculation of the conformations of the protein in order to generate an average chemical shift for each residue. This average can then be used to infer the structure of the IDP. There are several software packages available for this purpose, such as Sparta+, ShiftX, and AMBER, that excel in different areas but all have their limitations. For example, Sparta+ is capable of efficiently calculating chemical shifts but is limited in its accuracy, while ShiftX can provide more accurate results but is less efficient. It is important to understand the strengths and weaknesses of each software in order to select the best one for the task at hand.
 
 Create content & metadata
