@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Michael Bakker"
   avatar           : "profile.png"
-  bio              : "PhD Researcher at Charles University, focusing on computational chemistry and machine learning"
+  bio              : "PhD Researcher: Charles University"
   location         : "Czech Republic"
   employer         : "Charles University"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
