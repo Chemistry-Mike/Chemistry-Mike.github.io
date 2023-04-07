@@ -10,11 +10,14 @@ redirect_from:
 
 I am a scientist working as a PhD researcher at Charles University. My area of expertise is computational chemistry, particularly focused on molecular dynamics and DFT calculations. I am particularly interested in Intrinsically Disordered Proteins and the application of machine learning on their molecular dynamics trajectories. My research involves exploring the conformational phase space and generating ideal ensembles to represent these proteins. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am always looking for new opportunities to collaborate with other researchers.
 
-![IDP](/images/IDP.png)
+![Main](/images/Main.png)
 
 Intrinsically Disordered Proteins
 ======
 Intrinsically Disordered Proteins (IDPs) are an important area of study and research for scientists due to their unique nature and the potential for a wide range of applications. IDPs are proteins that lack a stable three-dimensional structure and are instead formed by a large number of conformers in equilibrium. This makes them difficult to study using traditional methods such as crystallography or NMR. However, advances in computational methods have enabled researchers to study IDPs using molecular dynamics simulations. These simulations allow for the calculation of chemical shifts from these proteins, which can be used to derive their structure and investigate their properties. This has opened up new opportunities for the study of IDPs, from their structure and function to their interactions with other molecules. The potential applications of this research are vast and include the development of new therapeutic treatments, drug delivery systems, and materials.
+
+![IDP](/images/IDP.png)
+
 
 **My research interests include:**
 
