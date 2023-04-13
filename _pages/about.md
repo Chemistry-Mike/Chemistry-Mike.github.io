@@ -41,6 +41,9 @@ Machine learning algorithms are powerful tools for data analysis and can be used
 
 ![ML](/images/DBSCAN.gif)
 
+
+![CA](/images/KMEANS.gif)
+
 Machine learning algorithms can be applied to the analysis of molecular dynamics trajectories of IDPs in order to gain insights into their structure, dynamics, and interactions with other molecules. Dimensionality reduction methods, such as principal component analysis and singular value decomposition, can be used to highlight the most important features of the trajectories, allowing researchers to uncover patterns and trends. Clustering algorithms, such as k-means clustering and hierarchical clustering, can be used to investigate the behavior and specific features of the trajectories. Finally, the workflow can be used to generate ideal ensembles that represent the conformational phase space of the IDP, which can be used in future higher-level computations.
 
 Ab-Initio Calculations for Chemical Shifts - A Multi-Scale Approach
