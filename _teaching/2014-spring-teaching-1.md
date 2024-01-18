@@ -1,20 +1,13 @@
 ---
-title: "Teaching experience 1"
+title: "Organic Chemistry Tutor"
 collection: teaching
-type: "Undergraduate course"
+type: "University Sponsored Tutoring"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Missouri State University, Department of Chemistry"
+date: 2016-08
+location: "Springfield, MO, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Worked with students through collaboration from the faculty (Professor Siebert) to provide supplemental support for the Organic Chemistry course.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Conducted regular sessions throughout the week ranging from group to singular interactions and held pre-examination testing sessions before each exam, personally crafting practice tests to supplement the education.
