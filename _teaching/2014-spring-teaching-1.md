@@ -1,7 +1,7 @@
 ---
-title: "Teaching experience 1"
+title: "Organic Chemistry Tutor"
 collection: teaching
-type: "Undergraduate course"
+type: "University Sponsored Tutoring"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Missouri State University, Department of Chemistry"
 date: 2016-08-01
