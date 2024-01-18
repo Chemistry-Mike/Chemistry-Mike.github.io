@@ -58,6 +58,7 @@ The molecular dynamics trajectories that are produced are generated like a movie
 
 Dimensionality reduction techniques can be effective in studying IDPs because they can help us better visualize and understand the complex and chaotic motion of these proteins. IDPs do not have well-defined structures and their conformational space is constantly changing, making it challenging to analyze their behaviors and relationships with traditional methods.
 
+![Main](/images/DR-tSNE-Perp.gif)
 
 
 
