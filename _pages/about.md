@@ -12,13 +12,11 @@ redirect_from:
 
 Michael Bakker is a researcher working on his PhD in **Biophysics and Physical Chemistry** at **Charles University** with a particular focus in computational chemistry. The main focus of his investigation is **Intrinsically Disordered Proteins (IDPs)** and the application of machine learning algorithms on molecular dynamics trajectories.
 
-My research involves exploring the **conformational phase space** and generating ideal **ensembles** to represent these proteins. The understanding of the phase space helps us to determine the accessible conformations of the proteins, and by generating ensembles, we can better predict properties of the system using more complex and computatonally expensive methods. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am always looking for new opportunities to collaborate with other researchers.
+My research involves exploring the **conformational phase space** and generating ideal **ensembles** to represent these proteins. The understanding of the phase space helps us to determine the accessible conformations of the proteins, and by generating ensembles, we can better predict properties of the system using more complex and computatonally expensive methods. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am **always looking for new opportunities to collaborate with other researchers.**
 
-![Main](/images/Main.png)
-
-Intrinsically Disordered Proteins
+**Intrinsically Disordered Proteins (Brief Overview)**
 ======
-**Intrinsically Disordered Proteins (IDPs)** are an important area of study and research for scientists due to their unique nature and the potential for a wide range of applications. IDPs are proteins that **lack a stable three-dimensional structure** and are instead formed by a large number of conformers in equilibrium. This makes them **difficult to study** using traditional methods such as crystallography or NMR. However, advances in computational methods have enabled researchers to study IDPs using **molecular dynamics simulations**. These simulations allow for the calculation of NMR chemical shifts and small-angle scattering (SAXS) data from these proteins, which can be used to derive their structure and investigate their properties or interactions.
+**Intrinsically Disordered Proteins (IDPs)** are an important area of study and research for scientists due to their unique nature and the potential for a wide range of applications. IDPs are proteins that **lack a stable three-dimensional structure** and are instead formed by a large number of conformers in equilibrium. This makes them **difficult to study** using traditional methods such as crystallography or NMR. However, advances in computational methods have enabled researchers to study IDPs using **molecular dynamics simulations**. These simulations allow for the calculation of NMR chemical shifts and small-angle scattering (SAXS) data from these proteins, which can be used to derive their structure and investigate their properties or interactions. Below are two short example trajectories of an **ordered** (GB3) and **disordered** (MAP2C) protein.
 
 Ordered Protein (GB3)      |       IDP (MAP2C)
 :-------------------------:|:-------------------------:
@@ -34,7 +32,18 @@ Ordered Protein (GB3)      |       IDP (MAP2C)
 - **RNA Polymerase II CTD Heptad Repeats:** A repeating sequence in the RNA polymerase II molecule involved in transcriptional regulation.
 - **p53 Protein Regions:** The "Guardian of the Genome" contains large sections of disordered regions both internal and terminal which provide functionality of the protein.
 
-Computing NMR Chemical Shifts
+**Project 1: Locking the Domains - A Better Representation**
+------
+To be written.
+
+**Project 2: Exploring the Conformational Landscape**
+------
+The molecular dynamics trajectories that are produced are generated like a movie file, using parameterized force-fields to understand the movement of the protein and surrounding solvent. This powerful tool produces massive quantities of conformations for IDPs and can be difficult to interpret, and even more difficult to compute quantum parameters. Fortunately, the field of machine learning has exploded in recent decades to encompass a vast toolkit for researchers to better delve into the chaos that are IDPs.
+
+![Main](/images/Main.png)
+
+
+**Project 3: Computing NMR Chemical Shifts**
 ------
 
 Calculating the chemical shifts of IDPs can be of great interest to researchers due to its potential applications. Chemical shifts can provide valuable insights into the structure and dynamics of IDPs, which can be used to further our understanding of their behavior and interactions with other molecules. This can be used to develop new therapeutic treatments, drug delivery systems, and materials. Additionally, chemical shifts can be used to study the conformational phase space of IDPs, which can lead to a better understanding of their function and behavior.
