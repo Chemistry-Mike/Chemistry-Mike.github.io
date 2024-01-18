@@ -17,10 +17,11 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Fall/Spring Semester 2016: Organic Chemistry PASS Tutor
+  * Missouri State University
+  * Duties included: Conducted regular sessions throughout the week ranging from group to singular interactions and held pre-examination testing sessions before each exam, personally crafting practice tests to
+supplement the education.
+  * Supervisor: Professor Matthew Siebert
 
 * Fall 2015: Research Assistant
   * Github University
