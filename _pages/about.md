@@ -59,7 +59,7 @@ TEST <sub>H2O</sub>
 
 The **pre-tetramerization loop (PTL)** of the tumor suppressor protein p53 is a crucial component in understanding the function of this vital protein. This loop is an intrinsically disordered region (IDR) that plays a significant role in the tetramerization process. The flexibility of this region is essential for the **conformational changes required for p53** to function properly. While traditional molecular dynamics (MD) simulations of the PTL provide a reasonable representation of its behavior, recent studies have shown the advantages of **restraining the end-to-end distance (EE<sub>dist</sub>)** of the loop. By simulating the trajectory of the PTL with a restrained EEdist, we gain a deeper understanding of its dynamics and its role in the tetramerization process. In this section, we will explore the effects of restraining the EEdist and how it can enhance our understanding of p53 and other intrinsically disordered regions. Our findings have important implications for studying the impact of mutations on p53's function and provide valuable insights into the conformational dynamics of intrinsically disordered proteins.
 
-UNLOCKED                   | LOCKED                    | LOCKED                    | LOCKED                    
+UNLOCKED                   | EE<sub>dist</sub> = 7.0nm | EE<sub>dist</sub> = 5.0nm | EE<sub>dist</sub> = 3.0nm                    
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](/images/nCp53.gif)     |  ![](/images/bCp53.gif)   |  ![](/images/lCp53.gif)   |  ![](/images/oCp53.gif)   
 
