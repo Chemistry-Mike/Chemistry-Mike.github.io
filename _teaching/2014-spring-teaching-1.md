@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Missouri State University, Department of Chemistry"
-date: 2016-08
+date: 2016-08-01
 location: "Springfield, MO, USA"
 ---
 
