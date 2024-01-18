@@ -11,4 +11,4 @@ citation:
 
 This work presents an improved computational scheme for calculating NMR chemical shifts in intrinsically disordered proteins. The scheme couples molecular dynamics simulations with density functional theory calculations and incorporates partial geometry optimization and machine-learning based cluster analysis. Results show that the scheme can produce accurate CS calculations with reduced computational cost compared to conventional methods. 
 
-[Download paper here](https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp01638a)
+[See Publication Here.](https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp01638a)
