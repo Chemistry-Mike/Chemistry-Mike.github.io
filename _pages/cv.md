@@ -11,8 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in Chemistry, Missouri State University, 2018
-* M.S. in Chemistry, Missouri State University, 2020
+* B.S. in Chemistry (cum laude), Missouri State University, 2018
+* Minor in Mathematics, Missouri State University, 2020
+* M.S. in Chemistry (magna cum laude), Missouri State University, 2020
 * Ph.D in Biochemistry, Charles University, 2025 (expected)
 
 Work experience
@@ -23,19 +24,16 @@ Work experience
 supplement the education.
   * Supervisor: Professor Matthew Siebert
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2015: MSU Computer Service Technician
+  * Missouri State University
+  * Duties included: Fixing computer problems, removing viruses, diagnosing Blackboard server issues, and other IT related problems.
+  * Supervisor: Jeremy Henson
   
-Skills
+Computer Programming
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Intermediate proficiency in python scripting
+* Advanced proficiency in bash scripting
+* Expert proficiency in Molecular Dynamics simulations through GROMACS
 
 Publications
 ======
