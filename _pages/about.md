@@ -32,14 +32,18 @@ Ordered Protein (GB3)      |       IDP (MAP2C)
 - **RNA Polymerase II CTD Heptad Repeats:** A repeating sequence in the RNA polymerase II molecule involved in transcriptional regulation.[RNA CTD](https://en.wikipedia.org/wiki/RNA_polymerase_II_holoenzyme)  
 - **p53 Protein Regions:** The "Guardian of the Genome" contains large sections of disordered regions both internal and terminal which provide functionality of the protein. [p53](https://en.wikipedia.org/wiki/P53)
 
-In molecular dynamics simulations, it is crucial to ensure the accuracy of the generated trajectories. To do so, I use GROMACS to create a simulated environment that includes solvents ([water models](https://pubs.acs.org/doi/10.1021/acs.jctc.6b00429)) to mimic the protic effects on the protein's polar regions. Due to the immense conformational phase space at an atomistic level, studies on proteins typically focus on a smaller region **(20-100 residues)** for rigorous investigation. 
+The first step in performing molecular dynamics simulations is to select an appropriate [forcefield](https://manual.gromacs.org/2023.3/user-guide/force-fields.html) for the protein of interest. Forcefields are mathematical models that describe the interactions between atoms and molecules in a system. These forcefields are derived from experimental data and are able to reproduce many of the thermodynamic and structural properties of proteins. One popular forcefield used in molecular dynamics simulations is the Amber forcefield, which has been extensively parameterized for proteins and nucleic acids. Other popular forcefields include Charmm, OPLS, and GROMOS. The selection of the forcefield depends on the specific system and the type of interactions that need to be captured accurately. Particularly for IDPs [Force-Field](https://pubs.acs.org/doi/full/10.1021/ct501178z)
+
+Once the forcefield is chosen, the simulation system must be prepared. This includes adding hydrogens to the protein structure, defining the simulation box, adding counterions to neutralize the system, and solvating the protein with water molecules. The choice of solvent is also important, as different water models can significantly affect the stability and behavior of the protein during the simulation. Commonly used water models include TIP3P, SPC, and SPC/E. Particularly excellent in the case of IDPs is [water models](https://pubs.acs.org/doi/10.1021/acs.jctc.6b00429).
+
+Due to the immense conformational phase space at an atomistic level, studies on proteins typically focus on a smaller region **(20-100 residues)** for rigorous investigation. The choice of forcefield, augmentations to the simulations, and other considerations are all made prior to simulating the system.
 
 **Project 1: Locking the Domains - A Better Representation**
 ------
 
 ![Main](/images/TOC.png)
 
-The choice of forcefield, augmentations to the simulations, and other considerations are all made prior to simulating the system. One instance which is generally not considered is the **influence of neighboring regions**, particularly those which are **ordered** and have strict defined structures.
+One instance which is generally not considered is the **influence of neighboring regions**, particularly those which are **ordered** and have strict defined structures.
 
 ![Main](/images/PTL-Visualization.png)
 
