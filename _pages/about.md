@@ -50,11 +50,15 @@ UNLOCKED                   | LOCKED                    | LOCKED                 
 ![](/images/nCp53.gif)     |  ![](/images/bCp53.gif)   |  ![](/images/lCp53.gif)   |  ![](/images/oCp53.gif)   
 
 
-**Project 2: Exploring the Conformational Landscape**
+**Project 2: Mapping the Conformational Landscape**
 ------
 The molecular dynamics trajectories that are produced are generated like a movie file, using parameterized force-fields to understand the movement of the protein and surrounding solvent. This powerful tool produces massive quantities of conformations for IDPs and can be difficult to interpret, and even more difficult to compute quantum parameters. Fortunately, the field of machine learning has exploded in recent decades to encompass a vast toolkit for researchers to better delve into the chaos that are IDPs.
 
 ![Main](/images/Main.png)
+
+Dimensionality reduction techniques can be effective in studying IDPs because they can help us better visualize and understand the complex and chaotic motion of these proteins. IDPs do not have well-defined structures and their conformational space is constantly changing, making it challenging to analyze their behaviors and relationships with traditional methods.
+
+
 
 
 **Project 3: Computing NMR Chemical Shifts**
