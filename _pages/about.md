@@ -16,7 +16,7 @@ My research involves exploring the conformational phase space and generating ide
 
 Ordered Protein (GB3)      |       IDP (MAP2C)
 :-------------------------:|:-------------------------:
-![](/images/movie.png)  |  ![](/images/movie2.png)
+![](/images/movie.gif)  |  ![](/images/movie2.gif)
 
 ![Main](/images/Main.png)
 
