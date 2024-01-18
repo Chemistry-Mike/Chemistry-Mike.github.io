@@ -14,9 +14,9 @@ Michael Bakker is a researcher working on his PhD in **Biophysics and Physical C
 
 My research involves exploring the conformational phase space and generating ideal ensembles to represent these proteins. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am always looking for new opportunities to collaborate with other researchers.
 
-Solarized dark             |  Solarized Ocean
+Ordered Protein (GB3)      |       IDP (MAP2C)
 :-------------------------:|:-------------------------:
-![](/images/IDP.png)  |  ![](/images/IDP.png)
+![](/images/movie.png)  |  ![](/images/movie2.png)
 
 ![Main](/images/Main.png)
 
