@@ -11,4 +11,4 @@ citation: # 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journa
 
 We have developed a method for creating 3D printed models of NMR data. This involves converting FT NMR data into a 3D graph using Mathematica, and then printing it using a 3D printer. These physical models can be used as a teaching tool to help students understand the complex information presented in two-dimensional and relaxation NMR spectra.
 
-[Download paper here](https://onlinelibrary.wiley.com/doi/full/10.1002/cmr.a.21470)
+[See Publication Here.](https://onlinelibrary.wiley.com/doi/full/10.1002/cmr.a.21470)
