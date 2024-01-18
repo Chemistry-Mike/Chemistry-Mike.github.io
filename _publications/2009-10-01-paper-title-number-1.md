@@ -8,8 +8,7 @@ venue: 'Phys Chem Chem Phys'
 paperurl: '[https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp01638a](https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp01638a)'
 citation:
 ---
-This paper is about the number 1. The number 2 is left for future work.
+
+This work presents an improved computational scheme for calculating NMR chemical shifts in intrinsically disordered proteins. The scheme couples molecular dynamics simulations with density functional theory calculations and incorporates partial geometry optimization and machine-learning based cluster analysis. Results show that the scheme can produce accurate CS calculations with reduced computational cost compared to conventional methods. 
 
 [Download paper here](https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp01638a)
-
-Recommended citation: # Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
