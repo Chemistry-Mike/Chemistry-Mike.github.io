@@ -1,20 +1,14 @@
 ---
-title: "Teaching experience 2"
+title: "Organic Chemistry Lab Instructor"
 collection: teaching
-type: "Workshop"
+type: "Lab Instructor"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "Missouri State University, Department of Chemistry"
+date: 2018-01-01
+location: "Springfield, MO, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Instructed students on hands-on wet chemistry related to their lessons in Organic Chemistry I and II.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Administered tests and gave lectures relevant to the material, as well as graded lab reports and
+answered questions for each of the students
