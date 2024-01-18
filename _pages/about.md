@@ -12,19 +12,19 @@ redirect_from:
 
 Michael Bakker is a researcher working on his PhD in **Biophysics and Physical Chemistry** at **Charles University** with a particular focus in computational chemistry. The main focus of his investigation is **Intrinsically Disordered Proteins (IDPs)** and the application of machine learning algorithms on molecular dynamics trajectories.
 
-My research involves exploring the conformational phase space and generating ideal ensembles to represent these proteins. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am always looking for new opportunities to collaborate with other researchers.
+My research involves exploring the **conformational phase space** and generating ideal **ensembles** to represent these proteins. The understanding of the phase space helps us to determine the accessible conformations of the proteins, and by generating ensembles, we can better predict properties of the system using more complex and computatonally expensive methods. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am always looking for new opportunities to collaborate with other researchers.
 
 ![Main](/images/Main.png)
 
 Intrinsically Disordered Proteins
 ======
-Intrinsically Disordered Proteins (IDPs) are an important area of study and research for scientists due to their unique nature and the potential for a wide range of applications. IDPs are proteins that lack a stable three-dimensional structure and are instead formed by a large number of conformers in equilibrium. This makes them difficult to study using traditional methods such as crystallography or NMR. However, advances in computational methods have enabled researchers to study IDPs using molecular dynamics simulations. These simulations allow for the calculation of chemical shifts from these proteins, which can be used to derive their structure and investigate their properties. This has opened up new opportunities for the study of IDPs, from their structure and function to their interactions with other molecules. The potential applications of this research are vast and include the development of new therapeutic treatments, drug delivery systems, and materials.
+**Intrinsically Disordered Proteins (IDPs)** are an important area of study and research for scientists due to their unique nature and the potential for a wide range of applications. IDPs are proteins that **lack a stable three-dimensional structure** and are instead formed by a large number of conformers in equilibrium. This makes them **difficult to study** using traditional methods such as crystallography or NMR. However, advances in computational methods have enabled researchers to study IDPs using **molecular dynamics simulations**. These simulations allow for the calculation of NMR chemical shifts and small-angle scattering (SAXS) data from these proteins, which can be used to derive their structure and investigate their properties or interactions.
 
 Ordered Protein (GB3)      |       IDP (MAP2C)
 :-------------------------:|:-------------------------:
 ![](/images/movie.gif)  |  ![](/images/movie2.gif)
 
-**My research interests include:**
+**The current proteins of interest include:**
 
 - **Statherin:** A salivary protein found in humans and other mammals that has a variety of functions, including protecting the teeth from acidic conditions. 
 - **Human Tyrosine Hydroxylase 1:** An enzyme that is responsible for the production of dopamine, norepinephrine, and epinephrine, which are important neurotransmitters in the brain.
@@ -32,6 +32,7 @@ Ordered Protein (GB3)      |       IDP (MAP2C)
 - **Histatin 5:** An antifungal peptide found in saliva that can also act as an anti-inflammatory agent. 
 - **Tau:** A microtubule-associated protein found in neurons that is implicated in Alzheimer’s disease. 
 - **RNA Polymerase II CTD Heptad Repeats:** A repeating sequence in the RNA polymerase II molecule involved in transcriptional regulation.
+- **p53 Protein Regions:** The "Guardian of the Genome" contains large sections of disordered regions both internal and terminal which provide functionality of the protein.
 
 Computing NMR Chemical Shifts
 ------
