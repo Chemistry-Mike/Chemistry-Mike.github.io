@@ -32,18 +32,22 @@ Ordered Protein (GB3)      |       IDP (MAP2C)
 - **RNA Polymerase II CTD Heptad Repeats:** A repeating sequence in the RNA polymerase II molecule involved in transcriptional regulation.
 - **p53 Protein Regions:** The "Guardian of the Genome" contains large sections of disordered regions both internal and terminal which provide functionality of the protein.
 
+The first thing to establish in molecular dynamics simulations is the **veracity of the trajectories** being produced. I utilize GROMACS to create a virtual environment of the protein with simulated solvents to replicate the protic influence on the polar regions of the proteins. Generally investigations into proteins focus on a smaller region of the protein **(between 20 and 100 residues)** in order to capture enough of the conformational phase space at an **atomistic level** of simulation. 
+
 **Project 1: Locking the Domains - A Better Representation**
 ------
 
 ![Main](/images/TOC.png)
 
-The first thing to establish in molecular dynamics simulations is the **veracity of the trajectories** being produced. I utilize GROMACS to create a virtual environment of the protein with simulated solvents to replicate the protic influence on the polar regions of the proteins. Generally investigations into proteins focus on a smaller region of the protein **(between 20 and 100 residues)** in order to capture enough of the conformational phase space at an **atomistic level** of simulation. The choice of forcefield, augmentations to the simulations, and other considerations are all made prior to simulating the system. One instance which is generally not considered is the **influence of neighboring regions**, particularly those which are **ordered** and have strict defined structures.
+The choice of forcefield, augmentations to the simulations, and other considerations are all made prior to simulating the system. One instance which is generally not considered is the **influence of neighboring regions**, particularly those which are **ordered** and have strict defined structures.
+
+![Main](/images/PTL-Visualization.png)
+
+The **pre-tetramerization loop (PTL)** of the tumor suppressor protein p53 is a crucial component in understanding the function of this vital protein. This loop is an intrinsically disordered region (IDR) that plays a significant role in the tetramerization process. The flexibility of this region is essential for the **conformational changes required for p53** to function properly. While traditional molecular dynamics (MD) simulations of the PTL provide a reasonable representation of its behavior, recent studies have shown the advantages of **restraining the end-to-end distance (EEdist)** of the loop. By simulating the trajectory of the PTL with a restrained EEdist, we gain a deeper understanding of its dynamics and its role in the tetramerization process. In this section, we will explore the effects of restraining the EEdist and how it can enhance our understanding of p53 and other intrinsically disordered regions. Our findings have important implications for studying the impact of mutations on p53's function and provide valuable insights into the conformational dynamics of intrinsically disordered proteins.
 
 UNLOCKED                   | LOCKED                    | LOCKED                    | LOCKED                    
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](/images/nCp53.gif)     |  ![](/images/bCp53.gif)   |  ![](/images/lCp53.gif)   |  ![](/images/oCp53.gif)   
-
-The **pre-tetramerization loop (PTL)** of the tumor suppressor protein p53 is a crucial component in understanding the function of this vital protein. This loop is an intrinsically disordered region (IDR) that plays a significant role in the tetramerization process. The flexibility of this region is essential for the **conformational changes required for p53** to function properly. While traditional molecular dynamics (MD) simulations of the PTL provide a reasonable representation of its behavior, recent studies have shown the advantages of **restraining the end-to-end distance (EEdist)** of the loop. By simulating the trajectory of the PTL with a restrained EEdist, we gain a deeper understanding of its dynamics and its role in the tetramerization process. In this section, we will explore the effects of restraining the EEdist and how it can enhance our understanding of p53 and other intrinsically disordered regions. Our findings have important implications for studying the impact of mutations on p53's function and provide valuable insights into the conformational dynamics of intrinsically disordered proteins.
 
 
 **Project 2: Exploring the Conformational Landscape**
