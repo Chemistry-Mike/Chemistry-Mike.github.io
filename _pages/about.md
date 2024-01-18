@@ -32,7 +32,7 @@ Ordered Protein (GB3)      |       IDP (MAP2C)
 - **RNA Polymerase II CTD Heptad Repeats:** A repeating sequence in the RNA polymerase II molecule involved in transcriptional regulation.[RNA CTD](https://en.wikipedia.org/wiki/RNA_polymerase_II_holoenzyme)  
 - **p53 Protein Regions:** The "Guardian of the Genome" contains large sections of disordered regions both internal and terminal which provide functionality of the protein. [p53](https://en.wikipedia.org/wiki/P53)
 
-The first thing to establish in molecular dynamics simulations is the **veracity of the trajectories** being produced. I utilize GROMACS to create a virtual environment of the protein with simulated solvents to replicate the protic influence on the polar regions of the proteins. Generally investigations into proteins focus on a smaller region of the protein **(between 20 and 100 residues)** in order to capture enough of the conformational phase space at an **atomistic level** of simulation. 
+In molecular dynamics simulations, it is crucial to ensure the accuracy of the generated trajectories. To do so, I use GROMACS to create a simulated environment that includes solvents ([water models](https://pubs.acs.org/doi/10.1021/acs.jctc.6b00429)) to mimic the protic effects on the protein's polar regions. Due to the immense conformational phase space at an atomistic level, studies on proteins typically focus on a smaller region **(20-100 residues)** for rigorous investigation. 
 
 **Project 1: Locking the Domains - A Better Representation**
 ------
