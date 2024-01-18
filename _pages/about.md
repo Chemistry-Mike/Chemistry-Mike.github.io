@@ -8,7 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a scientist working as a PhD researcher at Charles University. My area of expertise is computational chemistry, particularly focused on molecular dynamics and DFT calculations. I am particularly interested in Intrinsically Disordered Proteins and the application of machine learning on their molecular dynamics trajectories. My research involves exploring the conformational phase space and generating ideal ensembles to represent these proteins. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am always looking for new opportunities to collaborate with other researchers.
+Hello! **Ahoj!** Hallo! **Hej!** ¡Hola! **Bonjour!** Ciao! **Nǐ hǎo!** Marhaba! **Privet!**
+
+Michael Bakker is a researcher working on his PhD in **Biophysics and Physical Chemistry** at **Charles University** with a particular focus in computational chemistry. The main focus of his investigation is **Intrinsically Disordered Proteins (IDPs)** and the application of machine learning algorithms on molecular dynamics trajectories.
+
+My research involves exploring the conformational phase space and generating ideal ensembles to represent these proteins. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am always looking for new opportunities to collaborate with other researchers.
 
 ![Main](/images/Main.png)
 
