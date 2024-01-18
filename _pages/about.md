@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-### Hello! **Ahoj!** Hallo! **Hej!** ¡Hola! **Bonjour!** Ciao! **Nǐ hǎo!** Marhaba! **Privet!**
+Hello! **Ahoj!** Hallo! **Hej!** ¡Hola! **Bonjour!** Ciao! **Nǐ hǎo!** Marhaba! **Privet!**
+======
 
 Michael Bakker is a researcher working on his PhD in **Biophysics and Physical Chemistry** at **Charles University** with a particular focus in computational chemistry. The main focus of his investigation is **Intrinsically Disordered Proteins (IDPs)** and the application of machine learning algorithms on molecular dynamics trajectories.
 
