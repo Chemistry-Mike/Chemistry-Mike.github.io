@@ -3,7 +3,7 @@ title: "Improving IDP theoretical chemical shift accuracy and efficiency through
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the generation of NMR chemical shifts ab-inito from IDP trajectories using a multiscale approach.'
-date: 2009-10-01
+date: 2022-11-02
 venue: 'Phys Chem Chem Phys'
 paperurl: '[https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp01638a](https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp01638a)'
 citation:
