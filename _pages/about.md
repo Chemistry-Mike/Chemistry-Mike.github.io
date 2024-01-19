@@ -68,7 +68,14 @@ UNLOCKED                   | EE<sub>dist</sub> = 7.0nm | EE<sub>dist</sub> = 5.0
 
 Overall, the investigation of the PTL region as an IDP revealed a **highly disordered and flexible structure**, as seen by its predicted disorder and Kratky plots. Unrestrained simulations showed a **wide variety of secondary structures**, primarily consisting of [PPII helices](https://en.wikipedia.org/wiki/Polyproline_helix) and random coils, with **multiple likely sites of intramolecular interactions**, primarily involving proline residues. When the PTL was simulated with terminal restraints, the conformational ensemble was greatly altered, with a shift in free energies and a preference for random coils and PPII helices at greater extended states. The intramolecular interactions also diverged, with a preference for **distant and internal interactions** in contracted states and more **local, terminal interactions** in expanded states. **The restrained trajectory at EE<sub>dist</sub> of 3.0 nm showed strong agreement with experimental data**, particularly with SAXS rigid body modeling and EM structures. This suggests that the restrained trajectory provides a more accurate representation of the PTL region's structure and conformational ensemble compared to the unrestrained simulations. Further investigation is needed to test for the influence of the zwitterionic or neutral state of the termini and its potential impact on intermolecular interactions of the IDR.
 
-**Project 2: Mapping the Conformational Landscape**
+**Project 2: Computing NMR Chemical Shifts**
+------
+
+Calculating the chemical shifts of IDPs can be of great interest to researchers due to its potential applications. Chemical shifts can provide valuable insights into the structure and dynamics of IDPs, which can be used to further our understanding of their behavior and interactions with other molecules. This can be used to develop new therapeutic treatments, drug delivery systems, and materials. Additionally, chemical shifts can be used to study the conformational phase space of IDPs, which can lead to a better understanding of their function and behavior.
+
+Currently, the most common method for calculating NMR chemical shifts from IDPs is through molecular dynamics simulations. These simulations allow for the calculation of the conformations of the protein in order to generate an average chemical shift for each residue. This average can then be used to infer the structure of the IDP. There are several software packages available for this purpose, such as Sparta+, ShiftX, and AMBER, that excel in different areas but all have their limitations. For example, Sparta+ is capable of efficiently calculating chemical shifts but is limited in its accuracy, while ShiftX can provide more accurate results but is less efficient. It is important to understand the strengths and weaknesses of each software in order to select the best one for the task at hand.
+
+**Project 3: Mapping the Conformational Landscape**
 ------
 The molecular dynamics trajectories that are produced are generated like a movie file, using parameterized force-fields to understand the movement of the protein and surrounding solvent. This powerful tool produces massive quantities of conformations for IDPs and can be difficult to interpret, and even more difficult to compute quantum parameters. Fortunately, the field of machine learning has exploded in recent decades to encompass a vast toolkit for researchers to better delve into the chaos that are IDPs.
 
@@ -78,19 +85,6 @@ Dimensionality reduction techniques can be effective in studying IDPs because th
 
 ![Main](/images/DR-tSNE-Perp.gif)
 
-
-
-
-
-**Project 3: Computing NMR Chemical Shifts**
-------
-
-Calculating the chemical shifts of IDPs can be of great interest to researchers due to its potential applications. Chemical shifts can provide valuable insights into the structure and dynamics of IDPs, which can be used to further our understanding of their behavior and interactions with other molecules. This can be used to develop new therapeutic treatments, drug delivery systems, and materials. Additionally, chemical shifts can be used to study the conformational phase space of IDPs, which can lead to a better understanding of their function and behavior.
-
-Currently, the most common method for calculating NMR chemical shifts from IDPs is through molecular dynamics simulations. These simulations allow for the calculation of the conformations of the protein in order to generate an average chemical shift for each residue. This average can then be used to infer the structure of the IDP. There are several software packages available for this purpose, such as Sparta+, ShiftX, and AMBER, that excel in different areas but all have their limitations. For example, Sparta+ is capable of efficiently calculating chemical shifts but is limited in its accuracy, while ShiftX can provide more accurate results but is less efficient. It is important to understand the strengths and weaknesses of each software in order to select the best one for the task at hand.
-
-Machine Learning Investigations
-------
 Machine learning algorithms are powerful tools for data analysis and can be used to gain insights into complex systems. These algorithms can be used to uncover patterns and trends in data, as well as to make predictions and decisions. Popular algorithms include dimensionality reduction methods, such as principal component analysis and singular value decomposition, and clustering algorithms, such as k-means clustering and hierarchical clustering. These algorithms can be used to analyze molecular dynamics trajectories, allowing researchers to explore the conformational phase space of IDPs and to generate ideal ensembles representing these proteins.
 
 Density Based Clustering   |  K-Means Clustering
@@ -101,14 +95,14 @@ Machine learning algorithms can be applied to the analysis of molecular dynamics
 
 ![SCAN](/images/Scan.gif)
 
-Ab-Initio Calculations for Chemical Shifts - A Multi-Scale Approach
+**Project 4: Ab-Initio Calculations for Chemical Shifts - A Multi-Scale Approach**
 ------
 
 ![SCAN](/images/Fragmentation.png)
 
 This investigation extended the multi-scale computational scheme used to calculate Nuclear Magnetic Resonance (NMR) chemical shifts (CSs) in proteins that lack a well-defined 3D structure. The scheme employed classical molecular dynamics (MD) with protein fragmentation using the adjustable density matrix assembler (ADMA) and density functional theory (DFT) calculations. A partial re-optimization was then implemented on the raw MD geometries to enhance the accuracy of the scheme and machine-learning based cluster analysis was used to explore its potential in producing protein structure ensembles (CLUSTER ensembles) that yield accurate CSs at a reduced computational cost. The performance of the cluster-based calculations was validated against results obtained with conventional structural ensembles consisting of MD snapshots extracted from the MD trajectory at regular time intervals (REGULAR ensembles). The partial geometry optimization did not universally improve the agreement of computed CSs with the experiment, but it substantially decreased errors associated with the ensemble averaging. A CLUSTER ensemble with 50 structures yielded ensemble averages close to those obtained with a REGULAR ensemble consisting of 500 MD frames, thus requiring only a fraction of the computational time. 
 
-This procedure allows us to calculate NMR chemical shifts using a multi-scale computational scheme that couples the sampling of intrinsically disordered proteins (IDPs) with protein fragmentation using the adjustable density matrix assembler (ADMA) and density functional theory (DFT) calculations. A partial re-optimization is then implemented on the raw MD geometries for enhanced accuracy and machine-learning based cluster analysis is used to explore the potential of producing protein structure ensembles that yield accurate CSs at a reduced computational cost. The results from this investigation show that this procedure is efficient and accurate, allowing us to obtain accurate CSs in a fraction of the computational time.
+This procedure allows us to calculate NMR chemical shifts using a multi-scale computational scheme that couples the sampling of intrinsically disordered proteins (IDPs) with protein fragmentation using the adjustable density matrix assembler (ADMA) and density functional theory (DFT) calculations. A partial re-optimization is then implemented on the raw MD geometries for enhanced accuracy and machine-learning based cluster analysis is used to explore the potential of producing protein structure ensembles that yield accurate CSs at a reduced computational cost. The [results](https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp01638a) from this investigation show that this procedure is efficient and accurate, allowing us to obtain accurate CSs in a fraction of the computational time.
 
 For more info
 ------
