@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Hello! **Ahoj!** Hallo! **Hej!** ¡Hola! **Bonjour!** Ciao! **Nǐ hǎo!** Marhaba! **Privet!**
+Hello! **Ahoj!** Hallo! **Hej!** ¡Hola! **Bonjour!** Ciao! **你好** مرحبا! **Привет!**
 ======
 
 Michael Bakker is a researcher working on his PhD in **Biophysics and Physical Chemistry** at **Charles University** with a particular focus in computational chemistry. The main focus of his investigation is **Intrinsically Disordered Proteins (IDPs)** and the application of machine learning algorithms on molecular dynamics trajectories.
 
-My research involves exploring the **conformational phase space** and generating ideal **ensembles** to represent these proteins. The understanding of the phase space helps us to determine the accessible conformations of the proteins, and by **generating ensembles**, we can better predict properties of the system using more complex and computatonally expensive methods. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am **always looking for new opportunities to collaborate with other researchers.**
+**About me:** My research involves exploring the **conformational phase space** and generating ideal **ensembles** to represent these proteins. The understanding of the phase space helps us to determine the accessible conformations of the proteins, and by **generating ensembles**, we can better predict properties of the system using more complex and computatonally expensive methods. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am **always looking for new opportunities to collaborate with other researchers.**
 
 **Intrinsically Disordered Proteins (Brief Overview)**
 ======
