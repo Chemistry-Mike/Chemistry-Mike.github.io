@@ -53,6 +53,8 @@ All molecular dynamics trajectories are generated using [GROMACS](https://online
 
 ![Main](/images/TOC.png)
 
+**Figure 1.** Graphical representation of the procedure described in our [publication](https://pubs.acs.org/doi/full/10.1021/acs.jctc.3c00971) of locking the end terminals of an IDR and testing the various properties of the trajectory to find the best "fit" compared to experimental data.
+
 One instance which is generally not considered is the **influence of neighboring regions**, particularly those which are **ordered** and have strict defined structures.
 
 <div style="text-align:center"><img src="/images/PTL-Visualization.png" /></div>
