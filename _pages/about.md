@@ -14,20 +14,6 @@ Michael Bakker is a researcher working on his PhD in **Biophysics and Physical C
 
 **About me:** My research involves exploring the **conformational phase space** and generating ideal **ensembles** to represent these proteins. The understanding of the phase space helps us to determine the accessible conformations of the proteins, and by **generating ensembles**, we can better predict properties of the system using more complex and computatonally expensive methods. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am **always looking for new opportunities to collaborate with other researchers.**
 
-[Overview on Intrinsically Disordered Proteins](/_pages/about.md/#IDP)
-
-[Overview on Molecular Dynamics Trajectories](/_pages/about.md/#MD)
-
-[Project 1: Locking the Domains - A Better Representation](/_pages/about.md/#P1)
-
-[Project 2: Computing NMR Chemical Shifts](/_pages/about.md/#P2)
-
-[Project 3: Mapping the Conformational Landscape](/_pages/about.md/#P3)
-
-[Project 4: Ab-Initio Calculations for Chemical Shifts - A Multi-Scale Approach](/_pages/about.md/#P4)
-
-# IDP
-
 **[Intrinsically Disordered Proteins (IDPs)](https://en.wikipedia.org/wiki/Intrinsically_disordered_proteins)** are an important area of study and research for scientists due to their unique nature and the potential for a wide range of applications. IDPs are proteins that **lack a stable three-dimensional structure** and are instead formed by a large number of conformers in equilibrium. This makes them **difficult to study** using traditional methods such as crystallography or NMR. However, advances in computational methods have enabled researchers to study IDPs using **molecular dynamics simulations**. These simulations allow for the calculation of **NMR chemical shifts and small-angle scattering (SAXS)** data from these proteins, which can be used to derive their structure and investigate their properties or interactions. Below are two short example trajectories of an **ordered** (GB3) and **disordered** (MAP2C) protein in **Table 1**.
 
 **Table 1.** Graphical representation of a small snippet of a trajectory for an ordered and disordered protein.
@@ -46,8 +32,6 @@ Ordered Protein (GB3)      |       IDP (MAP2C)
 - **RNA Polymerase II CTD Heptad Repeats:** A repeating sequence in the RNA polymerase II molecule involved in transcriptional regulation.[RNA CTD](https://en.wikipedia.org/wiki/RNA_polymerase_II_holoenzyme)  
 - **p53 Protein Regions:** The "Guardian of the Genome" contains large sections of disordered regions both internal and terminal which provide functionality of the protein. [p53](https://en.wikipedia.org/wiki/P53)
 
-# MD
-
 All molecular dynamics trajectories are generated using [GROMACS](https://onlinelibrary.wiley.com/doi/full/10.1002/jcc.20291) with starting structures generated with [Avogardo](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-4-17) fully extended, and then allowed to relax within 100 ns after NVT and NPT equilibriation.
 
 **[Force-Field.](https://manual.gromacs.org/2023.3/user-guide/force-fields.html)** The first step in performing molecular dynamics simulations is to select an appropriate force-field for the protein of interest. Forcefields are mathematical models that describe the interactions between atoms and molecules in a system. These forcefields are derived from experimental data and are able to reproduce many of the thermodynamic and structural properties of proteins. One popular forcefield used in molecular dynamics simulations is the Amber forcefield, which has been extensively parameterized for proteins and nucleic acids. Other popular forcefields include Charmm, OPLS, and GROMOS. The selection of the forcefield depends on the specific system and the type of interactions that need to be captured accurately. IDPs pose a particular challenge but several force fields such as [AMBERSD-ILDN](https://pubs.acs.org/doi/full/10.1021/ct501178z) and [CHARMM36m](https://www.sciencedirect.com/science/article/pii/S0006349520301685) have proven excellent for accounting for the particular challenges of IDPs.
@@ -58,7 +42,6 @@ All molecular dynamics trajectories are generated using [GROMACS](https://online
 
 **Distant Restraints.** Distance restraints are commonly used in molecular dynamics simulations to improve the accuracy of the results by imposing constraints on certain distances within the system. These restraints can be applied to maintain the relative positions of atoms, bonds, or other interactions in the system, and can be defined as either hard or soft constraints. Distance restraints in GROMACS can be applied in the MDP file using the [freezegrps](https://manual.gromacs.org/current/user-guide/mdp-options.html) parameter.
 
-# P1
 **Project 1: Locking the Domains - A Better Representation**
 ------
 
@@ -83,7 +66,6 @@ Overall, the investigation of the PTL region as an IDP revealed a **highly disor
 
 ![Main](/images/Image.png)
 
-# P2
 **Project 2: Computing NMR Chemical Shifts**
 ------
 
@@ -91,7 +73,6 @@ Calculating the chemical shifts of IDPs can be of great interest to researchers 
 
 Currently, the most common method for calculating NMR chemical shifts from IDPs is through molecular dynamics simulations. These simulations allow for the calculation of the conformations of the protein in order to generate an average chemical shift for each residue. This average can then be used to infer the structure of the IDP. There are several software packages available for this purpose, such as Sparta+, ShiftX, and AMBER, that excel in different areas but all have their limitations. For example, Sparta+ is capable of efficiently calculating chemical shifts but is limited in its accuracy, while ShiftX can provide more accurate results but is less efficient. It is important to understand the strengths and weaknesses of each software in order to select the best one for the task at hand.
 
-# P3
 **Project 3: Mapping the Conformational Landscape**
 ------
 The molecular dynamics trajectories that are produced are generated like a movie file, using parameterized force-fields to understand the movement of the protein and surrounding solvent. This powerful tool produces massive quantities of conformations for IDPs and can be difficult to interpret, and even more difficult to compute quantum parameters. Fortunately, the field of machine learning has exploded in recent decades to encompass a vast toolkit for researchers to better delve into the chaos that are IDPs.
@@ -112,7 +93,6 @@ Machine learning algorithms can be applied to the analysis of molecular dynamics
 
 ![SCAN](/images/Scan.gif)
 
-# P4
 **Project 4: Ab-Initio Calculations for Chemical Shifts - A Multi-Scale Approach**
 ------
 
