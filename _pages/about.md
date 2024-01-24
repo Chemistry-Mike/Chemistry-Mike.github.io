@@ -8,18 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-Hello! **Ahoj!** Hallo! **Hej!** ¡Hola! **Bonjour!** Ciao! **你好** مرحبا! **Привет!**
-======
+# Hello! **Ahoj!** Hallo! **Hej!** ¡Hola! **Bonjour!** Ciao! **你好** مرحبا! **Привет!**
+# ======
 
 Michael Bakker is a researcher working on his PhD in **Biophysics and Physical Chemistry** at **Charles University** with a particular focus in computational chemistry. The main focus of his investigation is **Intrinsically Disordered Proteins (IDPs)** and the application of machine learning algorithms on molecular dynamics trajectories.
 
 **About me:** My research involves exploring the **conformational phase space** and generating ideal **ensembles** to represent these proteins. The understanding of the phase space helps us to determine the accessible conformations of the proteins, and by **generating ensembles**, we can better predict properties of the system using more complex and computatonally expensive methods. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am **always looking for new opportunities to collaborate with other researchers.**
 
-[Overview on Intrinsically Disordered Proteins](/_pages/about.md/#Intrinsically-Disordered-Proteins-(Overview))
+[Overview on Intrinsically Disordered Proteins](/_pages/about.md/##Intrinsically_Disordered_Proteins_(Overview))
 
-[Overview on Molecular Dynamics Trajectories](/_pages/about.md/#Molecular-Dynamics-Parameters-(Overview))
+[Overview on Molecular Dynamics Trajectories](/_pages/about.md/##Molecular_Dynamics_Parameters_(Overview))
 
-# Intrinsically_Disordered_Proteins_(Overview)
+## Intrinsically_Disordered_Proteins_(Overview)
 
 **[Intrinsically Disordered Proteins (IDPs)](https://en.wikipedia.org/wiki/Intrinsically_disordered_proteins)** are an important area of study and research for scientists due to their unique nature and the potential for a wide range of applications. IDPs are proteins that **lack a stable three-dimensional structure** and are instead formed by a large number of conformers in equilibrium. This makes them **difficult to study** using traditional methods such as crystallography or NMR. However, advances in computational methods have enabled researchers to study IDPs using **molecular dynamics simulations**. These simulations allow for the calculation of **NMR chemical shifts and small-angle scattering (SAXS)** data from these proteins, which can be used to derive their structure and investigate their properties or interactions. Below are two short example trajectories of an **ordered** (GB3) and **disordered** (MAP2C) protein in **Table 1**.
 
@@ -39,7 +39,7 @@ Ordered Protein (GB3)      |       IDP (MAP2C)
 - **RNA Polymerase II CTD Heptad Repeats:** A repeating sequence in the RNA polymerase II molecule involved in transcriptional regulation.[RNA CTD](https://en.wikipedia.org/wiki/RNA_polymerase_II_holoenzyme)  
 - **p53 Protein Regions:** The "Guardian of the Genome" contains large sections of disordered regions both internal and terminal which provide functionality of the protein. [p53](https://en.wikipedia.org/wiki/P53)
 
-# Molecular_Dynamics_Parameters_(Overview)
+## Molecular_Dynamics_Parameters_(Overview)
 
 All molecular dynamics trajectories are generated using [GROMACS](https://onlinelibrary.wiley.com/doi/full/10.1002/jcc.20291) with starting structures generated with [Avogardo](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-4-17) fully extended, and then allowed to relax within 100 ns after NVT and NPT equilibriation.
 
