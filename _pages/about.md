@@ -39,7 +39,6 @@ Ordered Protein (GB3)      |       IDP (MAP2C)
 - **p53 Protein Regions:** The "Guardian of the Genome" contains large sections of disordered regions both internal and terminal which provide functionality of the protein. [p53](https://en.wikipedia.org/wiki/P53)
 
 # Molecular-Dynamics-Parameters-(Overview)
-======
 
 All molecular dynamics trajectories are generated using [GROMACS](https://onlinelibrary.wiley.com/doi/full/10.1002/jcc.20291) with starting structures generated with [Avogardo](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-4-17) fully extended, and then allowed to relax within 100 ns after NVT and NPT equilibriation.
 
