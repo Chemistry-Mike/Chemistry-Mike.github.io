@@ -23,6 +23,9 @@ Michael Bakker is a researcher working on his PhD in **Biophysics and Physical C
 
 [Project 2: Computing NMR Chemical Shifts](/_pages/about.md/#P2)
 
+[Project 3: Mapping the Conformational Landscape](/_pages/about.md/#P3)
+
+[Project 4: Ab-Initio Calculations for Chemical Shifts - A Multi-Scale Approach](/_pages/about.md/#P4)
 
 # IDP
 
@@ -89,6 +92,7 @@ Calculating the chemical shifts of IDPs can be of great interest to researchers 
 
 Currently, the most common method for calculating NMR chemical shifts from IDPs is through molecular dynamics simulations. These simulations allow for the calculation of the conformations of the protein in order to generate an average chemical shift for each residue. This average can then be used to infer the structure of the IDP. There are several software packages available for this purpose, such as Sparta+, ShiftX, and AMBER, that excel in different areas but all have their limitations. For example, Sparta+ is capable of efficiently calculating chemical shifts but is limited in its accuracy, while ShiftX can provide more accurate results but is less efficient. It is important to understand the strengths and weaknesses of each software in order to select the best one for the task at hand.
 
+#P3
 **Project 3: Mapping the Conformational Landscape**
 ------
 The molecular dynamics trajectories that are produced are generated like a movie file, using parameterized force-fields to understand the movement of the protein and surrounding solvent. This powerful tool produces massive quantities of conformations for IDPs and can be difficult to interpret, and even more difficult to compute quantum parameters. Fortunately, the field of machine learning has exploded in recent decades to encompass a vast toolkit for researchers to better delve into the chaos that are IDPs.
@@ -109,6 +113,7 @@ Machine learning algorithms can be applied to the analysis of molecular dynamics
 
 ![SCAN](/images/Scan.gif)
 
+#P4
 **Project 4: Ab-Initio Calculations for Chemical Shifts - A Multi-Scale Approach**
 ------
 
