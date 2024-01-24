@@ -15,7 +15,8 @@ Michael Bakker is a researcher working on his PhD in **Biophysics and Physical C
 
 **About me:** My research involves exploring the **conformational phase space** and generating ideal **ensembles** to represent these proteins. The understanding of the phase space helps us to determine the accessible conformations of the proteins, and by **generating ensembles**, we can better predict properties of the system using more complex and computatonally expensive methods. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am **always looking for new opportunities to collaborate with other researchers.**
 
-[Link](/_pages/about.md/#Intrinsically-Disordered-Proteins-(Overview))
+[Overview on Intrinsically Disordered Proteins](/_pages/about.md/#Intrinsically-Disordered-Proteins-(Overview))
+[Overview on Molecular Dynamics Trajectories](/_pages/about.md/#Molecular-Dynamics-Parameters-(Overview))
 
 # Intrinsically-Disordered-Proteins-(Overview)
 
@@ -37,7 +38,7 @@ Ordered Protein (GB3)      |       IDP (MAP2C)
 - **RNA Polymerase II CTD Heptad Repeats:** A repeating sequence in the RNA polymerase II molecule involved in transcriptional regulation.[RNA CTD](https://en.wikipedia.org/wiki/RNA_polymerase_II_holoenzyme)  
 - **p53 Protein Regions:** The "Guardian of the Genome" contains large sections of disordered regions both internal and terminal which provide functionality of the protein. [p53](https://en.wikipedia.org/wiki/P53)
 
-**Molecular Dynamics Parameters (Overview)**
+# Molecular-Dynamics-Parameters-(Overview)
 ======
 
 All molecular dynamics trajectories are generated using [GROMACS](https://onlinelibrary.wiley.com/doi/full/10.1002/jcc.20291) with starting structures generated with [Avogardo](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-4-17) fully extended, and then allowed to relax within 100 ns after NVT and NPT equilibriation.
