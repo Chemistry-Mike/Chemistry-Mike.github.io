@@ -70,6 +70,8 @@ UNLOCKED                   | EE<sub>dist</sub> = 7.0nm | EE<sub>dist</sub> = 5.0
 
 Overall, the investigation of the PTL region as an IDP revealed a **highly disordered and flexible structure**, as seen by its predicted disorder and Kratky plots. Unrestrained simulations showed a **wide variety of secondary structures**, primarily consisting of [PPII helices](https://en.wikipedia.org/wiki/Polyproline_helix) and random coils, with **multiple likely sites of intramolecular interactions**, primarily involving proline residues. When the PTL was simulated with terminal restraints, the conformational ensemble was greatly altered, with a shift in free energies and a preference for random coils and PPII helices at greater extended states. The intramolecular interactions also diverged, with a preference for **distant and internal interactions** in contracted states and more **local, terminal interactions** in expanded states. **The restrained trajectory at EE<sub>dist</sub> of 3.0 nm showed strong agreement with experimental data**, particularly with SAXS rigid body modeling and EM structures. This suggests that the restrained trajectory provides a more accurate representation of the PTL region's structure and conformational ensemble compared to the unrestrained simulations. Further investigation is needed to test for the influence of the zwitterionic or neutral state of the termini and its potential impact on intermolecular interactions of the IDR.
 
+![Main](/images/Image.png)
+
 **Project 2: Computing NMR Chemical Shifts**
 ------
 
