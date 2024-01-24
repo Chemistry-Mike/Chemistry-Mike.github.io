@@ -15,11 +15,9 @@ Michael Bakker is a researcher working on his PhD in **Biophysics and Physical C
 
 **About me:** My research involves exploring the **conformational phase space** and generating ideal **ensembles** to represent these proteins. The understanding of the phase space helps us to determine the accessible conformations of the proteins, and by **generating ensembles**, we can better predict properties of the system using more complex and computatonally expensive methods. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am **always looking for new opportunities to collaborate with other researchers.**
 
-[Link](/_pages/about.md/#\ Intrinsically\ Disordered\ Proteins\ (Brief\ Overview))
+[Link](/_pages/about.md/#IDP-Overview
 
-# First
-
-# Intrinsically Disordered Proteins (Brief Overview)
+# IDP-Overview
 ======
 **[Intrinsically Disordered Proteins (IDPs)](https://en.wikipedia.org/wiki/Intrinsically_disordered_proteins)** are an important area of study and research for scientists due to their unique nature and the potential for a wide range of applications. IDPs are proteins that **lack a stable three-dimensional structure** and are instead formed by a large number of conformers in equilibrium. This makes them **difficult to study** using traditional methods such as crystallography or NMR. However, advances in computational methods have enabled researchers to study IDPs using **molecular dynamics simulations**. These simulations allow for the calculation of **NMR chemical shifts and small-angle scattering (SAXS)** data from these proteins, which can be used to derive their structure and investigate their properties or interactions. Below are two short example trajectories of an **ordered** (GB3) and **disordered** (MAP2C) protein in **Table 1**.
 
