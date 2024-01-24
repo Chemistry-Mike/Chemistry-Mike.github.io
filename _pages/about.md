@@ -15,7 +15,7 @@ Michael Bakker is a researcher working on his PhD in **Biophysics and Physical C
 
 **About me:** My research involves exploring the **conformational phase space** and generating ideal **ensembles** to represent these proteins. The understanding of the phase space helps us to determine the accessible conformations of the proteins, and by **generating ensembles**, we can better predict properties of the system using more complex and computatonally expensive methods. I have presented my research findings at various conferences and published several papers on the topic. I am passionate about furthering my knowledge in this area and am **always looking for new opportunities to collaborate with other researchers.**
 
-[Link](/_pages/about.md/#IDP-Overview
+[Link](/_pages/about.md/#IDP-Overview)
 
 # IDP-Overview
 
