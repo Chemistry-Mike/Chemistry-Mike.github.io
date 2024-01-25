@@ -20,7 +20,7 @@ redirect_from:
 
 Ordered Protein (GB3)      |       IDP (MAP2C)
 :-------------------------:|:-------------------------:
-![](/images/movie.gif)  |  ![](/images/movie2.gif)
+![](/images/gb3-short-animation.gif)  |  ![](/images/movie2.gif)
 
 **The current proteins of interest include:**
 
