@@ -1,0 +1,31 @@
+/* Container to hold both images and define the size */
+.image-hover-container {
+    position: relative;
+    display: inline-block; /* Allows text-align: center to work on it */
+    width: 100%;
+    max-width: 600px; /* Adjust to match your desired max width */
+}
+
+/* Style for both images, making them the same size and stacked */
+.image-hover-container img {
+    position: absolute; /* Stack them on top of each other */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out; /* Smooth transition */
+}
+
+/* Initially, the second image (DNA-Protein-2) is transparent/hidden */
+.image-hover-container .image-hover-state {
+    opacity: 0;
+}
+
+/* When the mouse is over the container: */
+.image-hover-container:hover .image-default {
+    opacity: 0; /* Hide the first image (DNA-Protein-1) */
+}
+
+.image-hover-container:hover .image-hover-state {
+    opacity: 1; /* Show the second image (DNA-Protein-2) */
+}
