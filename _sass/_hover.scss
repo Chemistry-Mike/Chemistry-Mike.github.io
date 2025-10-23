@@ -5,7 +5,7 @@ a img {
 
 /* Effect applied on hover */
 a img:hover {
-    transform: scale(1.02); /* Scale up by 2% */
-    filter: brightness(1.05); /* Optional: Slightly brighten */
+    transform: scale(1.05); /* Scale up by 2% */
+    filter: brightness(1.20); /* Optional: Slightly brighten */
     cursor: pointer; /* Ensures the cursor changes to a pointer */
 }
