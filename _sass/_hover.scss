@@ -1,11 +1,16 @@
-/* Add a transition for smooth animation */
-a img {
+/* ==========================================================================
+   Clickable Image Hover Effect
+   (Targets elements with class .clickable-image-link)
+   ========================================================================== */
+
+.clickable-image-link img {
+    /* Set a transition for smooth animation */
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; 
+    cursor: pointer; /* Change cursor to a pointer */
 }
 
-/* Effect applied on hover */
-a img:hover {
-    transform: scale(1.05); /* Scale up by 2% */
-    filter: brightness(1.20); /* Optional: Slightly brighten */
-    cursor: pointer; /* Ensures the cursor changes to a pointer */
+.clickable-image-link img:hover {
+    /* LIGHTEN the image and slightly scale up on hover */
+    transform: scale(1.05);  
+    filter: brightness(1.20); /* Makes the image 20% brighter to stand out on black */
 }
