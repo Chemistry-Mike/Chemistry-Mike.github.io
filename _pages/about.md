@@ -10,4 +10,6 @@ redirect_from:
 
 Michael Bakker is a researcher working as a Post-Doctoral assistant in Biophysics and Physical Chemistry.
 
+![Regions of the p53 Intrinsically Disordered Protein](/images/Image.png)
+
 ![Regions of the p53 Intrinsically Disordered Protein](/images/p53-IDR-Regions.png)
