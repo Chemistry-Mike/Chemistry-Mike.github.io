@@ -1,0 +1,11 @@
+/* Add a transition for smooth animation */
+a img {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; 
+}
+
+/* Effect applied on hover */
+a img:hover {
+    transform: scale(1.02); /* Scale up by 2% */
+    filter: brightness(1.05); /* Optional: Slightly brighten */
+    cursor: pointer; /* Ensures the cursor changes to a pointer */
+}
