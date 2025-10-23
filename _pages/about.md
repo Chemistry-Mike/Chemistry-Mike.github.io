@@ -8,6 +8,10 @@ redirect_from:
   - /about.html
 ---
 
+<div style="text-align: center;">
+  <img src="/images/NiceVisualization2.png" style="width: 100%; max-width: 600px">
+</div>
+
 Michael Bakker is a researcher working as a Post-Doctoral assistant in Biophysics and Physical Chemistry.
 
 <div style="text-align: center;">
