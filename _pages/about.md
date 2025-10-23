@@ -22,8 +22,8 @@ Michael Bakker is a researcher working as a Post-Doctoral assistant in Biophysic
 
 <div style="text-align: center;">
     <div class="image-hover-container">
-        <img src="/images/DNA-Protein-1.png" alt="DNA-Protein Interaction (Initial)" class="image-default">
+        <img src="/images/DNA-Protein-1.png" class="image-default">
 
-        <img src="/images/DNA-Protein-2.png" alt="DNA-Protein Interaction (Hover)" class="image-hover-state">
+        <img src="/images/DNA-Protein-2.png" class="image-hover-state">
     </div>
 </div>
