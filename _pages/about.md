@@ -19,3 +19,11 @@ Michael Bakker is a researcher working as a Post-Doctoral assistant in Biophysic
     <img src="/images/Image.png" alt="Click to see p53 IDR Research" style="width: 100%; max-width: 600px">
   </a>
 </div>
+
+<div style="text-align: center;">
+    <div class="image-hover-container">
+        <img src="/images/DNA-Protein-1.png" alt="DNA-Protein Interaction (Initial)" class="image-default">
+
+        <img src="/images/DNA-Protein-2.png" alt="DNA-Protein Interaction (Hover)" class="image-hover-state">
+    </div>
+</div>
