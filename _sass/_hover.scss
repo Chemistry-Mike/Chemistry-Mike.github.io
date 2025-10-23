@@ -5,12 +5,16 @@
 
 .clickable-image-link img {
     /* Set a transition for smooth animation */
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out; 
     cursor: pointer; /* Change cursor to a pointer */
+    border: 2px solid transparent; /* Start with transparent border */
+    box-sizing: border-box; /* Ensures padding/border don't add to total width/height */
 }
 
 .clickable-image-link img:hover {
-    /* LIGHTEN the image and slightly scale up on hover */
+    /* Add a white border and glow on hover */
     transform: scale(1.05);  
-    filter: brightness(1.20); /* Makes the image 20% brighter to stand out on black */
+    border: 2px solid #fff; /* White border */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); /* Soft white glow */
+    /* Removed filter: brightness() */
 }
