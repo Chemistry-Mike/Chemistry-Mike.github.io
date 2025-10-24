@@ -1,7 +1,36 @@
 ---
-title: "Phosphorylation Research"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Computational Study of $\text{}^{31}\text{P}$ Chemical Shifts in Modified Nucleic Acids"
+excerpt: "Developing and validating a quantum mechanics/molecular mechanics (QM/MM) pipeline to decompose the experimental $\text{}^{31}\text{P}$ NMR chemical shift (CS) signal into its underlying electronic (static) and geometric (dynamic) contributions for modified DNA/RNA. <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
+
+## Project Goal: Deconstructing the $\text{}^{31}\text{P}$ NMR Signal in Modified DNA
+
+[cite_start]This research project establishes a robust **Quantum Mechanics (QM)** computational pipeline to investigate the subtle yet critical effects of modifications within nucleic acids (DNA/RNA) on the **$\text{}^{31}\text{P}$ Nuclear Magnetic Resonance (NMR) chemical shift (CS)** signal[cite: 3209].
+
+The goal is to quantify the distinct contributions of $\text{}^{31}\text{P}$ CS perturbation caused by:
+1.  [cite_start]**Purely Electronic Effects:** Changes arising solely from the chemical/electronic presence of a modification (e.g., an abasic site or a $\text{}^{19}\text{F}$ label), holding the geometry constant[cite: 3233, 3267].
+2.  [cite_start]**Geometric/Dynamic Effects:** Changes caused by bond rotations and conformational flexibility[cite: 3257, 3300].
+
+---
+
+### Core Investigation Strategy
+
+[cite_start]This work aims to establish and quantify the significance of each contribution (electronic vs. dynamic) to the total experimental shift[cite: 3300, 3309].
+
+1.  [cite_start]**System Design:** The initial focus is on comparing the effects of a $\text{}^{19}\text{F}$ label versus an **abasic dideoxyribose** (loss of a nucleotide base) on the chemical shielding of the two adjacent phosphorus atoms[cite: 3233, 3312]. [cite_start]The computational model starts with a nucleic acid fragment, terminated with appropriate caps and solvated with explicit ions to neutralize charges[cite: 3281, 3283].
+
+2.  **Establishing the Computational Pipeline (QM/MM):**
+    * [cite_start]**Starting Structure:** A representative model is established (e.g., from AlphaFold or built using standard B-DNA geometry)[cite: 3235, 3241, 3277, 3304].
+    * [cite_start]**Geometry Optimization:** We perform simple optimizations using both low-level DFT or Molecular Mechanics (MM) to find a local energy minimum structure[cite: 3285, 3305]. [cite_start]Alternatively, an MD simulation can generate a pool of representative structures, especially if the DNA is single-stranded (ssDNA) and exhibits IDP-like flexibility[cite: 3273, 3287, 3309].
+    * [cite_start]**NMR Calculation:** Chemical shielding values are calculated using the **GIAO** method [cite: 3290, 3319][cite_start], followed by extensive **benchmarking** of various functionals and basis sets[cite: 3295]. [cite_start]The final shieldings are converted to shifts by carefully selecting a reference (e.g., $\text{85\% Phosphoric Acid}$ or $\text{Triphenyl Phosphene}$)[cite: 3291, 3306].
+
+3.  **Decomposing the Shift:**
+    * [cite_start]The total experimental shift ($\Delta\delta_{\text{Experimental}}$) is compared to the purely calculated electronic static contribution ($\Delta\delta_{\text{Static}}$)[cite: 3268].
+    * [cite_start]The difference ($\Delta\delta_{\text{Experimental}} - \Delta\delta_{\text{Static}}$) provides an estimation of the **dynamic and geometric influence** on the signal[cite: 3269, 3300].
+
+### Importance and Outlook
+
+This work is crucial for accurately interpreting experimental NMR data on modified nucleic acids. [cite_start]It will help quantify the significance of conformational flexibility (or "geometric noise") in the $\text{}^{31}\text{P}$ signal, a factor often simplified in structural studies but recognized as critical based on previous experience with Intrinsically Disordered Proteins (IDPs)[cite: 3270, 3302].
 
 This project page is under construction...
