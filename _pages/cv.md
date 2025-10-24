@@ -47,18 +47,18 @@ Research Experience and Internships
 
 * **Doctoral Researcher (Czech Science Foundation)**
   * Charles University, Hradec Králové, CZ | [cite_start]09.2020 - 12.2022 [cite: 2220]
-  * [cite_start]Worked on project **19-14886Y**: "Reliable calculations and predictions of NMR chemical shifts for the structural characterization of phosphorylated intrinsically disordered proteins"[cite: 2221].
-  * [cite_start]Developed and published two new techniques for clustering and assessing conformational landscapes[cite: 2223].
+  * Worked on project **19-14886Y**: "Reliable calculations and predictions of NMR chemical shifts for the structural characterization of phosphorylated intrinsically disordered proteins".
+  * Developed and published two new techniques for clustering and assessing conformational landscapes.
 
 * **Master's Research**
-  * Missouri State University, Springfield, MO | [cite_start]01.2017-04.2020 [cite: 2201]
-  * [cite_start]Thesis on the computational pyrolysis of biodiesel, and published a paper on a new technique for generating 3D printing models from 2D NMR chemical shift NOESY[cite: 2203, 2204].
+  * Missouri State University, Springfield, MO | 01.2017-04.2020
+  * Thesis on the computational pyrolysis of biodiesel, and published a paper on a new technique for generating 3D printing models from 2D NMR chemical shift NOESY.
 
 Work Experience
 ======
 * **ACT Lecturer**
-  * Charles University, Hradec Králové, CZ | [cite_start]01.2025-present [cite: 2211]
-  * [cite_start]Taught practical classes on utilizing simple publicly available office tools for computations and data presentations[cite: 2212].
+  * Charles University, Hradec Králové, CZ | 01.2025-present
+  * Taught practical classes on utilizing simple publicly available office tools for computations and data presentations[cite: 2212].
 
 * Fall/Spring Semester 2016: Organic Chemistry PASS Tutor
   * Missouri State University
