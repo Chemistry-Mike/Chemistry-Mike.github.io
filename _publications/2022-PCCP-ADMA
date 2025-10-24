@@ -1,7 +1,7 @@
 ---
 title: "Improving IDP theoretical chemical shift accuracy and efficiency through a combined MD/ADMA/DFT and machine learning approach"
 collection: publications
-permalink: /publication/2022-PCCP
+permalink: /publication/2022-PCCP-ADMA
 excerpt: 'This paper is about the generation of NMR chemical shifts ab-inito from IDP trajectories using a multiscale approach.'
 date: 2022-11-02
 venue: 'Physical Chemistry and Chemical Physics'
