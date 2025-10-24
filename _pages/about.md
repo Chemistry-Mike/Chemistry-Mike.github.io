@@ -17,6 +17,8 @@ redirect_from:
 
 I am a computational scientist whose research is dedicated to **unraveling the mysteries of intrinsically disordered proteins (IDPs)** and their role in human health and disease. My work operates at the interdisciplinary nexus of **Quantum Chemistry**, **Molecular Dynamics (MD) simulations**, and **Bioinformatics**, allowing for a high-resolution view of complex biological phenomena.
 
+<hr>
+
 <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
     <a href="/portfolio/project-1/" class="clickable-image-link" style="text-decoration: none;">
