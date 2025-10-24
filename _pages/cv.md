@@ -29,24 +29,24 @@ Awards
 Research Experience and Internships
 ======
 * **Postdoctoral Research Fellow**
-  * Charles University, Hradec Králové, CZ | [cite_start]01.2025-present [cite: 2214]
-  * [cite_start]Project: "Understanding the binding patterns of orphan nuclear receptor **NR2F6**"[cite: 2215].
-  * [cite_start]Implemented computational models including molecular dynamics, alanine scanning, hierarchical clustering, and AlphaFold to derive binding affinities[cite: 2217].
-  * [cite_start]Supported by the Grant Agency of the Czech Republic (Project **GACR 22-17931B**)[cite: 2216].
+  * Charles University, Hradec Králové, CZ | 01.2025-present
+  * Project: "Understanding the binding patterns of orphan nuclear receptor **NR2F6**".
+  * Implemented computational models including molecular dynamics, alanine scanning, hierarchical clustering, and AlphaFold to derive binding affinities.
+  * Supported by the Grant Agency of the Czech Republic (Project **GACR 22-17931B**).
 
 * **Visiting Researcher (Erasmus Traineeship)**
-  * Lund University, Lund, SE | [cite_start]04.2023 - 09.2023 [cite: 2230]
-  * [cite_start]Research Trainee under the tutelage of Dr. Marie Skepö[cite: 2231].
-  * [cite_start]Gained skills in utilizing synchrotrons, **SAXS**, and **circular dichroism**[cite: 2231].
-  * [cite_start]Investigated the pre-tetramerization loop of **p53** and co-authored a technique to analyze conformational flexibility by decomposing ensembles by radius of gyration[cite: 2232, 2234].
+  * Lund University, Lund, SE | 04.2023 - 09.2023
+  * Research Trainee under the tutelage of Dr. Marie Skepö.
+  * Gained skills in utilizing synchrotrons, **SAXS**, and **circular dichroism**.
+  * Investigated the pre-tetramerization loop of **p53** and co-authored a technique to analyze conformational flexibility by decomposing ensembles by radius of gyration.
 
 * **Doctoral Researcher (Grant Agency of Charles University)**
-  * Charles University, Hradec Králové, CZ | [cite_start]01.2021 - 12.2023 [cite: 2224]
-  * [cite_start]Worked on project **344321**: "Calculation of NMR spin-spin couplings for intrinsically disordered proteins"[cite: 2226].
-  * [cite_start]Focused on the proline-rich region of **Tau** and the effect of hyper-phosphorylation[cite: 2227].
+  * Charles University, Hradec Králové, CZ | 01.2021 - 12.2023
+  * Worked on project **344321**: "Calculation of NMR spin-spin couplings for intrinsically disordered proteins".
+  * Focused on the proline-rich region of **Tau** and the effect of hyper-phosphorylation.
 
 * **Doctoral Researcher (Czech Science Foundation)**
-  * Charles University, Hradec Králové, CZ | [cite_start]09.2020 - 12.2022 [cite: 2220]
+  * Charles University, Hradec Králové, CZ | 09.2020 - 12.2022
   * Worked on project **19-14886Y**: "Reliable calculations and predictions of NMR chemical shifts for the structural characterization of phosphorylated intrinsically disordered proteins".
   * Developed and published two new techniques for clustering and assessing conformational landscapes.
 
@@ -58,7 +58,7 @@ Work Experience
 ======
 * **ACT Lecturer**
   * Charles University, Hradec Králové, CZ | 01.2025-present
-  * Taught practical classes on utilizing simple publicly available office tools for computations and data presentations[cite: 2212].
+  * Taught practical classes on utilizing simple publicly available office tools for computations and data presentations.
 
 * Fall/Spring Semester 2016: Organic Chemistry PASS Tutor
   * Missouri State University
