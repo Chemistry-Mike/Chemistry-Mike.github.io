@@ -21,33 +21,33 @@ My central goal is to develop and apply **next-generation computational tools** 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Picture1.png" alt="IDP Conformational Ensemble" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    <a href="/portfolio/project-1/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Picture1.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Picture2.png" alt="Quantum Chemistry Calculation" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    <a href="/portfolio/project-2/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Picture2.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
   <div style="width: 100%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Picture3.png" alt="Tau Protein Simulation" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    <a href="/portfolio/project-3/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Picture3.png" alt="Dimensionality Reduction Clustering" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
   <div style="width: 100%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Picture4.png" alt="NMR 3D Print Model" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    <a href="/portfolio/project-4/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Picture4.png" alt="Targeting Orphan Nuclear Receptors" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Picture5.png" alt="p53 IDR Phosphorylation" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    <a href="/portfolio/project-5/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Picture5.png" alt="Fragmentation Approach" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Picture6.png" alt="Biodiesel Pyrolysis" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    <a href="/portfolio/project-6/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Picture6.png" alt="Phosphorylation Research" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
 </div>
@@ -66,9 +66,10 @@ My investigations focus on three primary areas, which can be explored in detail 
 
 <hr>
 
-### Beyond the Protein: Computational Applications
+## Beyond the Protein: Computational Applications
 
 I also apply my expertise in computational chemistry to other critical challenges:
 
-* **Sustainable Chemistry:** Simulating the pyrolysis of biodiesel components (e.g., methyl linoleate) using high-level methods like ADMP/D3-M06-2X to validate and optimize alternative fuel production.
-* **Educational Innovation:** Utilizing **3D printing** technology to create physical, tactile models of complex 2D and relaxation NMR spectra, providing an innovative teaching tool for students new to the subject.
+* **Sustainable Chemistry:** Simulating the pyrolysis of biodiesel components (e.g., methyl linoleate) to understand reaction pathways and optimize energy conversion.
+* **Educational Innovation:** Utilizing **3D printing** technology to create physical, tactile models of molecules and proteins, enhancing complex chemistry education.
+* **Pharmaceutical Research:** Applying **statistical modeling** and machine learning techniques to analyze high-throughput screening data and predict drug efficacy or toxicity.
