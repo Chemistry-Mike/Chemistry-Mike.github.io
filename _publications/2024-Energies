@@ -1,0 +1,14 @@
+---
+title: " Atomistic Details of Methyl Linoleate Pyrolysis: Direct Molecular Dynamics Simulation of Converting Biodiesel to Petroleum Products"
+collection: publications
+permalink: /publication/2024-Energies
+excerpt: ''
+date: 2024-01-01
+venue: 'Energies'
+paperurl: 'https://www.mdpi.com/1996-1073/17/10/2433'
+citation: # 'Bakker, Michael. (2024). &quot;Exploring the Role of Globular Domain Locations on an Intrinsically Disordered Region of p53: A Molecular Dynamics Investigation.&quot; <i>JCTC</i>. 1(3).'
+---
+
+[See Publication Here.](https://www.mdpi.com/1996-1073/17/10/2433)
+
+**Abstract:**  Dependence on petroleum and petrochemical products is unsustainable; it is both a finite resource and an environmental hazard. Biodiesel has many attractive qualities, including a sustainable feedstock; however, it has its complications. The pyrolysis (a process already in common use in the petroleum industry) of biodiesel has demonstrated the formation of smaller hydrocarbons comprising many petrochemical products but experiments suffer from difficulty quantifying the myriad reaction pathways followed and products formed. A computational simulation of pyrolysis using “ab initio molecular dynamics” offers atomic-level detail of the reaction pathways and products formed. Herein, the most prevalent fatty-acid ester (methyl linoleate) from the most prevalent feedstock for biodiesel in the United States (soybean oil) is studied. Temperature acceleration within the atom-centered density matrix propagation formalism (Car–Parrinello) utilizing the D3-M06-2X/6-31+G(d,p) model chemistry is used to compose an ensemble of trajectories. The results are grounded in comparison to experimental studies through agreement in the following: (1) the extent of reactivity (40% in the experimental and 36.1% in this work), (2) the homology of hydrocarbon products formed (wt % of C6–C10 products), and (3) the CO/CO2 product ratio. Deoxygenation pathways are critically analyzed (as the presence of oxygen in biodiesel represents a disadvantage in its current use). Within this ensemble, deoxygenation was found to proceed through two subclasses: (1) spontaneous deoxygenation, following one of four possible pathways; or (2) induced deoxygenation, following one of three possible pathways.
