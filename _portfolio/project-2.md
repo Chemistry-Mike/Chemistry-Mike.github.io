@@ -1,7 +1,35 @@
 ---
-title: "Research Project: Proline Rich Regions"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Research Project: Proline-Rich Regions in Disease"
+excerpt: "Investigating the structural dynamics of proline-rich domains (PRDs) in key proteins like p53 and Tau using molecular dynamics simulations to understand disease mechanisms.<br/><img src='/images/500x300.png'>"
 collection: portfolio
+---
+
+## Project Goal: Decoding Dynamics of Proline-Rich Domains (PRDs)
+
+This research project applies advanced **computational chemistry** and **biophysical modeling** to investigate the structural and functional dynamics of highly flexible **Proline-Rich Domains (PRDs)**, which are crucial components of Intrinsically Disordered Proteins (IDPs) involved in major diseases.
+
+The primary focus is on two critical systems:
+
+---
+
+### 1. P53 Proline-Rich Domain (PRD)
+
+The p53 PRD acts as a regulatory hub for the p53 tumor suppressor. [cite_start]The work focuses on accurately modeling its disordered nature and understanding how its high proline content dictates structure[cite: 938, 940].
+
+* [cite_start]**Structural Fingerprint:** We demonstrated that the p53 PRD exists as a highly flexible, predominantly disordered ensemble that is consistently enriched in **transient Polyproline II (PPII) helices**, interspersed with $\beta$-bends and turns[cite: 939].
+* [cite_start]**Contextual Modeling:** By modeling the PRD as an **Intrinsically Disordered Region (IDR)**—by restraining the termini to mimic its connection to other globular domains—we showed that this *PPII-based secondary structure fingerprint* remains robust and largely unaffected by environmental constraints[cite: 941, 949]. [cite_start]This suggests the PRD acts as a **dynamic hinge**[cite: 942].
+* [cite_start]**Mutational Impact:** Analysis of clinically relevant variants (P72R and P82L) provided a molecular basis for their functional consequences, showing how the loss of consecutive prolines (P72R) increases local flexibility, while disruption of a PXXP motif (P82L) eliminates an associated PPII helix[cite: 943, 944, 951].
+
+---
+
+### 2. Tau Proline-Rich Region (PRR) in Alzheimer's Disease
+
+[cite_start]This work characterized the Tau PRR fragment (Tau(210-240)) and its interaction with the **SH3 domain of BIN1**, a critical genetic risk factor for Alzheimer's disease (AD)[cite: 1063, 1068].
+
+* [cite_start]**Hyperphosphorylation Effects:** We used extensive all-atom molecular dynamics (MD) and MMGBSA calculations to quantify the precise impact of **hyperphosphorylation** (at T212, T217, T231, and S235) on the Tau-BIN1 interaction[cite: 1065, 1066].
+* [cite_start]**Mechanism of Destabilization:** The addition of phosphate groups causes the Tau peptide to become more compact and disrupts transient secondary structures, which ultimately **destabilizes the complex**[cite: 1921, 1922]. [cite_start]The largest impact was a significant **diminution of salt-bridges** (e.g., R221-D537) and an electrostatic repulsion that shifts Tau's binding preference away from the RT-Src loop toward the more positively charged distal and n-Src loops of BIN1/SH3[cite: 1067, 1069, 1782, 1927].
+* [cite_start]**Therapeutic Insight:** These detailed structural insights propose a path forward for **targeted therapeutic strategies** focusing on modulating the key electrostatic interactions, rather than just the hydrophobic core interactions, to prevent the detrimental Tau-BIN1 pathology[cite: 1070, 1923, 1929].
+
 ---
 
 This project page is under construction...
