@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Intrinsically Disordered Proteins"
+title                    : "Quantum Pharmacy"
 title_separator          : "-"
 name                     : &name "Michael Bakker"
 description              : &description "An overview of my accomplishments and interests."
@@ -29,7 +29,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Michael Bakker"
   avatar           : "scaled.png"
-  bio              : "PhD Researcher: Charles University"
+  bio              : "Post-Graduate Researcher"
   location         : "Czech Republic"
   employer         : "Charles University"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : # "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=SUoMFzYAAAAJ&hl=en"
   email            :  "bakkerm@faf.cuni.cz"
   researchgate     :  "https://www.researchgate.net/profile/Michael-Bakker"
   uri              :
