@@ -1,7 +1,38 @@
 ---
-title: "Dimensionality Reduction and Clustering"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Computational Innovation: Streamlining NMR Prediction via Clustering and Dimensionality Reduction"
+excerpt: "Developing advanced computational protocols that integrate Dimensionality Reduction and Clustering to create highly representative conformational ensembles for accurate NMR chemical shift predictions in Intrinsically Disordered Proteins.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
+
+## Project Goal: Designing Tractable Conformational Ensembles for IDPs
+
+The principal objective of this research is to tackle the computational challenge inherent in characterizing **Intrinsically Disordered Proteins (IDPs)** via **NMR Chemical Shift (CS) predictions**. [cite_start]Accurately modeling these flexible systems at the quantum level requires large conformational ensembles, a process that rapidly becomes intractable[cite: 1174, 1186].
+
+[cite_start]We developed and validated a novel computational protocol that integrates **Dimensionality Reduction (DR)** and **Clustering Algorithms (CA)** to produce small, highly representative **Clustered Ensembles (CEs)**[cite: 1108, 1188, 1201]. This technique effectively bridges the gap between computationally demanding quantum calculations and the vast conformational space of IDPs.
+
+---
+
+### Key Methodological Innovations
+
+1.  **Multiscale Dimensionality Reduction and Clustering:**
+    * [cite_start]**The Problem:** Traditional clustering methods, like GROMOS (which uses RMSD), perform poorly on IDPs because they fail to account for the local interactions and high-dimensional nature of disordered systems[cite: 1121, 1191, 1646].
+    * [cite_start]**The Solution:** We implemented a multiscale approach that uses DR (specifically **tICA** and **tSNE**) *before* clustering to project the data into a lower-dimensional **latent space**, mitigating multicollinearity and computational complexity[cite: 1123, 1193, 1655].
+    * [cite_start]**Validated Performance:** Our CEs consistently demonstrated **superior performance** over traditional Sequential Ensembles (SEs) of similar size, outperforming them in approximately **85.7%** of all ensemble sizes evaluated[cite: 1126, 1789, 1904].
+
+2.  **Novel Fingerprint Selection:**
+    * [cite_start]**New Feature:** We introduced **Solvent-Accessible Surface Area (SASA)** as a key structural fingerprint for DR, alongside traditional features like $\phi/\psi$ angles and $\alpha$-carbon distances[cite: 1124, 1226, 1888].
+    * [cite_start]**SASA Advantage:** Using **SASA-based tSNE** yielded CEs that were better aligned with experimental NMR CSs (improving the $r^2$ value by $0.17$ to $0.36$), as it offers a more comprehensive view of the protein's external interactions and transient structures[cite: 1125, 1810, 1890].
+
+3.  **Integrated Ensemble Selection:**
+    * [cite_start]To overcome the complex parametrization of nonlinear DR techniques (like tSNE), we developed an **integrated silhouette score scanning protocol ($\text{SS}_{\text{INT}}$)**[cite: 1127, 1796]. [cite_start]This metric rigorously selects the optimal combination of parameters (perplexity and cluster size) to ensure the resulting ensemble accurately represents both the local and global dynamics of the original trajectory[cite: 1227, 1797, 1812].
+
+---
+
+### Evaluation and Impact on Advanced Prediction
+
+This work also critically assessed rapid CS predictors for IDPs and directly addressed the challenge of **Post-Translational Modifications (PTMs)**:
+
+* [cite_start]**Phosphorylation Deficiency:** We demonstrated that mainstream neural network-based tools like **Sparta+** and **ShiftX2** fail to accurately incorporate the influence of phosphorylation, as they were not trained on PTM data sets[cite: 1120, 1635].
+* [cite_start]**Need for Quantum Methods:** This deficiency highlights the necessity of implementing **higher-level quantum calculations (DFT)** to accurately capture PTM effects[cite: 1107, 1637]. [cite_start]Our clustering methodology makes these resource-intensive DFT calculations **tractable** by drastically reducing the size of the structural ensemble required for convergence[cite: 1109, 1179, 1185].
 
 This project page is under construction...
