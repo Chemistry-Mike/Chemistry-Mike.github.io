@@ -35,6 +35,8 @@ My central goal is to develop and apply **next-generation computational tools** 
       <img src="/images/Picture4.png" alt="Targeting Orphan Nuclear Receptors" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
   <div style="width: 100%; padding: 5px; box-sizing: border-box;">
     <a href="/portfolio/project-3/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/Picture3.png" alt="Dimensionality Reduction Clustering" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
