@@ -1,0 +1,17 @@
+---
+title: "The discovery of a new nonbile acid modulator of Takeda G protein-coupled receptor 5: An integrated computational approach"
+collection: publications
+permalink: /publication/2025-ArchPhar-Takeda
+excerpt: 'This paper discusses a method for creating 3D printed models of NMR data using Mathematica and a 3D printer, which can serve as a helpful teaching tool for students to understand complex information in NMR spectra.'
+date: 2025-01-01
+venue: 'Archiv der Pharmazie (2025)'
+paperurl: 'https://pubmed.ncbi.nlm.nih.gov/39801251/'
+citation: # 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+---
+
+[See Publication Here.](https://pubmed.ncbi.nlm.nih.gov/39801251/)
+
+**Abstract:** The Takeda G protein-coupled receptor 5 (TGR5), also known as GPBAR1 (G protein-coupled bile acid receptor), is a membrane-type bile acid receptor that regulates blood glucose levels and energy expenditure. These essential functions make TGR5 a promising target for the treatment of type 2 diabetes and metabolic disorders. Currently, most research on developing TGR5 agonists focuses on modifying the structure of bile acids, which are the endogenous ligands of TGR5. However, TGR5 agonists with nonsteroidal structures have not been widely explored. This study aimed at discovering new TGR5 agonists using bile acid derivatives as a basis for a computational approach. We applied a combination of pharmacophore-based, molecular docking, and molecular dynamic (MD) simulation to identify potential compounds as new TGR5 agonists. Through pharmacophore screening and molecular docking, we identified 41 candidate compounds. From these, five candidates were selected based on criteria including pharmacophore features, a docking score of less than 9.2 kcal/mol, and similarity in essential interaction patterns with a reference ligand. Biological assays of the five hits confirmed that Hit-3 activates TGR5 similarly to the bile acid control. This was supported by MD simulation results, which indicated that a hydrogen bond interaction with Tyr240 is involved in TGR5 activation. Hit-3 (CSC089939231) represents a new nonsteroidal lead that can be further optimized to design potent TGR5 agonists.
+
+
+![Main](/images/TOC-2.jpg)
