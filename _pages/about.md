@@ -75,6 +75,30 @@ My investigations focus on three primary areas, which can be explored in detail 
 
 <hr>
 
+<div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
+  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
+    <a href="/publications" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/P53-B.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    </a>
+  </div>
+  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
+    <a href="/publications" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/P53-D.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    </a>
+  </div>
+  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
+    <a href="/publications" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/P53-A.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    </a>
+  </div>
+  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
+    <a href="publications" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/P53-C.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    </a>
+  </div>
+</div>
+<hr>
+
 ## Beyond the Protein: Computational Applications
 
 I also apply my expertise in computational chemistry to other critical challenges:
