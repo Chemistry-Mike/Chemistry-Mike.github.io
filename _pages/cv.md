@@ -57,7 +57,7 @@ Research Experience and Internships
 Work Experience
 ======
 * **ACT Lecturer**
-  * Charles University, Hradec Králové, CZ | 01.2025-present
+  * Charles University, Hradec Králové, CZ, 01.2025-present
   * Taught practical classes on utilizing simple publicly available office tools for computations and data presentations.
 
 * Fall/Spring Semester 2016: Organic Chemistry PASS Tutor
