@@ -1,5 +1,5 @@
 ---
-title: "Research Project: DNA Binding Domains"
+title: "Research Project: Proline Rich Regions"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---

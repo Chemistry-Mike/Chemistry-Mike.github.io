@@ -1,5 +1,5 @@
 ---
-title: "Research Project: DNA Binding Domains"
+title: "Dimensionality Reduction and Clustering"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
