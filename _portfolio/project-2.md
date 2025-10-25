@@ -12,7 +12,7 @@ The primary focus is on two critical systems:
 
 ---
 
-### 2. Tau Proline-Rich Region (PRR) in Alzheimer's Disease
+### 1. Tau Proline-Rich Region (PRR) in Alzheimer's Disease
 
 This work characterized the Tau PRR fragment (Tau(210-240)) and its interaction with the **SH3 domain of BIN1**, a critical genetic risk factor for Alzheimer's disease (AD).
 
@@ -22,7 +22,7 @@ This work characterized the Tau PRR fragment (Tau(210-240)) and its interaction 
 
 ---
 
-### 1. P53 Proline-Rich Domain (PRD)
+### 2. P53 Proline-Rich Domain (PRD)
 
 The p53 PRD acts as a regulatory hub for the p53 tumor suppressor. The work focuses on accurately modeling its disordered nature and understanding how its high proline content dictates structure.
 
