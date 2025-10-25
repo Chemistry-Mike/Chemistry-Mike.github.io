@@ -2,7 +2,7 @@
 title: "Calculus and Statistics Teaching Assistant"
 collection: teaching
 type: "Teaching Assistant"
-permalink: /teaching/2025-fall-calculus-statistics
+permalink: /teaching/2025-Mathematics
 venue: "Charles University, Faculty of Pharmacy, Department of Inorganic and Organic Chemistry"
 date: 2025-09-01
 location: "Hradec Králové, CZ"
