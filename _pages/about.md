@@ -19,7 +19,7 @@ redirect_from:
   <img src="/images/QuantumPharmacy.png" style="width: 100%">
 </div>
 
-## Michael Bakker, Ph.D.
+## Michael Bakker, B.Sc., M.Sc., Ph.D.
 ### Post-Doctoral Researcher in Biophysics and Physical Chemistry
 
 I am a computational scientist whose research is dedicated to **unraveling the mysteries of intrinsically disordered proteins (IDPs)** and their role in human health and disease. My work operates at the interdisciplinary nexus of **Quantum Chemistry**, **Molecular Dynamics (MD) simulations**, and **Bioinformatics**, allowing for a high-resolution view of complex biological phenomena.
