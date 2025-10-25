@@ -51,3 +51,19 @@ The project's goal is to quantitatively separate the total experimental $\text{C
 ## Significance and Outlook
 
 This combined body of work establishes **state-of-the-art computational methodologies** for two highly dynamic classes of biomolecules. It delivers both an **efficient, high-accuracy computational engine** for IDP $\text{CS}$ prediction and a **robust analytical tool** for interpreting the electronic and conformational factors governing the $\text{}^{31}\text{P}$ signal in modified nucleic acids, which is crucial for accurately interpreting experimental NMR data on these complex systems.
+
+***
+
+## Collaborators
+
+<div style="overflow: auto;">
+  <img src="/images/profile-jana-pavlikova.jpg" alt="Jana Pavlikova" style="float: right; margin-left: 15px; width: 100px; height: auto; border-radius: 50%;">
+  <p><b>Jana Pavlíková, Ph.D.</b>, played a crucial role in developing and validating the machine learning-based clustering methods for IDP simulations. Her expertise in data analysis and computational efficiency was instrumental in achieving the significant cost reductions for quantum chemical calculations.</p>
+</div>
+
+<div style="overflow: auto;">
+  <img src="/images/profile-gary-meints.png" alt="Gary Meints" style="float: right; margin-left: 15px; width: 100px; height: auto; border-radius: 50%;">
+  <p><b>Prof. Gary Meints</b> provided essential guidance and resources for the quantum mechanics/molecular mechanics (QM/MM) pipeline for modified nucleic acids. His insights into experimental $\text{}^{31}\text{P}$ NMR data and the nuances of electronic structure theory were vital for establishing the decomposition strategy.</p>
+</div>
+
+***
