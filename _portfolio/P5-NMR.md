@@ -1,6 +1,6 @@
 ---
 title: "Computational NMR Spectroscopy: Advancing Quantum Methods for Disordered Biomolecules"
-excerpt: "Developing and refining advanced computational schemes (MD/ADMA/DFT/QM/MM) to achieve high-accuracy NMR chemical shift predictions for Intrinsically Disordered Proteins (IDPs) and to deconstruct the $\text{}^{31}\text{P}$ NMR signal in modified nucleic acids. "
+excerpt: "Developing and refining advanced computational schemes (MD/ADMA/DFT/QM/MM) to achieve high-accuracy NMR chemical shift predictions for Intrinsically Disordered Proteins (IDPs) and to deconstruct the 31P NMR signal in modified nucleic acids.<br/><img src='/images/Front5-NMR.png'>"
 collection: portfolio
 ---
 

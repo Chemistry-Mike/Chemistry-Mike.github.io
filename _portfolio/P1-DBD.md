@@ -1,6 +1,6 @@
 ---
 title: "Research Project: DNA Binding Domains"
-excerpt: "Computational and biophysical investigation into nuclear receptor and p53 DNA binding interfaces for targeted drug development.<br/><img src='/images/DBA-Evaluation.png'>"
+excerpt: "Computational and biophysical investigation into nuclear receptor and p53 DNA binding interfaces for targeted drug development.<br/><img src='/images/P1-DBD-Search.png'>"
 collection: portfolio
 ---
 

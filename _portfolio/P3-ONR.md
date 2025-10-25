@@ -1,6 +1,6 @@
 ---
 title: "Targeting Orphan Nuclear Receptors for Novel Therapies"
-excerpt: "Utilizing virtual screening, molecular dynamics, and free energy calculations to discover and optimize ligands for orphan nuclear receptors (e.g., NR2F family) with the goal of developing first-in-class targeted therapies.<br/><img src='/images/Picture3.png'>"
+excerpt: "Utilizing virtual screening, molecular dynamics, and free energy calculations to discover and optimize ligands for orphan nuclear receptors (e.g., NR2F family) with the goal of developing first-in-class targeted therapies.<br/><img src='/images/Front3-ONR.png'>"
 collection: portfolio
 ---
 

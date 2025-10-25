@@ -1,6 +1,6 @@
 ---
 title: "Computational Innovation: Streamlining NMR Prediction via Clustering and Dimensionality Reduction"
-excerpt: "Developing advanced computational protocols that integrate Dimensionality Reduction and Clustering to create highly representative conformational ensembles for accurate NMR chemical shift predictions in Intrinsically Disordered Proteins.<br/><img src='/images/Picture4.png'>"
+excerpt: "Developing advanced computational protocols that integrate Dimensionality Reduction and Clustering to create highly representative conformational ensembles for accurate NMR chemical shift predictions in Intrinsically Disordered Proteins.<br/><img src='/images/Front4-DR.png'>"
 collection: portfolio
 ---
 

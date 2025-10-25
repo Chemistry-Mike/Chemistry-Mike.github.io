@@ -1,6 +1,6 @@
 ---
 title: "Research Project: Proline-Rich Regions in Disease"
-excerpt: "Investigating the structural dynamics of proline-rich domains (PRDs) in key proteins like p53 and Tau using molecular dynamics simulations to understand disease mechanisms.<br/><img src='/images/Picture2.png'>"
+excerpt: "Investigating the structural dynamics of proline-rich domains (PRDs) in key proteins like p53 and Tau using molecular dynamics simulations to understand disease mechanisms.<br/><img src='/images/Front2-PRD.png'>"
 collection: portfolio
 ---
 
