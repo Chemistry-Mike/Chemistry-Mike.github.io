@@ -111,3 +111,21 @@ Dr. Meints is essential for **Part 2**, which addresses **deconstructing the ${}
 </div>
 
 ***
+
+***
+
+## Collaborators
+
+### Jana Pavlíková, Ph.D.
+
+<img src="{{ '/images/profile-jana-pavlikova.jpg' | prepend: site.baseurl }}" alt="Jana Pavlikova" style="width: 120px; height: auto; border-radius: 50%; display: block; margin: 0 auto 15px;">
+
+<p>Jana Pavlíková, Ph.D., played a crucial role in developing and validating the machine learning-based clustering methods for IDP simulations (Part 1). Her expertise in data analysis and computational efficiency was instrumental in achieving the significant cost reductions for quantum chemical calculations.</p>
+
+<hr/>
+
+### Prof. Gary Meints
+
+<img src="{{ '/images/profile-gary-meints.png' | prepend: site.baseurl }}" alt="Gary Meints" style="width: 120px; height: auto; border-radius: 50%; display: block; margin: 0 auto 15px;">
+
+<p>Prof. Gary Meints provided essential guidance and resources for the quantum mechanics/molecular mechanics (QM/MM) pipeline for modified nucleic acids (Part 2). His insights into experimental $\text{}^{31}\text{P}$ NMR data and the nuances of electronic structure theory were vital for establishing the decomposition strategy.</p>
