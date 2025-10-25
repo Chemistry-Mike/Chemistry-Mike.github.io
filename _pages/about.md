@@ -9,14 +9,8 @@ redirect_from:
 ---
 
 
-{% comment %}
 <div style="text-align: center;">
-  <img src="/images/HeaderImage-QuantumPharmacy.png" style="width: 100%; max-width: 600px">
-</div>
-{% endcomment %}
-
-<div style="text-align: center;">
-  <img src="/images/QuantumPharmacy.png" style="width: 100%">
+  <img src="/images/HeaderImage-QuantumPharmacy.png" style="width: 100%">
 </div>
 
 ## Michael Bakker, B.Sc., M.Sc., Ph.D.
