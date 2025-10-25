@@ -11,7 +11,7 @@ redirect_from:
 
 {% comment %}
 <div style="text-align: center;">
-  <img src="/images/QuantumPharmacy.png" style="width: 100%; max-width: 600px">
+  <img src="/images/HeaderImage-QuantumPharmacy.png" style="width: 100%; max-width: 600px">
 </div>
 {% endcomment %}
 
