@@ -4,9 +4,6 @@ excerpt: "Developing and refining advanced computational schemes (MD/ADMA/DFT/QM
 collection: portfolio
 ---
 
-<p>Jana Test: <img src="{{ '/images/profile-jana-pavlikova.jpg' | prepend: site.baseurl }}" alt="Jana Test"></p>
-<p>Gary Test: <img src="{{ '/images/profile-gary-meints.png' | prepend: site.baseurl }}" alt="Gary Test"></p>
-
 ## Project Goal: Accelerating Quantum Accuracy for Dynamic Biomolecules
 
 This combined methodological research focuses on developing, refining, and applying advanced **quantum mechanics (QM)**-based computational schemes to accurately predict and interpret **Nuclear Magnetic Resonance (NMR) chemical shifts (CSs)** in complex, dynamic systems, including **Intrinsically Disordered Proteins (IDPs)** and **Modified Nucleic Acids (DNA/RNA)**. The objective is to achieve **QM-level accuracy** while ensuring **computational tractability** and providing a detailed deconstruction of the $\text{CS}$ signal.
@@ -58,6 +55,11 @@ This combined body of work establishes **state-of-the-art computational methodol
 ***
 
 ## Collaborators
+
+<div style="overflow: auto; margin-bottom: 20px;"> <img src="{{ '/images/profile-jana-pavlikova.jpg' | prepend: site.baseurl }}" alt="Jana Pavlíková, Ph.D." style="float: right; margin-left: 15px; width: 100px; height: auto; border-radius: 50%;"> <p><b>Dr. Pavlíková</b> is critical to Part 1 of the project, focusing on Intrinsically Disordered Proteins (IDPs), as she is a principal developer of this exact multi-scale computational methodology. Her expertise lies in coupling Molecular Dynamics (MD) with fragmentation techniques and Density Functional Theory (DFT) to accurately compute NMR chemical shifts for dynamic systems. Specifically, her work has validated the use of machine learning-based clustering and partial re-optimization to achieve quantum accuracy while significantly improving computational efficiency.</p> </div>
+
+<div style="overflow: auto; margin-bottom: 20px;"> <img src="{{ '/images/profile-gary-meints.png' | prepend: site.baseurl }}" alt="Dr. Meints" style="float: right; margin-left: 15px; width: 100px; height: auto; border-radius: 50%;"> <p><b>Dr. Meints</b> is essential for Part 2, which addresses deconstructing the 31P NMR signal in modified nucleic acids, given his extensive background in the experimental analysis of this core subject. His research group is renowned for using 31P Dynamic NMR to characterize the subtle, sequence-dependent dynamics of the DNA phosphate backbone (specifically the BI​/BII​ conformational equilibrium). This expertise provides the crucial experimental data and physical chemistry benchmark required to validate and interpret our proposed QM/MM decomposition strategy.</p> </div>
+
 
 ![JanaPavlikova]('/images/profile-jana-pavlikova.jpg')
 
