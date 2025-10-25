@@ -70,6 +70,13 @@ My central goal is to develop and apply **next-generation computational tools** 
 
 <hr>
 
+## The Critical Role of p53
+
+The tumor suppressor **p53**—often called the "guardian of the genome"—is one of the most crucial proteins in cancer biology. It functions as an **intrinsically disordered protein (IDP)** that acts as a transcription factor, which either halts the cell cycle or induces apoptosis (cell death) in response to DNA damage. Our research is focused on this IDP, investigating how phosphorylation, a key **Post-Translational Modification (PTM)**, affects critical Intrinsically Disordered Regions (IDRs) of p53, such as the pre-tetramerization loop and the C-terminal regulatory domain, as the flexibility of these regions is vital for the protein to form its active tetramer and correctly bind to DNA. By modeling these effects using techniques like **Molecular Dynamics (MD) simulations** and publishing our findings, we aim to determine how PTMs stabilize or destabilize p53's functional state, ultimately providing critical insights into cancer mechanisms and aiding in the design of therapeutics.
+
+<hr>
+
+
 <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
     <a href="/publications" class="clickable-image-link" style="text-decoration: none;">
