@@ -66,4 +66,24 @@ This combined body of work establishes **state-of-the-art computational methodol
   <p><b>Prof. Gary Meints</b> provided essential guidance and resources for the quantum mechanics/molecular mechanics (QM/MM) pipeline for modified nucleic acids. His insights into experimental $\text{}^{31}\text{P}$ NMR data and the nuances of electronic structure theory were vital for establishing the decomposition strategy.</p>
 </div>
 
+<div style="overflow: auto;">
+  <img src="{{ '/images/profile-jana-pavlikova.jpg' | prepend: site.baseurl }}" alt="Jana Pavlikova" style="float: right; margin-left: 15px; width: 100px; height: auto; border-radius: 50%;">
+  <p><b>Jana Pavlíková, Ph.D.</b>, played a crucial role in developing and validating the machine learning-based clustering methods for IDP simulations (Part 1). Her expertise in data analysis and computational efficiency was instrumental in achieving the significant cost reductions for quantum chemical calculations.</p>
+</div>
+
+<div style="overflow: auto;">
+  <img src="{{ '/images/profile-gary-meints.png' | prepend: site.baseurl }}" alt="Gary Meints" style="float: right; margin-left: 15px; width: 100px; height: auto; border-radius: 50%;">
+  <p><b>Prof. Gary Meints</b> provided essential guidance and resources for the quantum mechanics/molecular mechanics (QM/MM) pipeline for modified nucleic acids (Part 2). His insights into experimental $\text{}^{31}\text{P}$ NMR data and the nuances of electronic structure theory were vital for establishing the decomposition strategy.</p>
+</div>
+
+![Test Image of Quantum Pharmacy Header](images/HeaderImage-QuantumPharmacy.png)
+
+## Collaborators
+
+![Test Image of Quantum Pharmacy Header]({{ '/images/HeaderImage-QuantumPharmacy.png' | prepend: site.baseurl }})
+
+<div style="overflow: auto;">
+
+
+
 ***
