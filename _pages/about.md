@@ -22,17 +22,17 @@ I am a computational scientist whose research is dedicated to **unraveling the m
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/project-1/" class="clickable-image-link" style="text-decoration: none;">
+    <a href="/portfolio/P1-DBD/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/Front1-DBD.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/project-2/" class="clickable-image-link" style="text-decoration: none;">
+    <a href="/portfolio/P2-PRD/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/Front2-PRD.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
   <div style="width: 100%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/project-4/" class="clickable-image-link" style="text-decoration: none;">
+    <a href="/portfolio/P3-ONR/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/Front3-ONR.png" alt="Targeting Orphan Nuclear Receptors" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
@@ -46,12 +46,12 @@ My central goal is to develop and apply **next-generation computational tools** 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
   <div style="width: 100%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/project-3/" class="clickable-image-link" style="text-decoration: none;">
+    <a href="/portfolio/P4-DR/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/Front4-DR.png" alt="Dimensionality Reduction Clustering" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
   <div style="width: 100%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/project-6/" class="clickable-image-link" style="text-decoration: none;">
+    <a href="/portfolio/P5-NMR/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/Front5-NMR.png" alt="New Combined Approach" style="width: 100%; height: auto;">
     </a>
   </div>
