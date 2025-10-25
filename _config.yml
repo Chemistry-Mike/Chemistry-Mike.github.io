@@ -62,9 +62,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+og_image                 :
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
@@ -85,37 +83,14 @@ author:
   bio              : "Post-Graduate Researcher"
   location         : "Czech Republic"
   employer         : "Charles University"
-  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=SUoMFzYAAAAJ&hl=en"
-  email            :  "bakkerm@faf.cuni.cz"
-  researchgate     :  "https://www.researchgate.net/profile/Michael-Bakker"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
+  email            : "bakkerm@faf.cuni.cz"
+  researchgate     : "https://www.researchgate.net/profile/Michael-Bakker"
   facebook         : "mIkEeYbEe"
-  foursquare       :
   github           : "Chemistry-Mike"
-  google_plus      :
-  keybase          :
   instagram        : "mikeypharmacy"
-  impactstory      :
-  lastfm           :
   linkedin         : "michael-bakker-696b84239"
   orcid            : "http://orcid.org/0000-0002-4523-5570"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    :
-  steam            :
-  tumblr           :
-  twitter          : "@EssmanBessfren"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
 
 # Reading Files
 include:
