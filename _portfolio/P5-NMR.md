@@ -84,6 +84,30 @@ This combined body of work establishes **state-of-the-art computational methodol
 
 <div style="overflow: auto;">
 
+## Collaboration Justification
 
+### Dr. Jana Pavlíková (Charles University) 🇨🇿
+
+Dr. Pavlíková is critical to **Part 1** of the project, focusing on **Intrinsically Disordered Proteins (IDPs)**, as she is a principal developer of this exact multi-scale computational methodology. Her expertise lies in coupling **Molecular Dynamics (MD)** with **fragmentation techniques** and **Density Functional Theory (DFT)** to accurately compute NMR chemical shifts for dynamic systems. Specifically, her work has validated the use of **machine learning-based clustering** and **partial re-optimization** to achieve quantum accuracy while significantly improving computational efficiency.
+
+---
+
+### Dr. Gary Meints (Michigan State University) 🇺🇸
+
+Dr. Meints is essential for **Part 2**, which addresses **deconstructing the ${}^{31}\text{P}$ NMR signal in modified nucleic acids**, given his extensive background in the experimental analysis of this core subject. His research group is renowned for using **${}^{31}\text{P}$ Dynamic NMR** to characterize the subtle, sequence-dependent dynamics of the **DNA phosphate backbone** (specifically the BI/BII conformational equilibrium). This expertise provides the crucial **experimental data and physical chemistry benchmark** required to validate and interpret our proposed $\text{QM/MM}$ decomposition strategy.
+
+***
+
+## Collaborators
+
+<div style="overflow: auto;">
+  <img src="{{ '/images/profile-jana-pavlikova.jpg' | prepend: site.baseurl }}" alt="Jana Pavlikova" style="float: right; margin-left: 15px; width: 100px; height: auto; border-radius: 50%;">
+  <p><b>Jana Pavlíková, Ph.D.</b>, played a crucial role in developing and validating the machine learning-based clustering methods for IDP simulations (Part 1). Her expertise in data analysis and computational efficiency was instrumental in achieving the significant cost reductions for quantum chemical calculations.</p>
+</div>
+
+<div style="overflow: auto;">
+  <img src="{{ '/images/profile-gary-meints.png' | prepend: site.baseurl }}" alt="Gary Meints" style="float: right; margin-left: 15px; width: 100px; height: auto; border-radius: 50%;">
+  <p><b>Prof. Gary Meints</b> provided essential guidance and resources for the quantum mechanics/molecular mechanics (QM/MM) pipeline for modified nucleic acids (Part 2). His insights into experimental $\text{}^{31}\text{P}$ NMR data and the nuances of electronic structure theory were vital for establishing the decomposition strategy.</p>
+</div>
 
 ***
