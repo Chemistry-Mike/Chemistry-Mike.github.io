@@ -54,7 +54,7 @@ This combined body of work establishes **state-of-the-art computational methodol
 
 ***
 
-## Collaborators
+## Project Collaborators
 
 <div style="overflow: auto; margin-bottom: 20px;"> <img src="{{ '/images/profile-jana-pavlikova.jpg' | prepend: site.baseurl }}" alt="Jana Pavlíková, Ph.D." style="float: left; margin-right: 15px; width: 200px; height: auto; border-radius: 50%;"> <p><b>Dr. Pavlíková</b> is critical to Part 1 of the project, focusing on Intrinsically Disordered Proteins (IDPs), as she is a principal developer of this exact multi-scale computational methodology. Her expertise lies in coupling Molecular Dynamics (MD) with fragmentation techniques and Density Functional Theory (DFT) to accurately compute NMR chemical shifts for dynamic systems. Specifically, her work has validated the use of machine learning-based clustering and partial re-optimization to achieve quantum accuracy while significantly improving computational efficiency.</p> </div>
 
