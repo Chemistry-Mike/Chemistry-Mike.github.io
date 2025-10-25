@@ -1,6 +1,6 @@
 ---
 title: "Computational Study of $\text{}^{31}\text{P}$ Chemical Shifts in Modified Nucleic Acids"
-excerpt: "Developing and validating a quantum mechanics/molecular mechanics (QM/MM) pipeline to decompose the experimental $\text{}^{31}\text{P}$ NMR chemical shift (CS) signal into its underlying electronic (static) and geometric (dynamic) contributions for modified DNA/RNA. <br/><img src='/images/500x300.png'>"
+excerpt: "Developing and validating a quantum mechanics/molecular mechanics (QM/MM) pipeline to decompose the experimental $\text{}^{31}\text{P}$ NMR chemical shift (CS) signal into its underlying electronic (static) and geometric (dynamic) contributions for modified DNA/RNA. <br/><img src='/images/31P-Structures.png'>"
 collection: portfolio
 ---
 
