@@ -24,7 +24,7 @@ We developed and validated a novel computational protocol that integrates **Dime
     * **SASA Advantage:** Using **SASA-based tSNE** yielded CEs that were better aligned with experimental NMR CSs (improving the $r^2$ value by $0.17$ to $0.36$), as it offers a more comprehensive view of the protein's external interactions and transient structures.
 
 3.  **Integrated Ensemble Selection:**
-    * To overcome the complex parametrization of nonlinear DR techniques (like tSNE), we developed an **integrated silhouette score scanning protocol (SS$_{INT}$). This metric rigorously selects the optimal combination of parameters (perplexity and cluster size) to ensure the resulting ensemble accurately represents both the local and global dynamics of the original trajectory.
+    * To overcome the complex parametrization of nonlinear DR techniques (like tSNE), we developed an integrated silhouette score scanning protocol (SS$_{INT}$). This metric rigorously selects the optimal combination of parameters (perplexity and cluster size) to ensure the resulting ensemble accurately represents both the local and global dynamics of the original trajectory.
 
 ---
 
