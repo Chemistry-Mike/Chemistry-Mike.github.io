@@ -63,18 +63,6 @@ My central goal is to develop and apply **next-generation computational tools** 
 
 <hr>
 
-### Research Highlights: The IDP Toolkit
-
-My investigations focus on three primary areas, which can be explored in detail via the linked publications:
-
-| Area | Focus | Key Techniques |
-| :--- | :--- | :--- |
-| **IDP Characterization** | **Conformational Ensemble Analysis:** Decomposing the vast structural landscape of IDPs (like Histatin 5) based on metrics like radius of gyration ($R_g$) to link structure to biological function. | Small-Angle Scattering (SAXS), All-Atom MD Simulations. |
-| **Advanced NMR Prediction** | **Improving Quantum Accuracy:** Developing multi-scale computational schemes (MD/ADMA/DFT) to accurately predict Nuclear Magnetic Resonance (NMR) chemical shifts for disordered systems, using concepts like partial re-optimization and machine-learning clustering. | Quantum Mechanics (QM), Density Functional Theory (DFT), Machine Learning. |
-| **Disease & Regulation** | **Modeling Post-Translational Effects:** Simulating the impact of phosphorylation on critical IDRs, such as the p53 regulatory domain and the Tau protein's Proline-Rich Region (PRR), to understand disease mechanisms (e.g., Alzheimer's). | Restrained MD, MMGBSA, Computational Alanine Scanning. |
-
-<hr>
-
 <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
     <a href="/publications" class="clickable-image-link" style="text-decoration: none;">
@@ -106,3 +94,13 @@ I also apply my expertise in computational chemistry to other critical challenge
 * **Sustainable Chemistry:** Simulating the pyrolysis of biodiesel components (e.g., methyl linoleate) to understand reaction pathways and optimize energy conversion.
 * **Educational Innovation:** Utilizing **3D printing** technology to create physical, tactile models of molecules and proteins, enhancing complex chemistry education.
 * **Pharmaceutical Research:** Applying **statistical modeling** and machine learning techniques to analyze high-throughput screening data and predict drug efficacy or toxicity.
+
+### Research Highlights: The IDP Toolkit
+
+My investigations focus on three primary areas, which can be explored in detail via the linked publications:
+
+| Area | Focus | Key Techniques |
+| :--- | :--- | :--- |
+| **IDP Characterization** | **Conformational Ensemble Analysis:** Decomposing the vast structural landscape of IDPs (like Histatin 5) based on metrics like radius of gyration ($R_g$) to link structure to biological function. | Small-Angle Scattering (SAXS), All-Atom MD Simulations. |
+| **Advanced NMR Prediction** | **Improving Quantum Accuracy:** Developing multi-scale computational schemes (MD/ADMA/DFT) to accurately predict Nuclear Magnetic Resonance (NMR) chemical shifts for disordered systems, using concepts like partial re-optimization and machine-learning clustering. | Quantum Mechanics (QM), Density Functional Theory (DFT), Machine Learning. |
+| **Disease & Regulation** | **Modeling Post-Translational Effects:** Simulating the impact of phosphorylation on critical IDRs, such as the p53 regulatory domain and the Tau protein's Proline-Rich Region (PRR), to understand disease mechanisms (e.g., Alzheimer's). | Restrained MD, MMGBSA, Computational Alanine Scanning. |
