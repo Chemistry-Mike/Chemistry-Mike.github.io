@@ -4,6 +4,9 @@ excerpt: "Developing and refining advanced computational schemes (MD/ADMA/DFT/QM
 collection: portfolio
 ---
 
+<p>Jana Test: <img src="{{ '/images/profile-jana-pavlikova.jpg' | prepend: site.baseurl }}" alt="Jana Test"></p>
+<p>Gary Test: <img src="{{ '/images/profile-gary-meints.png' | prepend: site.baseurl }}" alt="Gary Test"></p>
+
 ## Project Goal: Accelerating Quantum Accuracy for Dynamic Biomolecules
 
 This combined methodological research focuses on developing, refining, and applying advanced **quantum mechanics (QM)**-based computational schemes to accurately predict and interpret **Nuclear Magnetic Resonance (NMR) chemical shifts (CSs)** in complex, dynamic systems, including **Intrinsically Disordered Proteins (IDPs)** and **Modified Nucleic Acids (DNA/RNA)**. The objective is to achieve **QM-level accuracy** while ensuring **computational tractability** and providing a detailed deconstruction of the $\text{CS}$ signal.
