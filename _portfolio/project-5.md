@@ -23,6 +23,6 @@ This core methodological project focuses on extending and streamlining the **mul
     * **Significant Cost Reduction:** A CLUSTER ensemble consisting of just **50 structures** yielded ensemble averages comparable to those obtained from a REGULAR ensemble containing **500 MD frames**. This achievement dramatically reduced the required computational time to obtain highly accurate CSs.
 
 3.  **Optimal QM Parameters:**
-    * The refined MD/ADMA/DFT framework utilized the **$6-311++G(d,p)$ basis set**, which was found to outperform alternative calculations (including $\text{IGLO}-\text{III}$ and both explicit and implicit solvation models) using the same density functional approximation ($\text{B3LYP}$).
+    * The refined MD/ADMA/DFT framework utilized the **$6-311++G(d,p)$ basis set**, which was found to outperform alternative calculations (including $\text{IGLO}-\text{III}$ and both explicit and implicit solvation models) using the same density functional approximation (B3LYP).
 
 This project page is under construction...
