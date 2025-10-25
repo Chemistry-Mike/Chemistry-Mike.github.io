@@ -15,16 +15,16 @@ We developed and validated a novel computational protocol that integrates **Dime
 ### Key Methodological Innovations
 
 1.  **Multiscale Dimensionality Reduction and Clustering:**
-    * **The Problem:** Traditional clustering methods, like GROMOS (which uses RMSD), perform poorly on IDPs because they fail to account for the local interactions and high-dimensional nature of disordered systems[cite: 1121, 1191, 1646].
-    * **The Solution:** We implemented a multiscale approach that uses DR (specifically **tICA** and **tSNE**) *before* clustering to project the data into a lower-dimensional **latent space**, mitigating multicollinearity and computational complexity[cite: 1123, 1193, 1655].
-    * **Validated Performance:** Our CEs consistently demonstrated **superior performance** over traditional Sequential Ensembles (SEs) of similar size, outperforming them in approximately **85.7%** of all ensemble sizes evaluated[cite: 1126, 1789, 1904].
+    * **The Problem:** Traditional clustering methods, like GROMOS (which uses RMSD), perform poorly on IDPs because they fail to account for the local interactions and high-dimensional nature of disordered systems.
+    * **The Solution:** We implemented a multiscale approach that uses DR (specifically **tICA** and **tSNE**) *before* clustering to project the data into a lower-dimensional **latent space**, mitigating multicollinearity and computational complexity.
+    * **Validated Performance:** Our CEs consistently demonstrated **superior performance** over traditional Sequential Ensembles (SEs) of similar size, outperforming them in approximately **85.7%** of all ensemble sizes evaluated.
 
 2.  **Novel Fingerprint Selection:**
-    * **New Feature:** We introduced **Solvent-Accessible Surface Area (SASA)** as a key structural fingerprint for DR, alongside traditional features like $\phi/\psi$ angles and $\alpha$-carbon distances[cite: 1124, 1226, 1888].
-    * **SASA Advantage:** Using **SASA-based tSNE** yielded CEs that were better aligned with experimental NMR CSs (improving the $r^2$ value by $0.17$ to $0.36$), as it offers a more comprehensive view of the protein's external interactions and transient structures[cite: 1125, 1810, 1890].
+    * **New Feature:** We introduced **Solvent-Accessible Surface Area (SASA)** as a key structural fingerprint for DR, alongside traditional features like $\phi/\psi$ angles and $\alpha$-carbon distances.
+    * **SASA Advantage:** Using **SASA-based tSNE** yielded CEs that were better aligned with experimental NMR CSs (improving the $r^2$ value by $0.17$ to $0.36$), as it offers a more comprehensive view of the protein's external interactions and transient structures.
 
 3.  **Integrated Ensemble Selection:**
-    * To overcome the complex parametrization of nonlinear DR techniques (like tSNE), we developed an **integrated silhouette score scanning protocol ($\text{SS}_{\text{INT}}$)**[cite: 1127, 1796]. This metric rigorously selects the optimal combination of parameters (perplexity and cluster size) to ensure the resulting ensemble accurately represents both the local and global dynamics of the original trajectory[cite: 1227, 1797, 1812].
+    * To overcome the complex parametrization of nonlinear DR techniques (like tSNE), we developed an **integrated silhouette score scanning protocol (SS$_{INT}$). This metric rigorously selects the optimal combination of parameters (perplexity and cluster size) to ensure the resulting ensemble accurately represents both the local and global dynamics of the original trajectory.
 
 ---
 
@@ -32,7 +32,7 @@ We developed and validated a novel computational protocol that integrates **Dime
 
 This work also critically assessed rapid CS predictors for IDPs and directly addressed the challenge of **Post-Translational Modifications (PTMs)**:
 
-* **Phosphorylation Deficiency:** We demonstrated that mainstream neural network-based tools like **Sparta+** and **ShiftX2** fail to accurately incorporate the influence of phosphorylation, as they were not trained on PTM data sets[cite: 1120, 1635].
-* **Need for Quantum Methods:** This deficiency highlights the necessity of implementing **higher-level quantum calculations (DFT)** to accurately capture PTM effects[cite: 1107, 1637]. Our clustering methodology makes these resource-intensive DFT calculations **tractable** by drastically reducing the size of the structural ensemble required for convergence[cite: 1109, 1179, 1185].
+* **Phosphorylation Deficiency:** We demonstrated that mainstream neural network-based tools like **Sparta+** and **ShiftX2** fail to accurately incorporate the influence of phosphorylation, as they were not trained on PTM data sets.
+* **Need for Quantum Methods:** This deficiency highlights the necessity of implementing **higher-level quantum calculations (DFT)** to accurately capture PTM effects[cite: 1107, 1637]. Our clustering methodology makes these resource-intensive DFT calculations **tractable** by drastically reducing the size of the structural ensemble required for convergence.
 
 This project page is under construction...

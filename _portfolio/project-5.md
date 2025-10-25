@@ -25,4 +25,3 @@ This core methodological project focuses on extending and streamlining the **mul
 3.  **Optimal QM Parameters:**
     * The refined MD/ADMA/DFT framework utilized the **$6-311++G(d,p)$ basis set**, which was found to outperform alternative calculations (including $\text{IGLO}-\text{III}$ and both explicit and implicit solvation models) using the same density functional approximation (B3LYP).
 
-This project page is under construction...

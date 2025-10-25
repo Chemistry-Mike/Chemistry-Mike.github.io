@@ -32,4 +32,3 @@ We employ a multi-stage, high-resolution computational workflow to conquer the c
 
 Success in this project provides a mechanism to **de-orphanize** these critical receptors, creating therapeutic pipelines aimed at diseases where conventional targets have proven ineffective. By precisely modulating the activity of the NR2F family or other ONRs, we open pathways to **first-in-class drugs** that target the root transcriptional drivers of complex human pathology.
 
-This project page is under construction...
