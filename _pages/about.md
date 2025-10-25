@@ -61,16 +61,6 @@ My central goal is to develop and apply **next-generation computational tools** 
       <img src="/images/Picture7.png" alt="New Combined Approach" style="width: 100%; height: auto;">
     </a>
   </div>
-  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/project-5/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Picture5.png" alt="Fragmentation Approach" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
-  </div>
-  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/project-6/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Picture6.png" alt="Phosphorylation Research" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
-  </div>
 </div>
 
 <hr>
