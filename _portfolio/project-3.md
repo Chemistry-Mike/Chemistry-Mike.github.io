@@ -6,9 +6,9 @@ collection: portfolio
 
 ## Project Goal: Designing Tractable Conformational Ensembles for IDPs
 
-The principal objective of this research is to tackle the computational challenge inherent in characterizing **Intrinsically Disordered Proteins (IDPs)** via **NMR Chemical Shift (CS) predictions**. Accurately modeling these flexible systems at the quantum level requires large conformational ensembles, a process that rapidly becomes intractable[cite: 1174, 1186].
+The principal objective of this research is to tackle the computational challenge inherent in characterizing **Intrinsically Disordered Proteins (IDPs)** via **NMR Chemical Shift (CS) predictions**. Accurately modeling these flexible systems at the quantum level requires large conformational ensembles, a process that rapidly becomes intractable.
 
-We developed and validated a novel computational protocol that integrates **Dimensionality Reduction (DR)** and **Clustering Algorithms (CA)** to produce small, highly representative **Clustered Ensembles (CEs)**[cite: 1108, 1188, 1201]. This technique effectively bridges the gap between computationally demanding quantum calculations and the vast conformational space of IDPs.
+We developed and validated a novel computational protocol that integrates **Dimensionality Reduction (DR)** and **Clustering Algorithms (CA)** to produce small, highly representative **Clustered Ensembles (CEs)**. This technique effectively bridges the gap between computationally demanding quantum calculations and the vast conformational space of IDPs.
 
 ---
 

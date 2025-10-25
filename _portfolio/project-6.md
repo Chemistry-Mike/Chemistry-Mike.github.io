@@ -18,12 +18,12 @@ The goal is to quantify the distinct contributions of $\text{}^{31}\text{P}$ CS 
 
 This work aims to establish and quantify the significance of each contribution (electronic vs. dynamic) to the total experimental shift.
 
-1.  **System Design:** The initial focus is on comparing the effects of a $\text{}^{19}\text{F}$ label versus an **abasic dideoxyribose** (loss of a nucleotide base) on the chemical shielding of the two adjacent phosphorus atoms[cite: 3233, 3312]. The computational model starts with a nucleic acid fragment, terminated with appropriate caps and solvated with explicit ions to neutralize charges.
+1.  **System Design:** The initial focus is on comparing the effects of a $\text{}^{19}\text{F}$ label versus an **abasic dideoxyribose** (loss of a nucleotide base) on the chemical shielding of the two adjacent phosphorus atoms. The computational model starts with a nucleic acid fragment, terminated with appropriate caps and solvated with explicit ions to neutralize charges.
 
 2.  **Establishing the Computational Pipeline (QM/MM):**
     * **Starting Structure:** A representative model is established (e.g., from AlphaFold or built using standard B-DNA geometry).
-    * **Geometry Optimization:** We perform simple optimizations using both low-level DFT or Molecular Mechanics (MM) to find a local energy minimum structure[cite: 3285, 3305]. Alternatively, an MD simulation can generate a pool of representative structures, especially if the DNA is single-stranded (ssDNA) and exhibits IDP-like flexibility.
-    * **NMR Calculation:** Chemical shielding values are calculated using the **GIAO** method [cite: 3290, 3319], followed by extensive **benchmarking** of various functionals and basis sets[cite: 3295]. The final shieldings are converted to shifts by carefully selecting a reference (e.g., $\text{85\% Phosphoric Acid}$ or $\text{Triphenyl Phosphene}$).
+    * **Geometry Optimization:** We perform simple optimizations using both low-level DFT or Molecular Mechanics (MM) to find a local energy minimum structure. Alternatively, an MD simulation can generate a pool of representative structures, especially if the DNA is single-stranded (ssDNA) and exhibits IDP-like flexibility.
+    * **NMR Calculation:** Chemical shielding values are calculated using the **GIAO** method, followed by extensive **benchmarking** of various functionals and basis sets. The final shieldings are converted to shifts by carefully selecting a reference (e.g., $\text{85 % Phosphoric Acid}$ or $\text{Triphenyl Phosphene}$).
 
 3.  **Decomposing the Shift:**
     * The total experimental shift ($\Delta\delta_{\text{Experimental}}$) is compared to the purely calculated electronic static contribution ($\Delta\delta_{\text{Static}}$).
