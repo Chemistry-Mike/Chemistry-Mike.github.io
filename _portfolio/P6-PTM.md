@@ -1,12 +1,20 @@
 ---
-title: "Upcoming Project: Unraveling Protein Phosphorylation Dynamics"
-excerpt: "Investigating how phosphorylation and phosphomimetic modifications influence protein structure and dynamics, focusing on biomolecular size, secondary structure changes, and effects on protein-protein interactions. <br/><img src='/images/Front5-Phospho.png'>"
+title: "Unraveling Protein Phosphorylation Dynamics"
+excerpt: "Investigating how phosphorylation and phosphomimetic modifications influence protein structure and dynamics, focusing on biomolecular size, secondary structure changes, and effects on protein-protein interactions. <br/><img src='/images/Front6-PTM.png'>"
 collection: portfolio
 ---
 
 ## Project Goal: Characterizing the Structural and Dynamic Consequences of Phosphorylation
 
 Protein phosphorylation is a fundamental regulatory mechanism crucial in numerous biological processes. The main goal of this project is to determine the structural and dynamic consequences of phosphorylation and phosphomimetic modifications on proteins and to develop computational methods for predicting these effects.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
+  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
+    <a href="portfolio/P7-P53/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/P53-C.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    </a>
+  </div>
+</div>
 
 We aim to characterize how phosphorylation influences key properties, including protein size (Rg, EEdist), shape, solvent accessibility (SASA), and flexibility (RMSF). We also plan to investigate its effects on secondary structure and structural motifs, and how surrounding amino acid types (e.g., acidic, polyproline, basic regions) influence these changes.
 
@@ -35,3 +43,5 @@ This project employs a multi-faceted approach combining computational protein de
 The research is expected to produce two publications: one detailing the general structural and dynamic impact of phosphorylation and phosphomimetics, and a second focusing on the influence of phosphorylation on allostery and protein interactions in real-world systems.
 
 Computational findings will be validated through experimental work conducted at **Lund University**. These experiments will utilize biophysical techniques such as **Small-Angle X-ray Scattering (SAXS)**, **Small-Angle Neutron Scattering (SANS)**, **Circular Dichroism (CD)**, and **Nuclear Magnetic Resonance (NMR)**.
+
+<div style="overflow: auto; margin-bottom: 20px;"> <img src="{{ '/images/profile-marie-skepo.png' | prepend: site.baseurl }}" alt="Marie Skepö, Ph.D." style="float: left; margin-right: 15px; width: 200px; height: auto; border-radius: 50%;"> <p>Prof. Skepö, a Professor of Theoretical Chemistry at Lund University, is a leading authority on the computational biophysics of Intrinsically Disordered Proteins (IDPs). Her expertise is fundamental to this project, especially in accurate Molecular Dynamics (MD) simulations and the analysis of the p53 Proline-Rich Domain (PRD). Prof. Skepö's research establishes a quantitative link between computer simulations and experimental data (e.g., Small-Angle X-ray Scattering) to characterize complex conformational ensembles. Her group’s work specifically addresses the impact of Post-Translational Modifications (PTMs), like phosphorylation, on the stability and dynamics of disordered regions, ensuring the structural models used are rigorous and reliable.</p> </div>

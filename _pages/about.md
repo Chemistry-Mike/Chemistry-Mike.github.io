@@ -100,5 +100,5 @@ The tumor suppressor often called the "guardian of the genome" is one of the mos
 I also apply my expertise in computational chemistry to other critical challenges:
 
 * **Sustainable Chemistry:** Simulating the pyrolysis of biodiesel components (e.g., methyl linoleate) to understand reaction pathways and optimize energy conversion.
-* **Educational Innovation: Utilizing 3D printing technology to create physical, tactile models of molecules and proteins, enhancing complex chemistry education. [Link to Publication.](https://onlinelibrary.wiley.com/doi/abs/10.1002/cmr.a.21470)
+* **Educational Innovation:** Utilizing 3D printing technology to create physical, tactile models of molecules and proteins, enhancing complex chemistry education. [Link to Publication.](https://onlinelibrary.wiley.com/doi/abs/10.1002/cmr.a.21470)
 * **Pharmaceutical Research:** Applying statistical modeling and machine learning techniques to analyze high-throughput screening data and predict drug efficacy or toxicity.
