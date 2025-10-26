@@ -29,8 +29,8 @@ To solve this visualization problem, I wrote a Python script. This PyMOL extensi
 ## Hover over the image to see the transformation
 
 <div class="hover-swap-container">
-  <img src="/images/FancyPolyProline-0.png" class="base-image" alt="PDB file loaded in PyMOL">
-  <img src="/images/FancyPolyProline-1.png" class="hover-image" alt="PDB file with Proline script results">
+  <img src="/images/FancyPolyProline-6.png" class="base-image" alt="PDB file loaded in PyMOL">
+  <img src="/images/FancyPolyProline-7.png" class="hover-image" alt="PDB file with Proline script results">
 </div>
 
 Here's a breakdown of what the script does:
