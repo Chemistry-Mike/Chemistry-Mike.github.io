@@ -9,7 +9,7 @@ table {
   font-size: $type-size-6;
   border-collapse: collapse;
   border: 1px solid $light-gray;
-  color: #ffffff; /* <--- CHANGE THIS LINE TO A LIGHT COLOR */
+  color: #ffffff; /* Sets ALL table text (including headers) to white */
 
   & + table {
     margin-top: 1em;
@@ -17,7 +17,7 @@ table {
 }
 
 thead {
-  background-color: $lighter-gray;
+  background-color: #004499; /* Changed: Sets the header background to dark blue */
   border-bottom: 1px solid $light-gray;
 }
 
