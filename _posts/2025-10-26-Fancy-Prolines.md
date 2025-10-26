@@ -33,5 +33,10 @@ Remember to replace "peptide" with the name of the object you want to apply it t
   <img src="/images/FancyPolyProline-1.png" class="hover-image" alt="PDB file with Proline script results">
 </div>
 
+<div class="hover-swap-container">
+  <img src="/images/FancyPolyProline-3.png" class="base-image" alt="PDB file loaded in PyMOL">
+  <img src="/images/FancyPolyProline-2.png" class="hover-image" alt="PDB file with Proline script results">
+</div>
+
 The script also works for full structured proteins.
 
