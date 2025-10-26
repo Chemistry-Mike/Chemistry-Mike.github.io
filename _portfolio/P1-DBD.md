@@ -4,6 +4,10 @@ excerpt: "Computational and biophysical investigation into nuclear receptor and 
 collection: portfolio
 ---
 
+<div style="text-align: center;">
+  <img src="/images/P1-DBD-Search.png" style="width: 100%">
+</div>
+
 ## Project Goal: Investigating DNA Binding Domains for Targeted Therapeutics
 
 This research project aims to computationally and structurally investigate the DNA-binding domains (DBDs) of critical nuclear receptors and transcription factors.
@@ -18,10 +22,6 @@ The primary focus is to:
 
 2.  Identify Targetable Cavities: Utilize advanced simulation and docking techniques to identify and characterize cryptic or allosteric binding cavities within these protein-DNA complexes.
 3.  Targeted Drug Development: Develop targeted drug development strategies focused on identifying or designing small molecules that can fit into these identified cavities to modulate (enhance or disrupt) the receptor's DNA binding activity. This is a crucial step towards creating novel therapeutics for diseases driven by nuclear receptor dysfunction or p53 mutation.
-
-<div style="text-align: center;">
-  <img src="/images/P1-DBD-Search.png" style="width: 100%">
-</div>
 
 ## Project Collaborators
 
