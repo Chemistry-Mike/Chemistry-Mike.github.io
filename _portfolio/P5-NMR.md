@@ -12,6 +12,10 @@ This combined methodological research focuses on developing, refining, and apply
 
 ## Part 1: Fragment-Based NMR Prediction for IDPs
 
+<div style="text-align: center;">
+  <img src="/images/P5-FragmentationApproach.png" style="width: 100%">
+</div>
+
 This section details the development and streamlining of a multi-scale computational framework to calculate highly accurate CSs for IDPs, focusing on efficiency and quantum accuracy.
 
 ### Core Methodological Refinements (MD/ADMA/DFT)
@@ -30,6 +34,10 @@ This section details the development and streamlining of a multi-scale computati
 ***
 
 ## Part 2: Deconstructing the 31P NMR Signal in Modified Nucleic Acids
+
+<div style="text-align: center;">
+  <img src="/images/P5-GuanosineStructures.png" style="width: 100%">
+</div>
 
 This section details the establishment and application of a Quantum Mechanics/Molecular Mechanics (QM/MM) pipeline to investigate the subtle effects of modifications in DNA/RNA on the 31P NMR CSs.
 
