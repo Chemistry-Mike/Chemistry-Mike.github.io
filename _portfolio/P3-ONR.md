@@ -24,7 +24,7 @@ This project is dedicated to accelerating targeted drug development by computati
 ---
 
 <div style="text-align: center;">
-  <img src="/images/P3-Strategies.png" style="width: 100%">
+  <img src="/images/P3-Strategies-2.png" style="width: 100%">
 </div>
 
 ---
