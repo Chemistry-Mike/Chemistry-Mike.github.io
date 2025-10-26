@@ -61,19 +61,7 @@ run fancyProlines.py
 proline_pentagons("peptide")
 ```
 
-Remember to replace "peptide" with the name of the object you want to apply it to.
-
-When you look at a protein structure, the proline ring (composed of the N, Cα, Cβ, Cγ, and Cδ atoms) is often just a regular part of the stick model. It can be hard to distinguish it from the backbone or side chains of other residues.
-
-To truly study its conformation—like its famous puckering or its role in cis/trans isomerism—you need a visualization that highlights this critical ring in a dedicated, high-impact way.
-
-First, load your PDB file into PyMol.
-
-Next, run the script:
-
-Use the command: proline_pentagons("peptide")
-
-Remember to replace "peptide" with the name of the object you want to apply it to.
+**Note:** Remember to replace "peptide" with the name of the object you want to apply it to.
 
 The script also works for full structured proteins, instantly highlighting all prolines in a complex fold.
 
