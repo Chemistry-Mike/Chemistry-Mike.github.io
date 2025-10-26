@@ -1,0 +1,39 @@
+/* Custom CSS for Proline Image Hover Effect */
+.hover-swap-container {
+  /* Set the container size and position */
+  position: relative;
+  width: 50%; 
+  float: right; 
+  margin-left: 1em; 
+}
+
+/* Ensure images within the container are sized correctly */
+.hover-swap-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Base image (the one that appears when NOT hovering) */
+.hover-swap-container .base-image {
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out; 
+}
+
+/* Hover image (the one that appears when hovering) */
+.hover-swap-container .hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* When the container is hovered, swap the opacity */
+.hover-swap-container:hover .base-image {
+  opacity: 0; /* Hide the base image */
+}
+
+.hover-swap-container:hover .hover-image {
+  opacity: 1; /* Show the hover image */
+}
