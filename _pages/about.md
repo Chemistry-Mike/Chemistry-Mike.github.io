@@ -44,7 +44,7 @@ My central goal is to develop and apply next-generation computational tools to a
 
 <hr>
 
-<div style="display: flex; flex-direction: column; align-items: center; margin: 0 auto; width: 100%;">
+<div style="display: flex; flex-direction: column; align-items: center; margin: 0 auto; max-width: 600px;">
   <div style="width: 100%; padding: 5px; box-sizing: border-box;">
     <a href="/portfolio/P4-DR/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/Front4-DR.png" alt="Dimensionality Reduction Clustering" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
