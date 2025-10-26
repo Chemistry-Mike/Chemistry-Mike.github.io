@@ -16,7 +16,7 @@ redirect_from:
 ## Michael Bakker, B.Sc., M.Sc., Ph.D.
 ### Post-Doctoral Researcher in Biophysics and Physical Chemistry
 
-I am a computational scientist whose research is dedicated to and their role in human health and disease. My work operates at the interdisciplinary nexus of and, allowing for a high-resolution view of complex biological phenomena. Beyond this core focus, my current projects also include exploring DNA Binding domains, investigating Polyproline Rich Regions, and targeting orphan nuclear receptors through computational drug design. A significant part of my effort is dedicated to developing new techniques, specifically applying machine learning coupled with dimensionality reduction and clustering to design better, more robust structural ensembles, which also involves improving the accuracy of predicted NMR chemical shifts. Furthermore, I investigate post-translational modification sites, namely phosphorylation, to understand their impact on protein function.
+Hello. I'm a computational scientist working at the intersection of structural biology and machine learning to investigate the molecular mechanisms underlying human disease. My research uses dimensionality reduction and clustering to create more accurate structural ensembles for proteins. Key biological areas of my work include predicting the behavior of DNA Binding Domains, analyzing Polyproline Rich Regions, and computationally targeting orphan nuclear receptors.
 
 <hr>
 

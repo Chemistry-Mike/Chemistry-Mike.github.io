@@ -12,14 +12,22 @@ collection: portfolio
 
 Proline-Rich Domains (PRDs) are short stretches of amino acids enriched in proline residues, often found within Intrinsically Disordered Proteins (IDPs). Despite their lack of stable tertiary structure, PRDs play pivotal roles in cellular signaling, protein-protein interactions, and disease pathology.
 
+| Protein | Proline-Rich Domain Role | Associated Disease/Function |
+| :--- | :--- | :--- |
+| **p53** (Tumor Suppressor) | Mediates interaction with MDM2; contributes to apoptosis. | Cancer |
+| **Tau** (Neuronal Protein) | Critical for binding microtubules; contributes to aggregation. | Alzheimer's Disease and Tauopathies |
+| **SH3-Containing Proteins** (e.g., Src, Grb2) | Binds to SH3 domains via PxxP motifs; key in signal transduction. | Cell Signaling, various Cancers |
+| **Dynamin** (GTPase) | Interacts with SH3 domains for membrane fission/endocytosis. | Endocytosis, various Pathologies |
+| **Wiskott-Aldrich Syndrome Protein (WASp)** | Regulates actin polymerization; links signaling to cytoskeleton. | Wiskott-Aldrich Syndrome (Immunodeficiency) |
+
 ### Polyproline II (PPII) Helices: The Signature Motif
 
-- Structure: PPII helices are left-handed helices with three residues per turn and no internal hydrogen bonding. Their rigidity arises from the cyclic nature of proline, which restricts backbone flexibility.
-- Stabilizing Features:
+- **Structure:** PPII helices are left-handed helices with three residues per turn and no internal hydrogen bonding. Their rigidity arises from the cyclic nature of proline, which restricts backbone flexibility.
+- **Stabilizing Features:**
   - High proline content promotes PPII formation.
   - PXXP motifs (where X is any amino acid) are common stabilizers.
   - Flanking charged residues can enhance solubility and interaction specificity.
-- Functional Contexts:
+- **Functional Contexts:**
   - Frequently found in signaling proteins, cytoskeletal regulators, and transcription factors.
   - Serve as recognition motifs for SH3, WW, and EVH1 domains.
   - Act as dynamic scaffolds, enabling transient interactions without requiring folding.
@@ -36,7 +44,7 @@ Proline-Rich Domains (PRDs) are short stretches of amino acids enriched in proli
 
 This section highlights two biologically and clinically significant PRDs—one from the Tau protein, implicated in Alzheimer's disease, and another from p53, the master tumor suppressor.
 
-### Tau Proline-Rich Region (PRR) in Alzheimer's Disease
+### Case Study 1: Tau Proline-Rich Region (PRR) in Alzheimer's Disease
 
 - Fragment Studied: Residues 210–240 of Tau.
 - Interaction Partner: SH3 domain of BIN1, a genetic risk factor for AD.
@@ -45,7 +53,7 @@ This section highlights two biologically and clinically significant PRDs—one f
   - Destabilization arises from diminished salt bridges (e.g., R221-D537) and electrostatic repulsion, shifting Tau's binding preference.
   - Therapeutic Implication: Targeting electrostatic interactions may offer a novel strategy to mitigate Tau-BIN1 pathology.
 
-### p53 Proline-Rich Domain (PRD)
+### Case Study 2: p53 Proline-Rich Domain (PRD)
 
 - Role: Regulatory hub within the p53 protein.
 - Structural Characteristics:

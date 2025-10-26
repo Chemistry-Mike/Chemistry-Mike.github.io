@@ -23,6 +23,12 @@ This project is dedicated to accelerating targeted drug development by computati
 
 ---
 
+<div style="text-align: center;">
+  <img src="/images/P3-Strategies.png" style="width: 100%">
+</div>
+
+---
+
 ### Computational Strategy
 
 We employ a multi-stage, high-resolution computational workflow to conquer the challenges presented by these structurally enigmatic receptors:

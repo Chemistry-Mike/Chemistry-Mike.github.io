@@ -12,6 +12,12 @@ We developed and validated a novel computational protocol that integrates **Dime
 
 ---
 
+<div style="text-align: center;">
+  <img src="/images/P4-TOC.pdf" style="width: 100%">
+</div>
+
+---
+
 ### Key Methodological Innovations
 
 1.  **Multiscale Dimensionality Reduction and Clustering:**
@@ -39,4 +45,4 @@ This work also critically assessed rapid CS predictors for IDPs and directly add
 
 ## Project Collaborators
 
-<div style="overflow: auto; margin-bottom: 20px;"> <img src="{{ '/images/profile-jana-pavlikova.jpg' | prepend: site.baseurl }}" alt="Jana Pavlíková, Ph.D." style="float: left; margin-right: 15px; width: 200px; height: auto; border-radius: 50%;"> <p>Dr. Pavlíková is a key collaborator and principal developer of the multi-scale computational framework for this project. She integrates Molecular Dynamics, Dimensionality Reduction, and Clustering Algorithms to model dynamic systems. Her work applies tICA/tSNE and machine learning to generate compact Clustered Ensembles for accurate NMR Chemical Shift predictions in Intrinsically Disordered Proteins. She ensures rigorous ensemble selection and robust coupling of trajectory data with Density Functional Theory for high-accuracy PTM-aware predictions.</p> </div>
+<div style="overflow: auto; margin-bottom: 20px;"> <img src="{{ '/images/profile-jana-pavlikova.jpg' | prepend: site.baseurl }}" alt="Jana Pavlíková, Ph.D." style="float: left; margin-right: 15px; width: 200px; height: auto; border-radius: 50%;"> <p>Dr. Jana Přecechtělová Pavlíková is the principal developer of our multi-scale computational framework, integrating Molecular Dynamics, Dimensionality Reduction, and Clustering to model dynamic systems. She applies tICA/tSNE and machine learning to generate compact Clustered Ensembles for accurate NMR Chemical Shift predictions in Intrinsically Disordered Proteins. Her work is crucial for ensuring rigorous ensemble selection and robustly coupling trajectory data with Density Functional Theory for high-accuracy PTM-aware predictions.</p> </div>
