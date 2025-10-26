@@ -22,6 +22,8 @@ The core structure of a proline—specifically the **pyrrollidine ring**—gover
   <img src="/images/Blog-1-CisVsTrans-2.png" style="width: 80%">
 </div>
 
+
+
 When you look at a protein structure, the proline ring (composed of the N, $\text{C}\alpha$, $\text{C}\beta$, $\text{C}\gamma$, and $\text{C}\delta$ atoms) is often just a regular part of the stick model. It can be hard to distinguish it from the backbone or side chains of other residues. To truly study its conformation—like its famous **puckering** or its role in *cis/trans* isomerism—you need a visualization that highlights this critical ring in a dedicated, high-impact way.
 
 To solve this visualization problem, I wrote a Python script. This PyMOL extension uses **Custom Graphic Objects (CGOs)** to give every proline ring the spotlight it deserves.
@@ -74,7 +76,7 @@ The fancyProlines.py script is now an essential tool for my IDP research, and I 
 
 You can download the **[fancyProlines.py script here](https://raw.githubusercontent.com/chemistry-mike/Chemistry-Mike.github.io/main/path/to/fancyProlines.py)** and follow the instructions below!
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; margin: 0 auto;">
   <div style="width: 50%; padding: 5px; box-sizing: border-box; border: 2px solid black;">
     <img src="/images/FancyPolyProline-4.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block;">
   </div>
