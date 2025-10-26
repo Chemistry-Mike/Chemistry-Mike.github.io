@@ -6,11 +6,11 @@ collection: portfolio
 
 ## Project Goal: Characterizing the Structural and Dynamic Consequences of Phosphorylation
 
-Protein phosphorylation is a fundamental regulatory mechanism crucial in numerous biological processes. The main goal of this project is to determine the structural and dynamic consequences of phosphorylation and phosphomimetic modifications on proteins and to develop computational methods for predicting these effects.
-
 <div style="text-align: center;">
   <img src="/images/P6-ExamplePhosphorylations.png" style="width: 100%">
 </div>
+
+Protein phosphorylation is a fundamental regulatory mechanism crucial in numerous biological processes. The main goal of this project is to determine the structural and dynamic consequences of phosphorylation and phosphomimetic modifications on proteins and to develop computational methods for predicting these effects.
 
 We aim to characterize how phosphorylation influences key properties, including protein size (Rg, EEdist), shape, solvent accessibility (SASA), and flexibility (RMSF). We also plan to investigate its effects on secondary structure and structural motifs, and how surrounding amino acid types (e.g., acidic, polyproline, basic regions) influence these changes.
 
