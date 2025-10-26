@@ -83,3 +83,5 @@ The script also works for full structured proteins, instantly highlighting all p
 </div>
 
 The fancyProlines.py script is now an essential tool for my IDP research, and I hope it helps bring the same level of visual clarity to yours!
+
+You can download the **[fancyProlines.py script here](https://raw.githubusercontent.com/chemistry-mike/Chemistry-Mike.github.io/main/path/to/fancyProlines.py)** and follow the instructions below!
