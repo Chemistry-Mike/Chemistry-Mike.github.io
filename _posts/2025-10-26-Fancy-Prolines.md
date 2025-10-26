@@ -75,10 +75,10 @@ The fancyProlines.py script is now an essential tool for my IDP research, and I 
 You can download the **[fancyProlines.py script here](https://raw.githubusercontent.com/chemistry-mike/Chemistry-Mike.github.io/main/path/to/fancyProlines.py)** and follow the instructions below!
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
-  <div style="width: 50%; padding: 5px; box-sizing: border-box; border: 2px solid white;">
+  <div style="width: 50%; padding: 5px; box-sizing: border-box; border: 2px solid black;">
     <img src="/images/FancyPolyProline-4.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block;">
   </div>
-  <div style="width: 50%; padding: 5px; box-sizing: border-box; border: 2px solid white;">
+  <div style="width: 50%; padding: 5px; box-sizing: border-box; border: 2px solid black;">
     <img src="/images/FancyPolyProline-5.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block;">
   </div>
 </div>
