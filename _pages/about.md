@@ -44,18 +44,18 @@ My central goal is to develop and apply next-generation computational tools to a
 
 <hr>
 
-<div style="display: flex; flex-direction: column; align-items: center; max-width: 600px; margin: 0 auto; width: 100%;">
-  <div style="width: 100%; padding: 0px; box-sizing: border-box;">
+<div style="display: flex; flex-direction: column; align-items: center; margin: 0 auto; width: 100%;">
+  <div style="width: 100%; padding: 5px; box-sizing: border-box;">
     <a href="/portfolio/P4-DR/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/Front4-DR.png" alt="Dimensionality Reduction Clustering" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
-  <div style="width: 100%; padding: 0px; box-sizing: border-box;">
+  <div style="width: 100%; padding: 5px; box-sizing: border-box;">
     <a href="/portfolio/P5-NMR/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/Front5-NMR.png" alt="New Combined Approach" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
-  <div style="width: 100%; padding: 0px; box-sizing: border-box;">
+  <div style="width: 100%; padding: 5px; box-sizing: border-box;">
     <a href="/portfolio/P6-PTM/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/Front6-PTM.png" alt="Phosphorylation Sites" style="100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
@@ -71,24 +71,24 @@ The tumor suppressor often called the "guardian of the genome" is one of the mos
 <hr>
 
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; margin: 0 auto;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/publications" class="clickable-image-link" style="text-decoration: none;">
+    <a href="/portfolio/P7-P53/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/P53-B.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/publications" class="clickable-image-link" style="text-decoration: none;">
+    <a href="/portfolio/P7-P53/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/P53-D.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/publications" class="clickable-image-link" style="text-decoration: none;">
+    <a href="/portfolio/P7-P53/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/P53-A.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
   <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="publications" class="clickable-image-link" style="text-decoration: none;">
+    <a href="portfolio/P7-P53/" class="clickable-image-link" style="text-decoration: none;">
       <img src="/images/P53-C.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
     </a>
   </div>
