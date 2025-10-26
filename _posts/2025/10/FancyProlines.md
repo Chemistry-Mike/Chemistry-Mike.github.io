@@ -1,9 +1,11 @@
 ---
 title: "Prolines have never had so much style."
 date: 2025-10-26
-author_profile: true
-collection: posts
-permalink: /posts/FancyProlines
+permalink: /posts/2025/10/FancyProlines/
+tags:
+   - Pymol
+   - Polyproline Regions
+   - Visualizations
 ---
 
 For months, I'd been deep in the world of **Intrinsically Disordered Proteins (IDPs)**. These aren't the neat, rigid structures you see in textbooks; they're dynamic, flexible, and utterly central to life, handling critical tasks like cellular signaling and regulating protein-protein interactions.
