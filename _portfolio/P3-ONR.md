@@ -27,6 +27,10 @@ This project is dedicated to accelerating targeted drug development by computati
   <img src="/images/P3-Strategies-2.png" style="width: 100%">
 </div>
 
+<div style="text-align: center;">
+  <img src="/images/P3-Strategies.png" style="width: 100%">
+</div>
+
 ---
 
 ### Computational Strategy
