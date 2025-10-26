@@ -8,31 +8,53 @@ collection: portfolio
   <img src="/images/P2-PRD-Example.png" style="width: 100%">
 </div>
 
-## Project Goal: Decoding Dynamics of Proline-Rich Domains (PRDs)
+## Section 1: Theoretical Insights into Proline-Rich Domains (PRDs)
 
-This research project applies advanced **computational chemistry** and **biophysical modeling** to investigate the structural and functional dynamics of highly flexible **Proline-Rich Domains (PRDs)**, which are crucial components of Intrinsically Disordered Proteins (IDPs) involved in major diseases.
+Proline-Rich Domains (PRDs) are short stretches of amino acids enriched in proline residues, often found within Intrinsically Disordered Proteins (IDPs). Despite their lack of stable tertiary structure, PRDs play pivotal roles in cellular signaling, protein-protein interactions, and disease pathology.
 
-The primary focus is on two critical systems:
+### Polyproline II (PPII) Helices: The Signature Motif
+
+- Structure: PPII helices are left-handed helices with three residues per turn and no internal hydrogen bonding. Their rigidity arises from the cyclic nature of proline, which restricts backbone flexibility.
+- Stabilizing Features:
+  - High proline content promotes PPII formation.
+  - PXXP motifs (where X is any amino acid) are common stabilizers.
+  - Flanking charged residues can enhance solubility and interaction specificity.
+- Functional Contexts:
+  - Frequently found in signaling proteins, cytoskeletal regulators, and transcription factors.
+  - Serve as recognition motifs for SH3, WW, and EVH1 domains.
+  - Act as dynamic scaffolds, enabling transient interactions without requiring folding.
+
+### PRDs in Intrinsically Disordered Regions (IDRs)
+
+- PRDs often reside within IDRs, contributing to conformational plasticity.
+- Their modular nature allows them to act as hinges, linkers, or interaction hubs.
+- Environmental factors (e.g., phosphorylation, crowding, binding partners) can modulate their structural ensemble without inducing full folding.
 
 ---
 
-### 1. Tau Proline-Rich Region (PRR) in Alzheimer's Disease
+## Section 2: Case Studies of Functional PRDs
 
-This work characterized the Tau PRR fragment (residues 210-240) and its interaction with the SH3 domain of BIN1, a critical genetic risk factor for Alzheimer's disease (AD).
+This section highlights two biologically and clinically significant PRDs—one from the Tau protein, implicated in Alzheimer's disease, and another from p53, the master tumor suppressor.
 
-* **Hyperphosphorylation Effects:** We used extensive all-atom molecular dynamics (MD) and MMGBSA calculations to quantify the precise impact of hyperphosphorylation (at T212, T217, T231, and S235) on the Tau-BIN1 interaction.
-* **Mechanism of Destabilization:** The addition of phosphate groups causes the Tau peptide to become more compact and disrupts transient secondary structures, which ultimately destabilizes the complex. The largest impact was a significant diminution of salt-bridges (e.g., R221-D537) and an electrostatic repulsion that shifts Tau's binding preference away from the RT-Src loop toward the more positively charged distal and n-Src loops of BIN1/SH3.
-* **Therapeutic Insight:** These detailed structural insights propose a path forward for targeted therapeutic strategies focusing on modulating the key electrostatic interactions, rather than just the hydrophobic core interactions, to prevent the detrimental Tau-BIN1 pathology.
+### Tau Proline-Rich Region (PRR) in Alzheimer's Disease
 
----
+- Fragment Studied: Residues 210–240 of Tau.
+- Interaction Partner: SH3 domain of BIN1, a genetic risk factor for AD.
+- Key Findings:
+  - Hyperphosphorylation at T212, T217, T231, and S235 compacts the Tau peptide and disrupts transient secondary structures.
+  - Destabilization arises from diminished salt bridges (e.g., R221-D537) and electrostatic repulsion, shifting Tau's binding preference.
+  - Therapeutic Implication: Targeting electrostatic interactions may offer a novel strategy to mitigate Tau-BIN1 pathology.
 
-### 2. P53 Proline-Rich Domain (PRD)
+### p53 Proline-Rich Domain (PRD)
 
-The p53 PRD acts as a regulatory hub for the p53 tumor suppressor. The work focuses on accurately modeling its disordered nature and understanding how its high proline content dictates structure.
-
-* **Structural Fingerprint:** We demonstrated that the p53 PRD exists as a highly flexible, predominantly disordered ensemble that is consistently enriched in transient Polyproline II (PPII) helices, interspersed with $\beta$-bends and turns.
-* **Contextual Modeling:** By modeling the PRD as an Intrinsically Disordered Region (IDR)—by restraining the termini to mimic its connection to other globular domains—we showed that this *PPII-based secondary structure fingerprint* remains robust and largely unaffected by environmental constraints. This suggests the PRD acts as a dynamic hinge.
-* **Mutational Impact:** Analysis of clinically relevant variants (P72R and P82L) provided a molecular basis for their functional consequences, showing how the loss of consecutive prolines (P72R) increases local flexibility, while disruption of a PXXP motif (P82L) eliminates an associated PPII helix.
+- Role: Regulatory hub within the p53 protein.
+- Structural Characteristics:
+  - Highly disordered with persistent PPII helices, beta-bends, and turns.
+  - Robust secondary structure fingerprint even under constrained modeling conditions.
+- Mutational Analysis:
+  - P72R: Loss of consecutive prolines increases local flexibility.
+  - P82L: Disruption of a PXXP motif eliminates a key PPII helix.
+  - These mutations provide mechanistic insight into altered p53 function in cancer.
 
 ---
 

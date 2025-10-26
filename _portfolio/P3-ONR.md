@@ -8,6 +8,19 @@ collection: portfolio
 
 This project is dedicated to accelerating targeted drug development by computationally characterizing and identifying novel ligands for challenging Orphan Nuclear Receptors (ONRs), such as members of the NR2F family. These receptors are transcription factors whose endogenous ligands and precise regulatory mechanisms remain unknown, making them powerful yet untapped therapeutic targets for metabolic disorders, cancer, and developmental diseases.
 
+<div style="text-align: center;">
+  <img src="/images/P3-NR2F-Family.png" style="width: 100%">
+</div>
+
+| Receptor Name     | Gene Symbol | Receptor Family | Proposed Function                          |
+|-------------------|-------------|------------------|---------------------------------------------|
+| COUP-TFII         | NR2F2       | NR2F             | Development, angiogenesis, metabolism       |
+| DAX-1             | NR0B1       | NR0B             | Reproductive axis regulation                |
+| SHP               | NR0B2       | NR0B             | Bile acid metabolism, transcriptional repression |
+| NURR1             | NR4A2       | NR4A             | Dopaminergic neuron development             |
+| NOR-1             | NR4A3       | NR4A             | Cell proliferation, apoptosis               |
+| GCNF              | NR6A1       | NR6A             | Germ cell development, embryogenesis        |
+
 ---
 
 ### Computational Strategy
@@ -31,6 +44,8 @@ We employ a multi-stage, high-resolution computational workflow to conquer the c
 ### Therapeutic Impact
 
 Success in this project provides a mechanism to de-orphanize these critical receptors, creating therapeutic pipelines aimed at diseases where conventional targets have proven ineffective. By precisely modulating the activity of the NR2F family or other ONRs, we open pathways to first-in-class drugs that target the root transcriptional drivers of complex human pathology.
+
+---
 
 ## Project Collaborators
 

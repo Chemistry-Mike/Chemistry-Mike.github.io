@@ -28,6 +28,8 @@ The primary focus is to:
 
 3.  Targeted Drug Development: Develop targeted drug development strategies focused on identifying or designing small molecules that can fit into these identified cavities to modulate (enhance or disrupt) the receptor's DNA binding activity. This is a crucial step towards creating novel therapeutics for diseases driven by nuclear receptor dysfunction or p53 mutation.
 
+---
+
 ## Project Collaborators
 
 <div style="overflow: auto; margin-bottom: 20px;"> <img src="{{ '/images/profile-petr-pavek.jpg' | prepend: site.baseurl }}" alt="Petr Pavek, Ph.D." style="float: left; margin-right: 15px; width: 200px; height: auto; border-radius: 50%;"> <p>Prof. Pavek is a critical experimental collaborator at the Charles University Faculty of Pharmacy. His expertise in Nuclear Receptor (NR) pharmacology is essential for validating our computational predictions on DNA-binding domains (DBDs). Prof. Pavek's lab provides crucial experimental validation using cell-based systems, including reporter gene assays and qPCR. His team confirms how compounds identified through our simulations modulate the transcriptional activity and DNA binding specificity of targeted nuclear receptors or the p53 protein, ensuring our findings are functionally relevant for drug development.</p> </div>
