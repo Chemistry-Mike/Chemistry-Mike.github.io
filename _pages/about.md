@@ -16,7 +16,7 @@ redirect_from:
 ## Michael Bakker, B.Sc., M.Sc., Ph.D.
 ### Post-Doctoral Researcher in Biophysics and Physical Chemistry
 
-I am a computational scientist whose research is dedicated to **unraveling the mysteries of intrinsically disordered proteins (IDPs)** and their role in human health and disease. My work operates at the interdisciplinary nexus of **Quantum Chemistry**, **Molecular Dynamics (MD) simulations**, and **Bioinformatics**, allowing for a high-resolution view of complex biological phenomena.
+I am a computational scientist whose research is dedicated to and their role in human health and disease. My work operates at the interdisciplinary nexus of and, allowing for a high-resolution view of complex biological phenomena. Beyond this core focus, my current projects also include exploring DNA Binding domains, investigating Polyproline Rich Regions, and targeting orphan nuclear receptors through computational drug design. A significant part of my effort is dedicated to developing new techniques, specifically applying machine learning coupled with dimensionality reduction and clustering to design better, more robust structural ensembles, which also involves improving the accuracy of predicted NMR chemical shifts. Furthermore, I investigate post-translational modification sites, namely phosphorylation, to understand their impact on protein function.
 
 <hr>
 
@@ -40,26 +40,26 @@ I am a computational scientist whose research is dedicated to **unraveling the m
 
 <hr>
 
-My central goal is to develop and apply **next-generation computational tools** to accurately predict the conformational ensembles of IDPs. These proteins, which lack a stable 3D structure, are essential for processes like gene regulation and signaling, yet are notoriously difficult to study.
+My central goal is to develop and apply next-generation computational tools to accurately predict the conformational ensembles of IDPs. These proteins, which lack a stable 3D structure, are essential for processes like gene regulation and signaling, yet are notoriously difficult to study. In this context, we are actively investigating techniques that can improve structural biology research, with a specific focus on intrinsically disordered proteins.
 
 <hr>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
-  <div style="width: 100%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/P4-DR/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Front4-DR.png" alt="Dimensionality Reduction Clustering" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
-  </div>
-  <div style="width: 100%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/P5-NMR/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Front5-NMR.png" alt="New Combined Approach" style="width: 100%; height: auto;">
-    </a>
-  </div>
-  <div style="width: 100%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/P6-PTM/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Front6-PTM.png" alt="Phosphorylation Sites" style="width: 100%; height: auto;">
-    </a>
-  </div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 0 auto;">
+  <div style="width: 32%; padding: 5px; box-sizing: border-box;">
+    <a href="/portfolio/P4-DR/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Front4-DR.png" alt="Dimensionality Reduction Clustering" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    </a>
+  </div>
+  <div style="width: 32%; padding: 5px; box-sizing: border-box;">
+    <a href="/portfolio/P5-NMR/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Front5-NMR.png" alt="New Combined Approach" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    </a>
+  </div>
+  <div style="width: 32%; padding: 5px; box-sizing: border-box;">
+    <a href="/portfolio/P6-PTM/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Front6-PTM.png" alt="Phosphorylation Sites" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    </a>
+  </div>
 </div>
 
 <hr>
