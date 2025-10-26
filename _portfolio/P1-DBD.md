@@ -8,6 +8,10 @@ collection: portfolio
 
 This research project aims to computationally and structurally investigate the DNA-binding domains (DBDs) of critical nuclear receptors and transcription factors.
 
+<div style="text-align: center;">
+  <img src="/images/P1-DBD-Search.png" style="width: 100%">
+</div>
+
 The primary focus is to:
 
 1.  Investigate the Interface: Characterize the molecular interface between DNA and specific nuclear receptors, such as the NR2F family (e.g., NR2F1, NR2F2), or the tumor suppressor p53. This involves understanding the precise residues and structural motifs responsible for sequence-specific binding and regulation.
