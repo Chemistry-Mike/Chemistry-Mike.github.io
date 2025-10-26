@@ -2,9 +2,14 @@
 .hover-swap-container {
   /* Set the container size and position */
   position: relative;
-  width: 50%; 
-  float: right; 
-  margin-left: 1em; 
+  width: 100%;       /* Changed to 100% for full width */
+  float: none;       /* Remove float to allow centering */
+  margin: 0 auto;    /* Centers the block-level element */
+  display: block;    /* Ensure it behaves as a block for margin: auto to work */
+  
+  /* You might want to add some vertical spacing */
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 /* Ensure images within the container are sized correctly */
