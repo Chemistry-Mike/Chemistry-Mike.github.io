@@ -8,12 +8,8 @@ collection: portfolio
 
 Protein phosphorylation is a fundamental regulatory mechanism crucial in numerous biological processes. The main goal of this project is to determine the structural and dynamic consequences of phosphorylation and phosphomimetic modifications on proteins and to develop computational methods for predicting these effects.
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
-  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="portfolio/P7-P53/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/P53-C.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
-  </div>
+<div style="text-align: center;">
+  <img src="/images/P6-ExamplePhosphorylations.png" style="width: 100%">
 </div>
 
 We aim to characterize how phosphorylation influences key properties, including protein size (Rg, EEdist), shape, solvent accessibility (SASA), and flexibility (RMSF). We also plan to investigate its effects on secondary structure and structural motifs, and how surrounding amino acid types (e.g., acidic, polyproline, basic regions) influence these changes.
