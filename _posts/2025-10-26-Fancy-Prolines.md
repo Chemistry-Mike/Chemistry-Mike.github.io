@@ -78,8 +78,8 @@ Remember to replace "peptide" with the name of the object you want to apply it t
 The script also works for full structured proteins, instantly highlighting all prolines in a complex fold.
 
 <div class="hover-swap-container">
-  <img src="/images/FancyPolyProline-3.png" class="base-image" alt="PDB file loaded in PyMOL">
-  <img src="/images/FancyPolyProline-2.png" class="hover-image" alt="PDB file with Proline script results">
+  <img src="/images/FancyPolyProline-2.png" class="base-image" alt="PDB file loaded in PyMOL">
+  <img src="/images/FancyPolyProline-3.png" class="hover-image" alt="PDB file with Proline script results">
 </div>
 
 The fancyProlines.py script is now an essential tool for my IDP research, and I hope it helps bring the same level of visual clarity to yours!
