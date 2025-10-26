@@ -45,21 +45,21 @@ My central goal is to develop and apply next-generation computational tools to a
 <hr>
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 0 auto; max-width: 600px;">
-  <div style="width: auto; padding: 0; margin-bottom: -5px; box-sizing: border-box;">
-    <a href="/portfolio/P4-DR/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Front4-DR.png" alt="Dimensionality Reduction Clustering" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
-  </div>
-  <div style="width: auto; padding: 0; margin-bottom: -5px; box-sizing: border-box;">
-    <a href="/portfolio/P5-NMR/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Front5-NMR.png" alt="New Combined Approach" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
-  </div>
-  <div style="width: auto; padding: 0; margin-bottom: -5px; box-sizing: border-box;">
-    <a href="/portfolio/P6-PTM/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Front6-PTM.png" alt="Phosphorylation Sites" style="100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
-  </div>
+  <div style="width: 100%; padding: 0; margin: 0; box-sizing: border-box;">
+    <a href="/portfolio/P4-DR/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Front4-DR.png" alt="Dimensionality Reduction Clustering" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    </a>
+  </div>
+  <div style="width: 100%; padding: 0; margin: 0; box-sizing: border-box;">
+    <a href="/portfolio/P5-NMR/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Front5-NMR.png" alt="New Combined Approach" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    </a>
+  </div>
+  <div style="width: 100%; padding: 0; margin: 0; box-sizing: border-box;">
+    <a href="/portfolio/P6-PTM/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Front6-PTM.png" alt="Phosphorylation Sites" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+    </a>
+  </div>
 </div>
 
 <hr>
