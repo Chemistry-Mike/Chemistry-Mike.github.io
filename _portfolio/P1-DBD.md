@@ -5,7 +5,7 @@ collection: portfolio
 ---
 
 <div style="text-align: center;">
-  <img src="/images/P1-DBD-Search.png" style="width: 100%">
+  <img src="/images/P1-DBD-Search-noBG.png" style="width: 100%">
 </div>
 
 ## Project Goal: Investigating DNA Binding Domains for Targeted Therapeutics
@@ -21,6 +21,11 @@ The primary focus is to:
 </div>
 
 2.  Identify Targetable Cavities: Utilize advanced simulation and docking techniques to identify and characterize cryptic or allosteric binding cavities within these protein-DNA complexes.
+
+<div style="text-align: center;">
+  <img src="/images/P1-NR2F6-Structure.png" style="width: 100%">
+</div>
+
 3.  Targeted Drug Development: Develop targeted drug development strategies focused on identifying or designing small molecules that can fit into these identified cavities to modulate (enhance or disrupt) the receptor's DNA binding activity. This is a crucial step towards creating novel therapeutics for diseases driven by nuclear receptor dysfunction or p53 mutation.
 
 ## Project Collaborators
