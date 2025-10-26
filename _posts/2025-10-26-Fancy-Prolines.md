@@ -19,7 +19,7 @@ Proline is one of the most structurally unique amino acids, and its rigid, five-
 The core structure of a proline—specifically the **pyrrollidine ring**—governs its behavior. A proline can exist in either a *cis* or *trans* isomeric state around the peptide bond, a switch that can completely change a protein's function. This image is to show the importance of understanding the structure of the proline.
 
 <div style="text-align: center;">
-  <img src="/images/Blog-1-CisVsTrans.png" style="width: 80%">
+  <img src="/images/Blog-1-CisVsTrans-2.png" style="width: 80%">
 </div>
 
 When you look at a protein structure, the proline ring (composed of the N, $\text{C}\alpha$, $\text{C}\beta$, $\text{C}\gamma$, and $\text{C}\delta$ atoms) is often just a regular part of the stick model. It can be hard to distinguish it from the backbone or side chains of other residues. To truly study its conformation—like its famous **puckering** or its role in *cis/trans* isomerism—you need a visualization that highlights this critical ring in a dedicated, high-impact way.
