@@ -13,7 +13,7 @@ We developed and validated a novel computational protocol that integrates **Dime
 ---
 
 <div style="text-align: center;">
-  <img src="/images/P4-TOC.pdf" style="width: 100%">
+  <img src="/images/P4-TOC.png" style="width: 100%">
 </div>
 
 ---
