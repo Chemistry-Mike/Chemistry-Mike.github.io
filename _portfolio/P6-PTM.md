@@ -22,14 +22,14 @@ This project employs a multi-faceted approach combining computational protein de
 
 1.  **Predictive Tool Development & Design:**
     * We will use machine learning techniques (scikit-learn, TensorFlow/PyTorch) to develop predictive models for phosphorylation-induced structural changes.
-    * We will design novel, artificial **xeno-proteins** that explicitly target specific motifs (like SH2 or 14,3,3 binding sites) and incorporate repeats (e.g., Proline-Rich, Glycine Repeats) to create a robust benchmark set.
+    * We will design novel, artificial xeno-proteins that explicitly target specific motifs (like SH2 or 14,3,3 binding sites) and incorporate repeats (e.g., Proline-Rich, Glycine Repeats) to create a robust benchmark set.
 
 2.  **Molecular Dynamics (MD) Simulations:**
-    * MD simulations will be employed using a combination of techniques, including all-atomistic simulations, **coarse-grained simulations (MARTINI)**, and enhanced sampling methods (e.g., **REST2**).
+    * MD simulations will be employed using a combination of techniques, including all-atomistic simulations, coarse-grained simulations (MARTINI), and enhanced sampling methods (e.g., REST2).
     * We will use real-world examples like Sic and pSic proteins for comparison.
 
 3.  **Protein Interaction & Allostery Analysis:**
-    * The project will examine the influence of phosphorylation on protein-protein interactions, including target systems like **Sic1/Cdc4**, **Tau/BIN1**, and **p27/Cyclin A-CDK2**.
+    * The project will examine the influence of phosphorylation on protein-protein interactions, including target systems like Sic1/Cdc4, Tau/BIN1, and p27/Cyclin A-CDK2.
     * We will use machine learning techniques (dimensionality reduction and clustering) to analyze MD trajectories and investigate how mutations and PTMs alter these interactions. This will involve *in-silico* alanine scanning combined with HADDOCK docking.
 
 ***
@@ -38,7 +38,7 @@ This project employs a multi-faceted approach combining computational protein de
 
 The research is expected to produce two publications: one detailing the general structural and dynamic impact of phosphorylation and phosphomimetics, and a second focusing on the influence of phosphorylation on allostery and protein interactions in real-world systems.
 
-Computational findings will be validated through experimental work conducted at **Lund University**. These experiments will utilize biophysical techniques such as **Small-Angle X-ray Scattering (SAXS)**, **Small-Angle Neutron Scattering (SANS)**, **Circular Dichroism (CD)**, and **Nuclear Magnetic Resonance (NMR)**.
+Computational findings will be validated through experimental work conducted at Lund University. These experiments will utilize biophysical techniques such as Small-Angle X-ray Scattering (SAXS), Small-Angle Neutron Scattering (SANS), Circular Dichroism (CD), and Nuclear Magnetic Resonance (NMR).
 
 ---
 
