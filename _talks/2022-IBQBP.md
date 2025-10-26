@@ -2,7 +2,7 @@
 title: "Utilizing Machine Learning Algorithms and Fragmentation Techniques to Probe Intrinsically Disordered Proteins‘ Phase Space with NMR Chemical Shifts"
 collection: talks
 type: "Talk"
-permalink: /talks/2014-02-01-talk-2
+permalink: /talks/2022-IBQBP
 venue: "Innsbruck University"
 date: 2022-7-10
 location: "Innsbruck, Austria"
