@@ -55,6 +55,11 @@ My central goal is to develop and apply **next-generation computational tools** 
       <img src="/images/Front5-NMR.png" alt="New Combined Approach" style="width: 100%; height: auto;">
     </a>
   </div>
+  <div style="width: 100%; padding: 5px; box-sizing: border-box;">
+    <a href="/portfolio/P6-PTM/" class="clickable-image-link" style="text-decoration: none;">
+      <img src="/images/Front6-PTM.png" alt="Phosphorylation Sites" style="width: 100%; height: auto;">
+    </a>
+  </div>
 </div>
 
 <hr>
