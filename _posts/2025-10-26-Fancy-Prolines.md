@@ -1,5 +1,5 @@
 ---
-title: 'Prolines have never had so much style.'
+title: 'Prolines Have Never Had So Much Style'
 date: 2025-10-26
 permalink: /posts/2025/10/FancyProlines/
 tags:
@@ -18,23 +18,14 @@ To truly study its conformation—like its famous puckering or its role in cis/t
 
 First, load your PDB file into PyMol.
 
-<div style="text-align: right;">
-  <img src="/images/FancyPolyProline-0.png" style="width: 50%">
-</div>
-
 Next, run the script:
 
 Use the command: proline_pentagons("peptide")
 
 Remember to replace "peptide" with the name of the object you want to apply it to.
 
-<div style="text-align: right;">
-  <img src="/images/FancyPolyProline-1.png" style="width: 50%">
-</div>
-
 <div class="hover-swap-container">
   <img src="/images/FancyPolyProline-0.png" class="base-image" alt="PDB file loaded in PyMOL">
-  
   <img src="/images/FancyPolyProline-1.png" class="hover-image" alt="PDB file with Proline script results">
 </div>
 
