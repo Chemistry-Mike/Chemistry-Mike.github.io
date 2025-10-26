@@ -9,7 +9,14 @@ table {
   font-size: $type-size-6;
   border-collapse: collapse;
   border: 1px solid $light-gray;
-  color: #333333;
+  color: #333333; /* Default (Light Mode) Text Color */
+
+  /* --- DARK MODE OVERRIDES --- */
+  .dark-mode & { 
+    color: #ffffff; /* Change text color to white in dark mode */
+    border: 1px solid $dark-gray; /* Optional: Adjust border color for better contrast */
+  }
+  /* --------------------------- */
 
   & + table {
     margin-top: 1em;
@@ -19,6 +26,13 @@ table {
 thead {
   background-color: $lighter-gray;
   border-bottom: 1px solid $light-gray;
+  
+  /* --- DARK MODE OVERRIDES --- */
+  .dark-mode & {
+    background-color: $dark-gray; /* Change header background to a dark color */
+    border-bottom: 1px solid $medium-gray;
+  }
+  /* --------------------------- */
 }
 
 th {
@@ -26,12 +40,25 @@ th {
   font-weight: bold;
   text-align: left;
   border-right: 1px solid $light-gray;
+  
+  /* --- DARK MODE OVERRIDES --- */
+  .dark-mode & {
+    border-right: 1px solid $medium-gray;
+  }
+  /* --------------------------- */
 }
 
 td {
   padding: 0.5em;
   border-bottom: 1px solid $light-gray;
   border-right: 1px solid $light-gray;
+  
+  /* --- DARK MODE OVERRIDES --- */
+  .dark-mode & {
+    border-bottom: 1px solid $medium-gray;
+    border-right: 1px solid $medium-gray;
+  }
+  /* --------------------------- */
 }
 
 tr, td, th {
