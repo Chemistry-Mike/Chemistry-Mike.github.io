@@ -4,6 +4,10 @@ excerpt: "Investigating the structural dynamics of proline-rich domains (PRDs) i
 collection: portfolio
 ---
 
+<div style="text-align: center;">
+  <img src="/images/P2-PRD-Example.png" style="width: 100%">
+</div>
+
 ## Project Goal: Decoding Dynamics of Proline-Rich Domains (PRDs)
 
 This research project applies advanced **computational chemistry** and **biophysical modeling** to investigate the structural and functional dynamics of highly flexible **Proline-Rich Domains (PRDs)**, which are crucial components of Intrinsically Disordered Proteins (IDPs) involved in major diseases.
