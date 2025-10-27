@@ -21,13 +21,13 @@ tags:
 
 ---
 
-For years, I'd been deep in the world of **Intrinsically Disordered Proteins (IDPs)**. These aren't the neat, rigid structures you see in textbooks; they're dynamic, flexible, and utterly central to life, handling critical tasks like cellular signaling and regulating protein-protein interactions.
+For years, I'd been deep in the world of Intrinsically Disordered Proteins (IDPs). These aren't the neat, rigid structures you see in textbooks; they're dynamic, flexible, and utterly central to life, handling critical tasks like cellular signaling and regulating protein-protein interactions.
 
 Proline is one of the most structurally unique amino acids, and its rigid, five-membered pyrrolidine ring is a major player in protein folding, structure, and function. Yet, visualizing this ring clearly amidst the complex 3D structure of a protein can be surprisingly tricky.
 
-## Why Prolines Demand Attention
+## The Importance of Visualizing the Pyrrollidine Ring
 
-The core structure of a proline—specifically the **pyrrollidine ring**—governs its behavior. A proline can exist in either a *cis* or *trans* isomeric state around the peptide bond, a switch that can completely change a protein's function. This image is to show the importance of understanding the structure of the proline.
+The core structure of a proline, specifically the pyrrollidine ring, governs its behavior. A proline can exist in either a *cis* or *trans* isomeric state around the peptide bond, a switch that can completely change a protein's function. This image is to show the importance of understanding the structure of the proline.
 
 <div style="text-align: center;">
   <img src="/images/Blog-1-CisVsTrans-2.png" style="width: 80%">
