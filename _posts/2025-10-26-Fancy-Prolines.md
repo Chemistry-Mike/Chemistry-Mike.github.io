@@ -10,6 +10,17 @@ tags:
   - Structural Biology
 ---
 
+<div style="display: flex; flex-wrap: wrap; justify-content: center; margin: 0 auto;">
+  <div style="width: 50%; padding: 5px; box-sizing: border-box; border: 2px solid black;">
+    <img src="/images/FancyPolyProline-4.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block;">
+  </div>
+  <div style="width: 50%; padding: 5px; box-sizing: border-box; border: 2px solid black;">
+    <img src="/images/FancyPolyProline-5.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block;">
+  </div>
+</div>
+
+---
+
 For years, I'd been deep in the world of **Intrinsically Disordered Proteins (IDPs)**. These aren't the neat, rigid structures you see in textbooks; they're dynamic, flexible, and utterly central to life, handling critical tasks like cellular signaling and regulating protein-protein interactions.
 
 Proline is one of the most structurally unique amino acids, and its rigid, five-membered pyrrolidine ring is a major player in protein folding, structure, and function. Yet, visualizing this ring clearly amidst the complex 3D structure of a protein can be surprisingly tricky.
@@ -22,11 +33,11 @@ The core structure of a proline—specifically the **pyrrollidine ring**—gover
   <img src="/images/Blog-1-CisVsTrans-2.png" style="width: 80%">
 </div>
 
+---
 
+When you look at a protein structure, the proline ring (composed of the N, $\text{C}\alpha$, $\text{C}\beta$, $\text{C}\gamma$, and $\text{C}\delta$ atoms) is often just a regular part of the stick model. It can be hard to distinguish it from the backbone or side chains of other residues. To truly study its conformation—like its famous puckering or its role in *cis/trans* isomerism—you need a visualization that highlights this critical ring in a dedicated, high-impact way.
 
-When you look at a protein structure, the proline ring (composed of the N, $\text{C}\alpha$, $\text{C}\beta$, $\text{C}\gamma$, and $\text{C}\delta$ atoms) is often just a regular part of the stick model. It can be hard to distinguish it from the backbone or side chains of other residues. To truly study its conformation—like its famous **puckering** or its role in *cis/trans* isomerism—you need a visualization that highlights this critical ring in a dedicated, high-impact way.
-
-To solve this visualization problem, I wrote a Python script. This PyMOL extension uses **Custom Graphic Objects (CGOs)** to give every proline ring the spotlight it deserves.
+To solve this visualization problem, I wrote a Python script. This PyMOL extension uses Custom Graphic Objects (CGOs) to give every proline ring the spotlight it deserves.
 
 ## Hover over the image to see the transformation
 
@@ -41,16 +52,16 @@ Here's a breakdown of what the script does:
 
 The heart of the script is the creation of CGOs that target the five ring atoms ($\text{N}$, $\text{C}\alpha$, $\text{C}\beta$, $\text{C}\gamma$, $\text{C}\delta$):
 
-* **Yellow Filled Pentagon:** A **solid, yellow-filled CGO pentagon** is drawn across the face of the ring. This instantly defines the ring's plane and makes its structural conformation easy to spot.
+* **Yellow Filled Pentagon:** A solid, yellow-filled CGO pentagon is drawn across the face of the ring. This instantly defines the ring's plane and makes its structural conformation easy to spot.
 
-* **Purple Tube Outline:** Thick **purple CGO cylinders** are drawn along the edges of the ring. This high-contrast outline ensures the feature pops against the protein structure.
+* **Purple Tube Outline:** Thick purple CGO cylinders are drawn along the edges of the ring. This high-contrast outline ensures the feature pops against the protein structure.
 
 ### 2. Full Residue Styling
 
-Beyond the ring itself, the script colors the entire proline residue **purple** and adjusts the display mode for clarity:
+Beyond the ring itself, the script colors the entire proline residue purple and adjusts the display mode for clarity:
 * It hides the default cartoon to minimize clutter.
 * It automatically adds hydrogens and displays both hydrogen and non-hydrogen atoms as size-adjusted spheres, giving you full atomic detail.
-* It creates an optional, semi-transparent **purple surface (`prings`)** over the ring atoms to show solvent accessibility.
+* It creates an optional, semi-transparent purple surface (`prings`) over the ring atoms to show solvent accessibility.
 
 To use the script, you must first load it into PyMOL. Once loaded, run the function with your object name:
 
@@ -72,18 +83,7 @@ The script also works for full structured proteins, instantly highlighting all p
   <img src="/images/FancyPolyProline-3.png" class="hover-image" alt="PDB file with Proline script results">
 </div>
 
-The fancyProlines.py script is now an essential tool for my IDP research, and I hope it helps bring the same level of visual clarity to yours!
-
-You can download the **[fancyProlines.py script here](https://raw.githubusercontent.com/chemistry-mike/Chemistry-Mike.github.io/main/path/to/fancyProlines.py)** and follow the instructions below!
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; margin: 0 auto;">
-  <div style="width: 50%; padding: 5px; box-sizing: border-box; border: 2px solid black;">
-    <img src="/images/FancyPolyProline-4.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block;">
-  </div>
-  <div style="width: 50%; padding: 5px; box-sizing: border-box; border: 2px solid black;">
-    <img src="/images/FancyPolyProline-5.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block;">
-  </div>
-</div>
+Copy and paste the script below into a python script of your naming in a location you can access, and run the script like above.
 
 
 ### Full Python Script:
