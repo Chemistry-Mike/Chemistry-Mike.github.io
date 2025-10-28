@@ -73,6 +73,10 @@ To complement the dimensionality reduction and clustering approach and ensure a 
 
 **Mathematical Rigor and Implementation:** The use of Voronoi features necessitates advanced geometric and mathematical analysis. Dr. Jan Pavlík’s expertise in Discrete Mathematics and the construction of Voronoi cells is vital here. His background ensures the robust, efficient, and mathematically sound implementation of tessellation algorithms on the complex, irregular geometry of the protein, and the subsequent translation of geometric data into algebraic features suitable for the final clustering algorithms.
 
+---
+
+### Mathematical Explanation:
+
 A Voronoi diagram is a partition of a plane (or higher-dimensional space) into regions, called **Voronoi cells**. For a given set of generating points $P = \{p_1, p_2, \dots, p_n\}$, the Voronoi cell $V(p_i)$ associated with a point $p_i \in P$ is defined as the set of all points in the space that are closer to $p_i$ than to any other point $p_j$ in $P$, where $j \neq i$.
 
 Mathematically, the Voronoi cell for $p_i$ is:
