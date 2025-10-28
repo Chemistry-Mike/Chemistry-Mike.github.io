@@ -41,6 +41,16 @@ This work also critically assessed rapid CS predictors for IDPs and directly add
 * **Phosphorylation Deficiency:** We demonstrated that mainstream neural network-based tools like **Sparta+** and **ShiftX2** fail to accurately incorporate the influence of phosphorylation, as they were not trained on PTM data sets.
 * **Need for Quantum Methods:** This deficiency highlights the necessity of implementing **higher-level quantum calculations (DFT)** to accurately capture PTM effects. Our clustering methodology makes these resource-intensive DFT calculations **tractable** by drastically reducing the size of the structural ensemble required for convergence.
 
+To complement the dimensionality reduction and clustering approach and ensure a rigorous geometric representation of the protein structure, we explored the application of Voronoi Diagrams (or Voronoi tessellations).
+
+Voronoi Rationale: The Voronoi diagram offers a precise, non-overlapping geometric decomposition of the protein's 3D space, where each atom (or residue centroid) is assigned a "cell" representing all points in space closer to it than to any other.
+
+Geometric Clustering Features: Voronoi tessellation provides unique, physically meaningful features for clustering beyond simple backbone coordinates. Properties such as the volume of a Voronoi cell, its surface area, and the number/identity of its neighboring cells (topology) are highly sensitive to local packing and conformational changes.
+
+Mathematical Rigor and Implementation: The use of Voronoi features necessitates advanced geometric and mathematical analysis. Dr. Jan Pavlík’s expertise in Discrete Mathematics and the construction of Voronoi cells is vital here. His background ensures the robust, efficient, and mathematically sound implementation of tessellation algorithms on the complex, irregular geometry of the protein, and the subsequent translation of geometric data into algebraic features suitable for the final clustering algorithms.
+
+Enhancing Ensemble Quality: By incorporating Voronoi-derived geometric features alongside the traditional ϕ/ψ angles and SASA data, we enhance the input space for the DR/Clustering protocols. This multiscale feature set ensures the resulting Clustered Ensembles (CEs) are not only representative of the global conformational space but also possess high-fidelity local packing features, which are critical for accurate DFT-level quantum calculations and subsequent NMR property predictions.
+
 ---
 
 ## Project Collaborators
