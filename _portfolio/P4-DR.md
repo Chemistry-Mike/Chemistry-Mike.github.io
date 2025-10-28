@@ -71,7 +71,47 @@ To complement the dimensionality reduction and clustering approach and ensure a 
 
 **Mathematical Rigor and Implementation:** The use of Voronoi features necessitates advanced geometric and mathematical analysis. Dr. Jan Pavlík’s expertise in Discrete Mathematics and the construction of Voronoi cells is vital here. His background ensures the robust, efficient, and mathematically sound implementation of tessellation algorithms on the complex, irregular geometry of the protein, and the subsequent translation of geometric data into algebraic features suitable for the final clustering algorithms.
 
-Enhancing Ensemble Quality: By incorporating Voronoi-derived geometric features alongside the traditional ϕ/ψ angles and SASA data, we enhance the input space for the DR/Clustering protocols. This multiscale feature set ensures the resulting Clustered Ensembles (CEs) are not only representative of the global conformational space but also possess high-fidelity local packing features, which are critical for accurate DFT-level quantum calculations and subsequent NMR property predictions.
+A Voronoi diagram is a partition of a plane (or higher-dimensional space) into regions, called **Voronoi cells**. For a given set of generating points $P = \{p_1, p_2, \dots, p_n\}$, the Voronoi cell $V(p_i)$ associated with a point $p_i \in P$ is defined as the set of all points in the space that are closer to $p_i$ than to any other point $p_j$ in $P$, where $j \neq i$.
+
+Mathematically, the Voronoi cell for $p_i$ is:
+
+$$
+V(p_i) = \{ x \in \mathbb{R}^d \mid \|x - p_i\| \leq \|x - p_j\| \text{ for all } j \neq i \}
+$$
+
+Where:
+* $x$ is any point in the space (e.g., $\mathbb{R}^3$ for protein structure).
+* $\|x - p_i\|$ is the **Euclidean distance** between $x$ and the generator point $p_i$.
+* $d$ is the dimension of the space (typically $d=2$ for a plane or $d=3$ for a protein's 3D structure).
+
+---
+
+### 2. The Role of the Bisector (Half-Space)
+
+The boundary between any two adjacent Voronoi cells, $V(p_i)$ and $V(p_j)$, is defined by the set of points **equidistant** to $p_i$ and $p_j$. This set of equidistant points forms a **hyperplane** (a line in 2D, a plane in 3D) called the **perpendicular bisector** $B(p_i, p_j)$.
+
+* The bisector $B(p_i, p_j)$ is the set $\{ x \mid \|x - p_i\| = \|x - p_j\| \}$.
+* The bisector divides the space into two **open half-spaces**, $H(p_i, p_j)$ and $H(p_j, p_i)$, where points in $H(p_i, p_j)$ are closer to $p_i$, and points in $H(p_j, p_i)$ are closer to $p_j$.
+
+**The Voronoi cell $V(p_i)$ is therefore the intersection of a finite number of half-spaces.**
+
+$$
+V(p_i) = \bigcap_{j \neq i} H(p_i, p_j)
+$$
+
+Since the intersection of convex sets (half-spaces are convex) is always a convex set, **every Voronoi cell is a convex polyhedron** (or polygon in 2D). This convexity is key to its mathematical robustness and utility in geometric analysis. 
+
+---
+
+### 3. Dual Structure: Delaunay Triangulation
+
+The Voronoi diagram has a fundamental dual structure known as the **Delaunay Triangulation (DT)**. This dual relationship is vital for efficient computation and analysis.
+
+* **Topology:** The DT is constructed by drawing an edge between two generator points ($p_i$ and $p_j$) if and only if their Voronoi cells ($V(p_i)$ and $V(p_j)$) share a common boundary (a face, edge, or vertex).
+* **Empty Circumcircle Property (in 2D):** A key property of DT is that the circumcircle of any Delaunay triangle does not contain any other generator point in its interior.
+* **Application in Proteins:** In the context of proteins, the Voronoi vertices (where three or more cells meet) are the centers of the "empty spheres" (voids) in the protein's packing, while the edges and faces of the Voronoi cells describe the interfaces between atoms. The Delaunay edges define the local **nearest-neighbor connectivity** of the atoms, providing a direct map of atomic interactions (or neighbors).
+
+**Enhancing Ensemble Quality:** By incorporating Voronoi-derived geometric features alongside the traditional ϕ/ψ angles and SASA data, we enhance the input space for the DR/Clustering protocols. This multiscale feature set ensures the resulting Clustered Ensembles (CEs) are not only representative of the global conformational space but also possess high-fidelity local packing features, which are critical for accurate DFT-level quantum calculations and subsequent NMR property predictions.
 
 ---
 
