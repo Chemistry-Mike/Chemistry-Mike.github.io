@@ -50,19 +50,18 @@ To complement the dimensionality reduction and clustering approach and ensure a 
 ---
 
 <div style="display: flex; justify-content: space-around;">
-    <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-        <div class="hover-swap-container">
-            <img src="/images/P4-Voronoi-1.png" class="base-image" alt="Scatter Plot" style="width: 100%;">
-            <img src="/images/P4-Voronoi-2.png" class="hover-image" alt="Voronoi Diagram" style="width: 100%;">
-        </div>
+  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
+    <div class="hover-swap-container" style="height: 100%;">
+      <img src="/images/P4-Voronoi-1.png" class="base-image" alt="Scatter Plot" style="width: 100%; height: 100%; object-fit: contain;">
+      <img src="/images/P4-Voronoi-2.png" class="hover-image" alt="Voronoi Diagram" style="width: 100%; height: 100%; object-fit: contain;">
     </div>
-    <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-        <div style="text-align: center;">
-            <img src="/images/P4-Voronoi-Evaluation.png" style="width: 100%">
-        </div>
+  </div>
+  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
+    <div style="text-align: center; height: 100%;">
+      <img src="/images/P4-Voronoi-Evaluation.png" style="width: 100%; height: 100%; object-fit: contain;">
     </div>
+  </div>
 </div>
-
 
 
 ---
