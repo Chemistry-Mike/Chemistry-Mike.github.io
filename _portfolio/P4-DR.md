@@ -49,7 +49,7 @@ To complement the dimensionality reduction and clustering approach and ensure a 
 
 ---
 
-<div style="display: flex; justify-content: space-around;">
+<div style="display: flex; justify-content: space-around; align-items: center;">
   <div style="width: 33%; padding: 5px; box-sizing: border-box;">
     <div class="hover-swap-container" style="height: 100%;">
       <img src="/images/P4-Voronoi-1.png" class="base-image" alt="Scatter Plot" style="width: 100%; height: 100%; object-fit: contain;">
@@ -62,6 +62,7 @@ To complement the dimensionality reduction and clustering approach and ensure a 
     </div>
   </div>
 </div>
+
 
 
 ---
