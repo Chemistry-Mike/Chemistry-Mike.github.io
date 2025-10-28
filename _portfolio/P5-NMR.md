@@ -51,14 +51,14 @@ The project's goal is to quantitatively separate the total experimental CS into 
 ### Computational Pipeline
 
 * **QM/MM Setup:** A representative nucleic acid fragment, terminated with appropriate caps and solvated with explicit ions, was established to model modified structures.
-* **NMR Calculation:** Chemical shielding values were calculated using the **GIAO** method, followed by rigorous **benchmarking** of various functionals and basis sets.
-* **Decomposition:** The difference between the total experimental shift ($\Delta\delta_{\text{Experimental}}$) and the purely calculated static electronic contribution ($\Delta\delta_{\text{Static}}$) provided a crucial quantitative estimation of the **dynamic and geometric influence** on the $\text{}^{31}\text{P}$ signal.
+* **NMR Calculation:** Chemical shielding values were calculated using the GIAO method, followed by rigorous benchmarking of various functionals and basis sets.
+* **Decomposition:** The difference between the total experimental shift ($\Delta\delta_{\text{Experimental}}$) and the purely calculated static electronic contribution ($\Delta\delta_{\text{Static}}$) provided a crucial quantitative estimation of the dynamic and geometric influence on the $^{31}$P signal.
 
 ***
 
 ## Significance and Outlook
 
-This combined body of work establishes **state-of-the-art computational methodologies** for two highly dynamic classes of biomolecules. It delivers both an **efficient, high-accuracy computational engine** for IDP $\text{CS}$ prediction and a **robust analytical tool** for interpreting the electronic and conformational factors governing the $\text{}^{31}\text{P}$ signal in modified nucleic acids, which is crucial for accurately interpreting experimental NMR data on these complex systems.
+This combined body of work establishes state-of-the-art computational methodologies for two highly dynamic classes of biomolecules. It delivers both an efficient, high-accuracy computational engine for IDP CS prediction and a robust analytical tool for interpreting the electronic and conformational factors governing the $^{31}$P signal in modified nucleic acids, which is crucial for accurately interpreting experimental NMR data on these complex systems.
 
 ---
 
