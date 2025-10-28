@@ -58,14 +58,12 @@ To complement the dimensionality reduction and clustering approach and ensure a 
     </div>
     <div style="width: 50%; padding: 5px; box-sizing: border-box;">
         <div style="text-align: center;">
-            <img src="/images/P4-Voronoi-PDB.png" style="width: 100%">
+            <img src="/images/P4-Voronoi-Evaluation.png" style="width: 100%">
         </div>
     </div>
 </div>
 
-<div style="text-align: center;">
-  <img src="/images/P4-Voronoi-Evaluation.png" style="width: 100%">
-</div>
+
 
 ---
 
