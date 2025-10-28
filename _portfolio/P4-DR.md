@@ -47,6 +47,15 @@ This work also critically assessed rapid CS predictors for IDPs and directly add
 
 To complement the dimensionality reduction and clustering approach and ensure a rigorous geometric representation of the protein structure, we explored the application of Voronoi Diagrams (or Voronoi tessellations).
 
+---
+
+<div class="hover-swap-container">
+  <img src="/images/P4-Voronoi-1.png" class="base-image" alt="Scatter Plot">
+  <img src="/images/P4-Voronoi-2.png" class="hover-image" alt="Voronoi Diagram">
+</div>
+
+---
+
 **Voronoi Rationale:** The Voronoi diagram offers a precise, non-overlapping geometric decomposition of the protein's 3D space, where each atom (or residue centroid) is assigned a "cell" representing all points in space closer to it than to any other.
 
 **Geometric Clustering Features:** Voronoi tessellation provides unique, physically meaningful features for clustering beyond simple backbone coordinates. Properties such as the volume of a Voronoi cell, its surface area, and the number/identity of its neighboring cells (topology) are highly sensitive to local packing and conformational changes.
