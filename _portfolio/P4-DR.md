@@ -55,21 +55,6 @@ To complement the dimensionality reduction and clustering approach and ensure a 
             <img src="/images/P4-Voronoi-1.png" class="base-image" alt="Scatter Plot" style="width: 100%;">
             <img src="/images/P4-Voronoi-2.png" class="hover-image" alt="Voronoi Diagram" style="width: 100%; position: absolute; top: 0; left: 0; opacity: 0;">
         </div>
-        <style>
-            .hover-swap-container {
-                position: relative;
-                width: 100%;
-            }
-            .hover-swap-container .hover-image {
-                transition: opacity 0.3s ease-in-out;
-            }
-            .hover-swap-container:hover .base-image {
-                opacity: 0; /* Optional: hide base image on hover */
-            }
-            .hover-swap-container:hover .hover-image {
-                opacity: 1; /* Show hover image */
-            }
-        </style>
     </div>
     <div style="width: 50%; padding: 5px; box-sizing: border-box;">
         <div style="text-align: center;">
