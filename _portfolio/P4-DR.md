@@ -41,6 +41,8 @@ This work also critically assessed rapid CS predictors for IDPs and directly add
 * **Phosphorylation Deficiency:** We demonstrated that mainstream neural network-based tools like Sparta+ and ShiftX2 fail to accurately incorporate the influence of phosphorylation, as they were not trained on PTM data sets.
 * **Need for Quantum Methods:** This deficiency highlights the necessity of implementing higher-level quantum calculations (DFT) to accurately capture PTM effects. Our clustering methodology makes these resource-intensive DFT calculations tractable by drastically reducing the size of the structural ensemble required for convergence.
 
+---
+
 ## Voronoi Tesselation - New Clustering Approach
 
 To complement the dimensionality reduction and clustering approach and ensure a rigorous geometric representation of the protein structure, we explored the application of Voronoi Diagrams (or Voronoi tessellations).
