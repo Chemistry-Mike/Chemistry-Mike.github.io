@@ -63,6 +63,10 @@ To complement the dimensionality reduction and clustering approach and ensure a 
     </div>
 </div>
 
+<div style="text-align: center;">
+  <img src="/images/P4-Voronoi-Evaluation.png" style="width: 100%">
+</div>
+
 ---
 
 **Voronoi Rationale:** The Voronoi diagram offers a precise, non-overlapping geometric decomposition of the protein's 3D space, where each atom (or residue centroid) is assigned a "cell" representing all points in space closer to it than to any other.
