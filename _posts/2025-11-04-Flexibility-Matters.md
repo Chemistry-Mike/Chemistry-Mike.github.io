@@ -14,8 +14,7 @@ tags:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simplified Figure and Text Layout</title>
-    <!-- Load Tailwind CSS for utility classes -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/images/BiophysicalJournal.jpeg"></script>
     <style>
         /* Minimal custom styling for links */
         .article-link {
@@ -28,11 +27,7 @@ tags:
     </style>
 </head>
 <body class="p-6">
-
-    <!-- CORE LAYOUT COMPONENT: Stacks vertically on mobile, becomes horizontal on large screens (lg:flex-row) -->
     <div class="flex flex-col lg:flex-row gap-6 p-4 border border-gray-200 rounded-xl bg-white shadow-lg">
-
-        <!-- Left Column: Image/Visual (takes up 1/3 width on large screens) -->
         <div class="lg:w-1/3 flex justify-center items-start">
             <div class="w-full">
                 <!-- Image Placeholder to represent the Biophysical Journal Cover -->
@@ -47,8 +42,6 @@ tags:
                 </div>
             </div>
         </div>
-
-        <!-- Right Column: Text Content (takes up 2/3 width on large screens) -->
         <div class="lg:w-2/3">
             <h1 class="text-2xl font-bold text-gray-900 mb-3 tracking-tight">
                 Flexibility Matters: Challenges of Binding Disordered Regions
