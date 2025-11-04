@@ -42,23 +42,16 @@ tags:
                 >
             </div>
         </div>
-
-        <!-- Right Column: Text Content (takes up 2/3 width on large screens) -->
         <div class="lg:w-2/3">
             <h1 class="text-2xl font-bold text-gray-50 mb-3 tracking-tight"> <!-- Updated text color to very light -->
                 Flexibility Matters: Challenges of Binding Disordered Regions
             </h1>
-            
             <p class="mb-4 text-gray-300 leading-relaxed"> <!-- Updated paragraph text color -->
                 We are excited to share a cover image of the <a href="https://www.cell.com/cms/asset/5b6bcd65-af83-4395-a40e-cdd750b6d6f9/cov200h.gif" target="_blank" class="article-link font-medium">November 4 issue of Biophysical Journal</a>, which captures the dynamic interaction between two proteins central to neurological health: Tau and BIN1. The figure represents a time-averaged visualization of thousands of molecular dynamics (MD) frames and is designed to show how phosphorylation reshapes Tau’s behavior in the BIN1 binding environment. Small purple spheres in the image mark phosphorylation sites, which visually demonstrate how the addition of negative charges shifts Tau’s proline-rich region (PRR) away from the canonical binding site.
             </p>
-
-            <!-- Dark Mode Callout Box (Research Focus) -->
             <p class="mb-6 leading-relaxed border-l-4 border-indigo-600 pl-4 bg-indigo-950 py-2 text-gray-200">
                 This visualization reflects our broader research focus: understanding how intrinsically disordered proteins and intrinsically disordered regions behave in protein-protein interactions. Tau’s PRR is highly flexible, and phosphorylation introduces localized negative charges that disrupt its affinity for BIN1’s SH3 domain. However, in both experiment (NMR) and simulations (MD), the complex still forms, and the binding pose is not altered.
             </p>
-            
-            <!-- NEW CONTENT: Real-world implications -->
             <p class="mb-4 text-gray-300 leading-relaxed">
                 Real-world implications of this research are significant. In neurodegenerative diseases like Alzheimer’s, Tau phosphorylation disrupts normal protein binding, contributing to pathology. Our findings help explain how specific phosphate charges alter Tau’s structural preferences, which can inform drug development targeting Tau-BIN1 interactions. In addition, these insights support the identification of biomarkers for early diagnosis and guide computational modeling of intrinsically disordered proteins in biomedical research.
             </p>
@@ -66,23 +59,11 @@ tags:
                 Even for those outside the field, this research offers a broader lesson: flexibility matters. Whether designing therapeutics, modeling biological systems, or interpreting protein behavior, understanding how dynamic regions respond to subtle chemical changes can unlock new strategies across different fields. You can find more information on our work at: 
                 <a href="http://chemistry-mike.github.io/" target="_blank" class="article-link font-medium">http://chemistry-mike.github.io/</a> and 
                 <a href="https://portal.faf.cuni.cz/Groups/Mathematical-Pharmacy/" target="_blank" class="article-link font-medium">https://portal.faf.cuni.cz/Groups/Mathematical-Pharmacy/</a>
-            </p>
-            <!-- END NEW CONTENT -->
-            
+            </p>            
             <div class="pt-2 border-t border-gray-700 mt-6">
                 <p class="text-sm text-gray-400 mt-4">— Amina Gaffour, Michael Bakker, Krishnendu Bera, and Jana Pavlíková Přecechtělová</p>
             </div>
         </div>
-        
     </div>
-
 </body>
 </html>
-
-
-
-<div style="text-align: center;">
-  <img src="/images/BiophysicalJournal.jpeg" style="width: 50%">
-</div>
-
-https://www.biophysics.org/blog/flexibility-matters-challenges-of-binding-disordered-regions
