@@ -1,15 +1,8 @@
 from pymol import cmd
 
-def color_charged():
-    # 1. Preparation and Global Settings
-    
-    # Add hydrogens to the molecule
+def color_charged():    
     cmd.h_add("all")
-    
-    # Set global color to white
     cmd.color("white", "all")
-
-    # 2. Define Selections
     acidic_selection = "resn ASP+GLU"
     basic_selection = "resn ARG+LYS+HIS"
     
