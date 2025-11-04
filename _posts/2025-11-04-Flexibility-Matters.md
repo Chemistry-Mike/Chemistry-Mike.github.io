@@ -9,7 +9,9 @@ tags:
   - Structural Biology
 ---
 
-<div style="overflow: auto; margin-bottom: 20px;"> <img src="{{ '/images/BiophysicalJournal.jpeg' | prepend: site.baseurl }}" alt="Marie Skepö, Ph.D." style="float: left; margin-right: 15px; width: 200px; height: auto; border-radius: 50%;"> </div>
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="{{ '/images/BiophysicalJournal.jpeg' | prepend: site.baseurl }}" alt="Marie Skepö, Ph.D." style="width: 200px; height: 200px; display: block; margin: 0 auto;">
+</div>
 
 We are excited to share a cover image of the <a href="https://www.cell.com/cms/asset/5b6bcd65-af83-4395-a40e-cdd750b6d6f9/cov200h.gif" target="_blank" class="article-link font-medium">November 4 issue of Biophysical Journal</a>, which captures the dynamic interaction between two proteins central to neurological health: Tau and BIN1. The figure represents a time-averaged visualization of thousands of molecular dynamics (MD) frames and is designed to show how phosphorylation reshapes Tau’s behavior in the BIN1 binding environment. Small purple spheres in the image mark phosphorylation sites, which visually demonstrate how the addition of negative charges shifts Tau’s proline-rich region (PRR) away from the canonical binding site.
 
