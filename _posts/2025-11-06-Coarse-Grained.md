@@ -67,7 +67,8 @@ INPUT_CG_PDB="nr2f6_dbd_cg.pdb"
 gmx editconf -f ${INPUT_CG_PDB} -o protein_boxed.gro -c -box 10.0
 
 # 2. Solvate the system (neutralizes +11 charge with CL ions and adds 0.15M salt)
-```
+
+```bash
 "${INSANE_PATH}" -f protein_boxed.gro \
              	-o system_solvated.gro \
              	-p nr2f6_dbd.top \
