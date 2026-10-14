@@ -20,7 +20,7 @@ redirect_from:
     </div>
   </div>
   <figure class="hero-art">
-    <img src="{{ '/images/P1-DBD-Search-noBG.png' | relative_url }}" alt="Molecular visualization of a protein–DNA complex" fetchpriority="high">
+    <img src="{{ '/images/NewMainImage.png' | relative_url }}" alt="Protein ribbon visualization with highlighted helices and a bound molecule" width="1181" height="1261" fetchpriority="high">
     <figcaption>Exploring the relationship between molecular structure and dynamics.</figcaption>
   </figure>
 </section>
