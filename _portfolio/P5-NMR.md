@@ -6,7 +6,7 @@ collection: portfolio
 
 ## Project Goal: Accelerating Quantum Accuracy for Dynamic Biomolecules
 
-This combined methodological research focuses on developing, refining, and applying advanced -based computational schemes to accurately predict and interpret chemical shifts (CSs) in complex, dynamic systems, including and . The objective is to achieve -level accuracy while ensuring and providing a detailed deconstruction of the CS signal.
+This research combines molecular dynamics, protein fragmentation, and quantum chemical calculations to predict and interpret NMR chemical shifts in dynamic biomolecules. It focuses on improving the efficiency of predictions for intrinsically disordered proteins and understanding the contributions to phosphorus NMR signals in modified nucleic acids.
 
 ***
 

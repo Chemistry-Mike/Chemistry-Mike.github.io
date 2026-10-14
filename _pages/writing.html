@@ -1,0 +1,10 @@
+---
+layout: showcase
+title: Writing & Tools
+kicker: Ideas you can put to work
+permalink: /writing/
+nav_section: Writing & Tools
+description: Practical notes on molecular modeling, protein visualization, and computational workflows.
+---
+<section><h2>Articles & guides</h2><div class="theme-grid">{% for post in site.posts %}<article class="note-card"><p class="eyebrow">{{ post.date | date: '%B %Y' }}</p><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><p>{{ post.tags | join: ' · ' }}</p><a class="text-link" href="{{ post.url | relative_url }}">Read article →</a></article>{% endfor %}</div></section>
+<section class="home-section"><div class="section-heading"><h2>PyMOL scripts</h2><p>Scripts from my visualization workflow. Download a script and inspect its instructions before using it with your own molecular structures.</p></div><div class="tool-list"><a href="{{ '/PyMolScripts/fancyProlines.py' | relative_url }}" download>Fancy prolines <span>Download Python script ↓</span></a><a href="{{ '/PyMolScripts/chargedResidues.py' | relative_url }}" download>Charged residues <span>Download Python script ↓</span></a><a href="{{ '/PyMolScripts/peptideStyle.py' | relative_url }}" download>Peptide styling <span>Download Python script ↓</span></a></div></section>

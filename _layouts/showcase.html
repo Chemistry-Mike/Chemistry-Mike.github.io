@@ -1,0 +1,7 @@
+---
+layout: default
+---
+<main id="main" class="showcase" tabindex="-1">
+{% unless page.home %}<header class="section-intro"><p class="eyebrow">{{ page.kicker | default: 'Quantum Pharmacy' }}</p><h1>{{ page.title }}</h1>{% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}</header>{% endunless %}
+{{ content }}
+</main>

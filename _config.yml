@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Quantum Pharmacy"
 title_separator          : "-"
 name                     : &name "Michael Bakker"
-description              : &description "An overview of my accomplishments and interests."
+description              : &description "Michael Bakker — computational biophysics, protein dynamics, and molecular modeling."
 url                      : https://Chemistry-Mike.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Chemistry-Mike/Chemistry-Mike.github.io"
@@ -71,7 +71,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Michael Bakker"
   avatar           : "ConferenceImage2.png"
-  bio              : "Post-Graduate Researcher"
+  bio              : "Postdoctoral Researcher"
   location         : "Czech Republic"
   employer         : "Charles University"
   googlescholar    : "https://scholar.google.com/citations?user=SUoMFzYAAAAJ&hl=en"
@@ -172,7 +172,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -183,14 +183,14 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _teaching
   - scope:
       path: ""
       type: teaching
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
   # _publications
@@ -199,7 +199,7 @@ defaults:
       type: publications
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
   # _portfolio
@@ -208,7 +208,7 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comment: true
   # _talks
@@ -217,7 +217,7 @@ defaults:
       type: talks
     values:
       layout: talk
-      author_profile: true
+      author_profile: false
       share: true
 
 # Sass/SCSS
@@ -230,7 +230,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Prague # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
