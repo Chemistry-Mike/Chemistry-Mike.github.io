@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Quantum Pharmacy"
 title_separator          : "-"
 name                     : &name "Michael Bakker"
-description              : &description "Michael Bakker — computational biophysics, protein dynamics, and molecular modeling."
+description              : &description "Michael Bakker — bioinformatics, pharmaceutical modeling, and protein dynamics."
 url                      : https://Chemistry-Mike.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Chemistry-Mike/Chemistry-Mike.github.io"

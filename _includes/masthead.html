@@ -1,4 +1,4 @@
 <header class="site-header">
-  <a class="brand" href="{{ '/' | relative_url }}" aria-label="Quantum Pharmacy home"><span class="brand-symbol" aria-hidden="true">Q<span>p</span></span><span>Quantum Pharmacy<small>Michael Bakker · Computational science</small></span></a>
+  <a class="brand" href="{{ '/' | relative_url }}" aria-label="Quantum Pharmacy home"><span class="brand-symbol" aria-hidden="true">Q<span>p</span></span><span>Quantum Pharmacy<small>Michael Bakker · Bioinformatics & Pharmaceutical Modeling</small></span></a>
   <nav aria-label="Main navigation"><ul>{% for link in site.data.navigation.main %}<li><a href="{{ link.url | relative_url }}"{% if page.url == link.url or page.nav_section == link.title %} aria-current="page"{% endif %}>{{ link.title }}</a></li>{% endfor %}</ul></nav>
 </header>
