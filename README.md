@@ -9,7 +9,7 @@ Michael Bakker’s academic website, built with Jekyll and AcademicPages for Git
 - `_data/research.yml`: research themes and project cards
 - `_pages/`: section landing pages
 - `_portfolio/`, `_publications/`, `_teaching/`, `_talks/`, `_posts/`: detailed content
-- `_sass/_overhaul.scss`: visual design
+- `assets/css/site.css`: visual design (plain CSS, loaded after the legacy theme stylesheet)
 
 Existing project, publication, CV, and blog URLs remain available.
 
