@@ -32,13 +32,13 @@ redirect_from:
 <section class="home-section" aria-labelledby="themes-title">
   <div class="section-heading">
     <div><p class="eyebrow">Research focus</p><h2 id="themes-title">Three main projects.<br>One pharmaceutical focus.</h2></div>
-    <p>My current research centers on intrinsically disordered proteins, orphan nuclear receptors, and peptidomimetics — connecting molecular behavior with questions in pharmaceutical research.</p>
+    <p>My current researches focuses on the areas of pharmacology which are either unattainable or unresolved in current research by focusing on the dark proteome, peptidomimetics and orphan nuclear receptors.</p>
   </div>
   <div class="theme-grid">
     {% for theme in site.data.research %}
     <a class="theme-card theme-card-illustrated" href="{{ '/research/' | relative_url }}#{{ theme.title | slugify }}">
       <div class="theme-illustration"><img src="{{ '/images/' | append: theme.image | relative_url }}" alt="" loading="lazy"></div>
-      <div class="theme-copy"><span class="theme-number">0{{ forloop.index }}</span><h3>{{ theme.title }}</h3><p>{{ theme.description }}</p><span class="text-link">Explore the research →</span></div>
+      <div class="theme-copy"><h3>{{ theme.title }}</h3><p>{{ theme.description }}</p><span class="text-link">Explore the research →</span></div>
     </a>
     {% endfor %}
   </div>
