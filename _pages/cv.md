@@ -1,6 +1,8 @@
 ---
-layout: archive
-title: "CV"
+layout: showcase
+title: "About & CV"
+kicker: Michael Bakker
+nav_section: About & CV
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,6 +10,9 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+<div class="about-profile"><img src="{{ '/images/ConferenceImage2.png' | relative_url }}" alt="Michael Bakker" width="160" height="160"><div><h2>Michael Bakker, B.Sc., M.Sc., Ph.D.</h2><p>I am a postdoctoral researcher at Charles University in the Czech Republic, working at the intersection of computational chemistry, structural biology, and machine learning. My research focuses on protein dynamics, intrinsically disordered regions, and molecular recognition.</p><p><a href="mailto:{{ site.author.email }}">Email</a> · <a href="{{ site.author.googlescholar }}">Google Scholar</a> · <a href="{{ site.author.orcid }}">ORCID</a></p></div></div>
+
 
 Education
 ======

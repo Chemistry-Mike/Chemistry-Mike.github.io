@@ -1,0 +1,40 @@
+- title: Disordered proteins & disease
+  image: Front6-PTM.png
+  description: How flexible regions of p53 and Tau respond to molecular context and chemical modifications.
+  projects:
+    - slug: P7-P53
+      title: The structural dynamics of p53
+      image: P53-A.png
+      description: Exploring the conformational landscapes of four intrinsically disordered regions.
+    - slug: P2-PRD
+      title: Proline-rich regions
+      image: Front2-PRD.png
+      description: Investigating protein flexibility and interactions in p53 and Tau.
+    - slug: P6-PTM
+      title: Protein phosphorylation
+      image: Front6-PTM.png
+      description: Understanding how chemical modifications influence protein structure and dynamics.
+- title: Molecular recognition & therapeutics
+  image: Front1-DBD.png
+  description: Investigating the interfaces and interactions that govern nuclear receptor function.
+  projects:
+    - slug: P1-DBD
+      title: DNA binding domains
+      image: Front1-DBD.png
+      description: Characterizing protein–DNA interfaces and potential targets for therapeutics.
+    - slug: P3-ONR
+      title: Orphan nuclear receptors
+      image: Front3-ONR.png
+      description: Combining virtual screening and molecular simulations to investigate receptor ligands.
+- title: Computational methods & NMR
+  image: Front4-DR.png
+  description: Building efficient approaches to characterize complex molecular ensembles.
+  projects:
+    - slug: P4-DR
+      title: Making sense of molecular ensembles
+      image: Front4-DR.png
+      description: Dimensionality reduction and clustering for representative protein ensembles.
+    - slug: P5-NMR
+      title: Computational NMR spectroscopy
+      image: Front5-NMR.png
+      description: Connecting molecular dynamics, fragmentation, and quantum chemical calculations.

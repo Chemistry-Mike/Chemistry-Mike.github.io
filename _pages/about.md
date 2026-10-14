@@ -1,109 +1,96 @@
 ---
+layout: showcase
+home: true
+title: Michael Bakker — Computational Biophysics & Chemistry
 permalink: /
-title: "Computational Biophysics & The Disordered Proteome"
-excerpt: "About Michael Bakker"
-author_profile: true
+excerpt: Exploring protein dynamics, molecular recognition, and human disease through computational science.
 redirect_from:
   - /about/
   - /about.html
 ---
+<section class="hero" aria-labelledby="home-title">
+  <div class="hero-copy">
+    <p class="eyebrow">Michael Bakker · Computational Biophysics & Chemistry</p>
+    <h1 id="home-title">Understanding proteins<br><em>in motion.</em></h1>
+    <p class="lede">I combine molecular simulations, quantum chemistry, and machine learning to investigate how protein dynamics shape biological function and disease.</p>
+    <p class="hero-affiliation">Postdoctoral researcher · Charles University, Czech Republic</p>
+    <div class="actions">
+      <a class="action" href="{{ '/research/' | relative_url }}">Explore Research →</a>
+      <a class="action secondary" href="{{ '/publications/' | relative_url }}">View Publications</a>
+    </div>
+  </div>
+  <figure class="hero-art">
+    <img src="{{ '/images/P1-DBD-Search-noBG.png' | relative_url }}" alt="Molecular visualization of a protein–DNA complex" fetchpriority="high">
+    <figcaption>Exploring the relationship between molecular structure and dynamics.</figcaption>
+  </figure>
+</section>
 
-
-<div style="text-align: center;">
-  <img src="/images/HeaderImage-QuantumPharmacy.png" style="width: 100%">
+<div class="discipline-strip" aria-label="Research methods">
+  <span>Molecular dynamics</span><span>Disordered proteins</span><span>Machine learning</span><span>Computational NMR</span>
 </div>
 
-## Michael Bakker, B.Sc., M.Sc., Ph.D.
-### Post-Doctoral Researcher in Biophysics and Physical Chemistry
-
-Hello. I'm a computational scientist working at the intersection of structural biology and machine learning to investigate the molecular mechanisms underlying human disease. My research uses dimensionality reduction and clustering to create more accurate structural ensembles for proteins. Key biological areas of my work include predicting the behavior of DNA Binding Domains, analyzing Polyproline Rich Regions, and computationally targeting orphan nuclear receptors.
-
-<hr>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
-  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/P1-DBD/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Front1-DBD.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
+<section class="home-section" aria-labelledby="themes-title">
+  <div class="section-heading">
+    <div><p class="eyebrow">Research focus</p><h2 id="themes-title">Three perspectives.<br>Connected questions.</h2></div>
+    <p>Proteins do not always have a single, stable structure. My research explores their conformational ensembles and the interactions that shape their biological roles.</p>
   </div>
-  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/P2-PRD/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Front2-PRD.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
+  <div class="theme-grid">
+    {% for theme in site.data.research %}
+    <a class="theme-card theme-card-illustrated" href="{{ '/research/' | relative_url }}#{{ theme.title | slugify }}">
+      <div class="theme-illustration"><img src="{{ '/images/' | append: theme.image | relative_url }}" alt="" loading="lazy"></div>
+      <div class="theme-copy"><span class="theme-number">0{{ forloop.index }}</span><h3>{{ theme.title }}</h3><p>{{ theme.description }}</p><span class="text-link">Explore the research →</span></div>
     </a>
+    {% endfor %}
   </div>
-  <div style="width: 100%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/P3-ONR/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Front3-ONR.png" alt="Targeting Orphan Nuclear Receptors" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
+</section>
+
+<section class="featured-story home-section" aria-labelledby="p53-title">
+  <figure class="story-figure">
+    <img src="{{ '/images/P53-C.png' | relative_url }}" alt="Molecular illustration of the p53 pre-tetramerization loop" loading="lazy">
+    <figcaption>The pre-tetramerization loop: a flexible region of p53.</figcaption>
+  </figure>
+  <div class="story-copy">
+    <p class="eyebrow">Featured research · p53</p>
+    <h2 id="p53-title">What can a flexible<br>protein region tell us?</h2>
+    <p>My p53 research asks how the context around a disordered region changes the structures it can adopt, and how phosphorylation influences its dynamics.</p>
+    <p>Using molecular dynamics simulations, we investigate how neighboring domains constrain the pre-tetramerization loop. Comparing these simulated ensembles with experimental NMR chemical shifts helps assess how well the models capture its behavior.</p>
+    <a class="action secondary" href="{{ '/portfolio/P7-P53/' | relative_url }}">Explore the p53 project →</a>
+    <div class="story-papers" aria-label="Related p53 publications">
+      <span class="eyebrow">Related papers</span>
+      <a href="{{ '/publication/2024-JCTC-Expansion' | relative_url }}">Domain context & conformational dynamics →</a>
+      <a href="{{ '/publication/2024-JCTC-PTM' | relative_url }}">Phosphorylation of the regulatory domain →</a>
+    </div>
   </div>
-</div>
+</section>
 
-<hr>
-
-My central goal is to develop and apply next-generation computational tools to accurately predict the conformational ensembles of IDPs. These proteins, which lack a stable 3D structure, are essential for processes like gene regulation and signaling, yet are notoriously difficult to study. In this context, we are actively investigating techniques that can improve structural biology research, with a specific focus on intrinsically disordered proteins.
-
-<hr>
-
-<div style="display: flex; flex-direction: column; align-items: center; margin: 0 auto; max-width: 600px;">
-  <div style="width: 100%; padding: 0; margin: 0; box-sizing: border-box;">
-    <a href="/portfolio/P4-DR/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Front4-DR.png" alt="Dimensionality Reduction Clustering" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
+<section class="home-section" aria-labelledby="papers-title">
+  <div class="section-heading">
+    <div><p class="eyebrow">Selected work</p><h2 id="papers-title">From simulations<br>to published insights.</h2></div>
+    <a class="text-link" href="{{ '/publications/' | relative_url }}">All publications →</a>
   </div>
-</div>
-<div style="display: flex; flex-direction: column; align-items: center; margin: 0 auto; max-width: 600px;">
-  <div style="width: 100%; padding: 0; margin: 0; box-sizing: border-box;">
-    <a href="/portfolio/P5-NMR/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Front5-NMR.png" alt="New Combined Approach" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
+  {% assign selected = '2025-Biophys-Tau,2024-JCIM-Clustering,2022-PCCP-ADMA' | split: ',' %}
+  {% for id in selected %}{% for paper in site.publications %}{% if paper.path contains id %}{% include publication-row.html paper=paper %}{% endif %}{% endfor %}{% endfor %}
+</section>
+
+<section class="home-section" aria-labelledby="writing-title">
+  <div class="section-heading">
+    <div><p class="eyebrow">Notes from the workflow</p><h2 id="writing-title">Writing & tools.</h2></div>
+    <a class="text-link" href="{{ '/writing/' | relative_url }}">Browse writing and tools →</a>
   </div>
-</div>
-<div style="display: flex; flex-direction: column; align-items: center; margin: 0 auto; max-width: 600px;">
-  <div style="width: 100%; padding: 0; margin: 0; box-sizing: border-box;">
-    <a href="/portfolio/P6-PTM/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/Front6-PTM.png" alt="Phosphorylation Sites" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
+  <div class="theme-grid">
+    {% for post in site.posts limit:2 %}
+    <article class="note-card"><p class="eyebrow">{{ post.date | date: '%B %Y' }}</p><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><a class="text-link" href="{{ post.url | relative_url }}">Read article →</a></article>
+    {% endfor %}
+    <article class="note-card tool-spotlight"><p class="eyebrow">PyMOL · Visualization tools</p><h3>Give your prolines<br>some style.</h3><p>Explore the visualization guide and download the accompanying PyMOL script.</p><div class="tool-spotlight-links"><a class="text-link" href="{{ '/posts/2025/10/FancyProlines/' | relative_url }}">Read the guide →</a><a class="text-link" href="{{ '/PyMolScripts/fancyProlines.py' | relative_url }}" download>Download script ↓</a></div></article>
   </div>
-</div>
+</section>
 
-<hr>
-
-## The Critical Role of p53
-
-The tumor suppressor often called the "guardian of the genome" is one of the most crucial proteins in cancer biology. It functions as an that acts as a transcription factor, which either halts the cell cycle or induces apoptosis cell death in response to DNA damage. Our research is focused on this, investigating how phosphorylation, a key, affects critical Intrinsically Disordered Regions IDRs of p53, such as the pre tetramerization loop and the C terminal regulatory domain, as the flexibility of these regions is vital for the protein to form its active tetramer and correctly bind to DNA. We approached this investigation by separating the protein into four distinct computational regions, one for each of the major disordered domains of p53, namely the A-Region (TAD1/2), the B-Region (PRR), the C-Region (PTL), and the D-Region (REG). By modeling these effects using techniques like and publishing our findings, we aim to determine how PTMs stabilize or destabilize p53's functional state, ultimately providing critical insights into cancer mechanisms and aiding in the design of therapeutics.
-
-<hr>
-
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: 0 auto;">
-  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/P7-P53/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/P53-B.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
+<section class="contact-panel personal-closing" aria-labelledby="contact-title">
+  <img class="contact-portrait" src="{{ '/images/ConferenceImage2.png' | relative_url }}" alt="Michael Bakker" width="160" height="160" loading="lazy">
+  <div>
+    <p class="eyebrow">Michael Bakker · Ph.D.</p>
+    <h2 id="contact-title">Let’s connect.</h2>
+    <p>I’m a postdoctoral researcher at Charles University in the Czech Republic. Interested in protein dynamics or computational chemistry? Get in touch to discuss ideas and potential collaborations.</p>
+    <div class="actions"><a class="action" href="mailto:{{ site.author.email }}">Get in touch ↗</a><a class="action secondary" href="{{ '/cv/' | relative_url }}">About me & CV →</a></div>
   </div>
-  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/P7-P53/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/P53-D.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
-  </div>
-  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="/portfolio/P7-P53/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/P53-A.png" alt="DNA Binding Domains" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
-  </div>
-  <div style="width: 50%; padding: 5px; box-sizing: border-box;">
-    <a href="portfolio/P7-P53/" class="clickable-image-link" style="text-decoration: none;">
-      <img src="/images/P53-C.png" alt="Proline Rich Regions" style="width: 100%; height: auto; display: block; border: 1px solid #ccc;">
-    </a>
-  </div>
-</div>
-<hr>
-
-## Beyond the Protein: Computational Applications
-
-I also apply my expertise in computational chemistry to other critical challenges:
-
-* [**Sustainable Chemistry:**](https://www.mdpi.com/1996-1073/17/10/2433) Simulating the pyrolysis of biodiesel components (e.g., methyl linoleate) to understand reaction pathways and optimize energy conversion. 
-
-* [**Educational Innovation:**](https://onlinelibrary.wiley.com/doi/abs/10.1002/cmr.a.21470) Utilizing 3D printing technology to create physical, tactile models of molecules and proteins, enhancing complex chemistry education. 
-* **Pharmaceutical Research:** Applying statistical modeling and machine learning techniques to analyze high-throughput screening data and predict drug efficacy or toxicity. **Publication in Works.**
+</section>
