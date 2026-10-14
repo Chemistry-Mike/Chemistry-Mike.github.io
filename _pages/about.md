@@ -1,7 +1,7 @@
 ---
 layout: showcase
 home: true
-title: Michael Bakker — Bioinformatics & Pharmaceutical Modeling
+title: Michael Bakker — Bioinformatics & Pharmaceuticals
 permalink: /
 excerpt: Exploring protein dynamics, molecular recognition, and human disease through bioinformatics and pharmaceutical modeling.
 redirect_from:
@@ -10,7 +10,7 @@ redirect_from:
 ---
 <section class="hero" aria-labelledby="home-title">
   <div class="hero-copy">
-    <p class="eyebrow hero-identity">Michael Bakker · Bioinformatics & Pharmaceutical Modeling</p>
+    <p class="eyebrow hero-identity">Michael Bakker · Bioinformatics & Pharmaceuticals</p>
     <h1 id="home-title">Understanding proteins<br><em>in motion.</em></h1>
     <p class="lede">I combine molecular simulations, quantum chemistry, and machine learning to investigate how protein dynamics shape biological function and disease.</p>
     <p class="hero-affiliation">Postdoctoral researcher · Charles University, Czech Republic</p>
@@ -21,12 +21,12 @@ redirect_from:
   </div>
   <figure class="hero-art">
     <img src="{{ '/images/NewMainImage.png' | relative_url }}" alt="Protein ribbon visualization with highlighted helices and a bound molecule" width="1181" height="1261" fetchpriority="high">
-    <figcaption>Exploring the relationship between molecular structure and dynamics.</figcaption>
+    <figcaption>Exploring the unexplored regions of pharmacology.</figcaption>
   </figure>
 </section>
 
 <div class="discipline-strip" aria-label="Research interests">
-  <span>Pharmaceutical Modeling</span><span>Disordered Proteins</span><span>Machine Learning</span><span>Medical Strategies</span>
+  <span>Pharmaceutical Modeling</span><span>Disordered Proteins</span><span>Machine Learning</span><span>Peptidomimetics</span>
 </div>
 
 <section class="home-section" aria-labelledby="themes-title">
