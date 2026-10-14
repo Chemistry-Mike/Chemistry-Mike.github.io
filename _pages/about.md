@@ -31,8 +31,8 @@ redirect_from:
 
 <section class="home-section" aria-labelledby="themes-title">
   <div class="section-heading">
-    <div><p class="eyebrow">Research focus</p><h2 id="themes-title">Three perspectives.<br>Connected questions.</h2></div>
-    <p>Proteins do not always have a single, stable structure. My research explores their conformational ensembles and the interactions that shape their biological roles.</p>
+    <div><p class="eyebrow">Research focus</p><h2 id="themes-title">Three main projects.<br>One pharmaceutical focus.</h2></div>
+    <p>My current research centers on intrinsically disordered proteins, orphan nuclear receptors, and peptidomimetics — connecting molecular behavior with questions in pharmaceutical research.</p>
   </div>
   <div class="theme-grid">
     {% for theme in site.data.research %}
