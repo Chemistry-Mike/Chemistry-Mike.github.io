@@ -44,6 +44,16 @@ redirect_from:
   </div>
 </section>
 
+<section class="contact-panel personal-closing" aria-labelledby="contact-title">
+  <img class="contact-portrait" src="{{ '/images/ConferenceImage2.png' | relative_url }}" alt="Michael Bakker" width="160" height="160" loading="lazy">
+  <div>
+    <p class="eyebrow">Michael Bakker · Ph.D.</p>
+    <h2 id="contact-title">Let’s connect.</h2>
+    <p>I’m a postdoctoral researcher at Charles University in the Czech Republic. Interested in protein dynamics or computational chemistry? Get in touch to discuss ideas and potential collaborations.</p>
+    <div class="actions"><a class="action" href="mailto:{{ site.author.email }}">Get in touch ↗</a><a class="action secondary" href="{{ '/cv/' | relative_url }}">About me & CV →</a></div>
+  </div>
+</section>
+
 <section class="featured-story home-section" aria-labelledby="p53-title">
   <figure class="story-figure">
     <img src="{{ '/images/P53-C.png' | relative_url }}" alt="Molecular illustration of the p53 pre-tetramerization loop" loading="lazy">
@@ -82,15 +92,5 @@ redirect_from:
     <article class="note-card"><p class="eyebrow">{{ post.date | date: '%B %Y' }}</p><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><a class="text-link" href="{{ post.url | relative_url }}">Read article →</a></article>
     {% endfor %}
     <article class="note-card tool-spotlight"><p class="eyebrow">PyMOL · Visualization tools</p><h3>Give your prolines<br>some style.</h3><p>Explore the visualization guide and download the accompanying PyMOL script.</p><div class="tool-spotlight-links"><a class="text-link" href="{{ '/posts/2025/10/FancyProlines/' | relative_url }}">Read the guide →</a><a class="text-link" href="{{ '/PyMolScripts/fancyProlines.py' | relative_url }}" download>Download script ↓</a></div></article>
-  </div>
-</section>
-
-<section class="contact-panel personal-closing" aria-labelledby="contact-title">
-  <img class="contact-portrait" src="{{ '/images/ConferenceImage2.png' | relative_url }}" alt="Michael Bakker" width="160" height="160" loading="lazy">
-  <div>
-    <p class="eyebrow">Michael Bakker · Ph.D.</p>
-    <h2 id="contact-title">Let’s connect.</h2>
-    <p>I’m a postdoctoral researcher at Charles University in the Czech Republic. Interested in protein dynamics or computational chemistry? Get in touch to discuss ideas and potential collaborations.</p>
-    <div class="actions"><a class="action" href="mailto:{{ site.author.email }}">Get in touch ↗</a><a class="action secondary" href="{{ '/cv/' | relative_url }}">About me & CV →</a></div>
   </div>
 </section>
