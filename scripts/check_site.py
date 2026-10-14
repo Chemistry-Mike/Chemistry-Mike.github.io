@@ -9,8 +9,12 @@ class Links(HTMLParser):
     def __init__(self):
         super().__init__()
         self.urls = []
+        self.stylesheets = []
     def handle_starttag(self, tag, attrs):
-        for key, value in attrs:
+        attrs = dict(attrs)
+        if tag == 'link' and attrs.get('rel') == 'stylesheet':
+            self.stylesheets.append(attrs.get('href', ''))
+        for key, value in attrs.items():
             if key in ('href', 'src') and value:
                 self.urls.append(value)
 
@@ -19,6 +23,16 @@ def main():
     if not (root / 'index.html').is_file():
         sys.exit('No rendered homepage found. Run bundle exec jekyll build first.')
     errors = set()
+    homepage = Links()
+    homepage.feed((root / 'index.html').read_text())
+    stylesheets = [urlsplit(url).path for url in homepage.stylesheets]
+    if not any(path.endswith('/assets/css/site.css') for path in stylesheets):
+        errors.add('index.html: redesign stylesheet assets/css/site.css is not linked')
+    stylesheet = root / 'assets/css/site.css'
+    if not stylesheet.is_file():
+        errors.add('assets/css/site.css: redesign stylesheet was not published')
+    elif '--qp-accent:' not in stylesheet.read_text():
+        errors.add('assets/css/site.css: redesign styles are missing')
     pages = list(root.rglob('*.html'))
     for page in pages:
         parser = Links()

@@ -1,16 +1,16 @@
 ---
 layout: showcase
 home: true
-title: Michael Bakker — Computational Biophysics & Chemistry
+title: Michael Bakker — Bioinformatics & Pharmaceutical Modeling
 permalink: /
-excerpt: Exploring protein dynamics, molecular recognition, and human disease through computational science.
+excerpt: Exploring protein dynamics, molecular recognition, and human disease through bioinformatics and pharmaceutical modeling.
 redirect_from:
   - /about/
   - /about.html
 ---
 <section class="hero" aria-labelledby="home-title">
   <div class="hero-copy">
-    <p class="eyebrow">Michael Bakker · Computational Biophysics & Chemistry</p>
+    <p class="eyebrow hero-identity">Michael Bakker · Bioinformatics & Pharmaceutical Modeling</p>
     <h1 id="home-title">Understanding proteins<br><em>in motion.</em></h1>
     <p class="lede">I combine molecular simulations, quantum chemistry, and machine learning to investigate how protein dynamics shape biological function and disease.</p>
     <p class="hero-affiliation">Postdoctoral researcher · Charles University, Czech Republic</p>
@@ -25,8 +25,8 @@ redirect_from:
   </figure>
 </section>
 
-<div class="discipline-strip" aria-label="Research methods">
-  <span>Molecular dynamics</span><span>Disordered proteins</span><span>Machine learning</span><span>Computational NMR</span>
+<div class="discipline-strip" aria-label="Research interests">
+  <span>Pharmaceutical Modeling</span><span>Disordered Proteins</span><span>Machine Learning</span><span>Medical Strategies</span>
 </div>
 
 <section class="home-section" aria-labelledby="themes-title">
