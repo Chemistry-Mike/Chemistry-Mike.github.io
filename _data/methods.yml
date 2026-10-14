@@ -1,0 +1,12 @@
+- title: Computational methods & NMR
+  image: Front4-DR.png
+  description: Building efficient approaches to characterize complex molecular ensembles.
+  projects:
+    - slug: P4-DR
+      title: Making sense of molecular ensembles
+      image: Front4-DR.png
+      description: Dimensionality reduction and clustering for representative protein ensembles.
+    - slug: P5-NMR
+      title: Computational NMR spectroscopy
+      image: Front5-NMR.png
+      description: Connecting molecular dynamics, fragmentation, and quantum chemical calculations.

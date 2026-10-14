@@ -1,4 +1,4 @@
-- title: Disordered proteins & disease
+- title: Intrinsically Disordered Proteins
   image: Front6-PTM.png
   description: How flexible regions of p53 and Tau respond to molecular context and chemical modifications.
   projects:
@@ -14,8 +14,8 @@
       title: Protein phosphorylation
       image: Front6-PTM.png
       description: Understanding how chemical modifications influence protein structure and dynamics.
-- title: Molecular recognition & therapeutics
-  image: Front1-DBD.png
+- title: Orphan Nuclear Receptors
+  image: Front3-ONR.png
   description: Investigating the interfaces and interactions that govern nuclear receptor function.
   projects:
     - slug: P1-DBD
@@ -26,15 +26,8 @@
       title: Orphan nuclear receptors
       image: Front3-ONR.png
       description: Combining virtual screening and molecular simulations to investigate receptor ligands.
-- title: Computational methods & NMR
-  image: Front4-DR.png
-  description: Building efficient approaches to characterize complex molecular ensembles.
-  projects:
-    - slug: P4-DR
-      title: Making sense of molecular ensembles
-      image: Front4-DR.png
-      description: Dimensionality reduction and clustering for representative protein ensembles.
-    - slug: P5-NMR
-      title: Computational NMR spectroscopy
-      image: Front5-NMR.png
-      description: Connecting molecular dynamics, fragmentation, and quantum chemical calculations.
+- title: Peptidomimetics
+  image: LoadedPolyProline.png
+  description: A current research focus connecting peptide-inspired molecular design with pharmaceutical modeling.
+  projects: []
+  contact_label: Discuss this research
