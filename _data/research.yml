@@ -1,33 +1,47 @@
 - title: Dark Proteome
+  research_title: The Dark Proteome (IDPs)
   image: Front6-PTM.png
   description: While much of the ordered protein machinery has been mapped, the Dark Proteome represents a significant challenge for targeted therapeutics.
   projects:
     - slug: P7-P53
-      title: The structural dynamics of p53
+      title: Exploring the Disordered Regions of P53
       image: P53-A.png
       description: Exploring the conformational landscapes of four intrinsically disordered regions.
     - slug: P2-PRD
-      title: Proline-rich regions
+      title: Untangling the Proline-Rich Regions of Tau
       image: Front2-PRD.png
       description: Investigating protein flexibility and interactions in p53 and Tau.
     - slug: P6-PTM
-      title: Protein phosphorylation
+      title: Understanding the Phosphorylation Interaction Network
       image: Front6-PTM.png
       description: Understanding how chemical modifications influence protein structure and dynamics.
 - title: Undruggable Receptors
+  research_title: Orphan Nuclear Receptors
   image: Front3-ONR.png
   description: Many proteins represent a complex challenge for scientists, as not even a natural ligand has been found. Complex challenges require elegant solutions.
   projects:
-    - slug: P1-DBD
-      title: DNA binding domains
-      image: Front1-DBD.png
-      description: Characterizing protein–DNA interfaces and potential targets for therapeutics.
-    - slug: P3-ONR
-      title: Orphan nuclear receptors
+    - slug: NR2F6-PROTAC
+      title: 'Explorations in NR2F6: Potential PROTAC Strategy'
       image: Front3-ONR.png
-      description: Combining virtual screening and molecular simulations to investigate receptor ligands.
+      description: Exploring a potential PROTAC strategy for NR2F6.
+    - slug: NR2F6-NSD1
+      title: Peptidomimetic Modeling of the NR2F6:NSD1 Interactions
+      image: Front3-ONR.png
+      description: Modeling peptide-inspired approaches to NR2F6–NSD1 interactions.
+    - slug: PXR-Allosteric
+      title: 'PXR: Potential New Allosteric Sites?'
+      image: Front3-ONR.png
+      description: Investigating potential new allosteric sites in PXR.
 - title: Peptidomimetics
   image: LoadedPolyProline.png
   description: While small-molecule ligands are frequently tested in large quantities using HITS, peptidomimetics present a unique solution – hijacking biology itself.
-  projects: []
-  contact_label: Discuss this research
+  projects:
+    - slug: Cyclic-Peptides
+      title: 'Cyclic Peptides: Better Stability?'
+      description: Exploring stability as a research question in cyclic peptide modeling.
+    - slug: Mimicking-Interactions
+      title: Mimicking the Correct Interactions
+      description: Investigating which protein interactions to reproduce with peptidomimetics.
+    - slug: Peptide-Cleavage
+      title: 'Peptides in the Blood: Proteolytic Cleavage'
+      description: Exploring proteolytic cleavage in the context of peptide therapeutics.
