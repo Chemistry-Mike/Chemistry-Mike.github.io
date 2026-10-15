@@ -227,3 +227,11 @@ p { text-align: left; }
 .cv-entry h3 { font-size: 20px; margin-bottom: 12px; }
 .cv-citation { color: var(--qp-muted); overflow-wrap: anywhere; }
 .publication-year { overflow-wrap: normal; }
+
+/* Project status icons include visible labels for clarity and accessibility. */
+.project-statuses { display: flex; flex-wrap: wrap; gap: 10px; margin: 14px 0 18px; }
+.project-status { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--qp-line); border-radius: 20px; padding: 7px 12px; font-size: 12px; line-height: 1.5; font-weight: 600; }
+.project-status svg { width: 18px; height: 18px; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.project-status-publication { color: #bbdcff; background: #1d3556; }
+.project-status-patent { color: #ffe2a3; background: #3c301c; border-color: #806535; }
+.project-disclosure-note { padding: 16px 20px; border-left: 3px solid #ffe2a3; background: var(--qp-surface); color: var(--qp-muted); }

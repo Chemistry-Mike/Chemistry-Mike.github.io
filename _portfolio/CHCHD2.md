@@ -2,6 +2,7 @@
 title: "Untangling Mysteries in CHCHD2 Fibrils"
 collection: portfolio
 nav_section: Research
+awaiting_publication: true
 ---
 
 ## Research focus

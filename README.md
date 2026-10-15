@@ -62,3 +62,7 @@ related_publications:
 ## Publication metrics
 
 The Publications page counts `_publications/` automatically at each Jekyll build. First-author publications are counted from `first_author: true` in publication front matter; the same flag displays a yellow star beside their titles. Set this flag when adding a new paper. Scholar h-index and citations are stored in `_data/publication_metrics.yml`. Update those values and `last_checked` together when refreshing them. These citation figures are a dated snapshot, not a live Google Scholar connection.
+
+## Project status badges
+
+Set `awaiting_publication: true` or `patent_related: true` in a `_portfolio/` document’s YAML front matter. Shared templates display an hourglass or lock with a visible label on its research card and detail page. Patent-related pages also show “Details withheld due to ongoing patent work.” These are disclosure labels; they do not restrict access or remove content. Only flag projects identified by the author as patent-related.

@@ -1,8 +1,10 @@
+{% assign project_url = '/portfolio/' | append: include.project.slug | append: '/' %}
+{% assign project_document = site.portfolio | where: 'url', project_url | first %}
 <article class="research-card{% if include.project.raised_image %} research-card-raised{% endif %}">
   <a href="{{ '/portfolio/' | append: include.project.slug | append: '/' | relative_url }}">
     <div class="card-image{% unless include.project.image %} card-image-placeholder{% endunless %}"{% unless include.project.image %} aria-hidden="true"{% endunless %}>
       {% if include.project.image %}<img src="{{ '/images/' | append: include.project.image | relative_url }}" alt="{{ include.project.title | escape }}" loading="lazy">{% endif %}
     </div>
-    <div class="card-copy"><h3>{{ include.project.title }} <span aria-hidden="true">↗</span></h3><p>{{ include.project.description }}</p><span class="text-link">Explore project</span></div>
+    <div class="card-copy"><h3>{{ include.project.title }} <span aria-hidden="true">↗</span></h3>{% include project-status.html project=project_document %}<p>{{ include.project.description }}</p><span class="text-link">Explore project</span></div>
   </a>
 </article>
