@@ -12,19 +12,18 @@
       title: Untangling the Proline-Rich Regions of Tau
       image: Front2-PRD.png
       description: Investigating protein flexibility and interactions in p53 and Tau.
-    - slug: P6-PTM
-      title: Understanding the Phosphorylation Interaction Network
-      image: PhosNetwork-9c81187c4e.png
-      description: Understanding how chemical modifications influence protein structure and dynamics.
+    - slug: CHCHD2
+      title: Untangling CHCHD2?
+      description: Exploring CHCHD2 as a new research direction within the Dark Proteome.
 - title: Undruggable Receptors
   research_title: Orphan Nuclear Receptors
   image: UndruggableReceptor-4c76ed6fde.png
   description: Many proteins represent a complex challenge for scientists, as not even a natural ligand has been found. Complex challenges require elegant solutions.
   projects:
-    - slug: NR2F6-PROTAC
-      title: 'Explorations in NR2F6: Potential PROTAC Strategy'
+    - slug: Deorphanizing-NR2F6
+      title: Deorphanizing NR2F6
       image: Front3-ONR.png
-      description: Exploring a potential PROTAC strategy for NR2F6.
+      description: Investigating potential binding partners and approaches to understanding NR2F6 recognition.
     - slug: NR2F6-NSD1
       title: Peptidomimetic Modeling of the NR2F6:NSD1 Interactions
       image: NR2F6-NSD1-Interactions.png
@@ -37,12 +36,12 @@
   image: Peptidomimetics-8aaf339adc.png
   description: While small-molecule ligands are frequently tested in large quantities using HITS, peptidomimetics present a unique solution – hijacking biology itself.
   projects:
-    - slug: Cyclic-Peptides
-      title: 'Cyclic Peptides: Better Stability?'
-      description: Exploring stability as a research question in cyclic peptide modeling.
+    - slug: Novel-Peptidomimetics
+      title: Development of Novel Peptidomimetics
+      description: Exploring new peptide-inspired approaches to pharmaceutical design.
     - slug: Mimicking-Interactions
-      title: Mimicking the Correct Interactions
+      title: Mimicking Protein Interactions
       description: Investigating which protein interactions to reproduce with peptidomimetics.
-    - slug: Peptide-Cleavage
-      title: 'Peptides in the Blood: Proteolytic Cleavage'
-      description: Exploring proteolytic cleavage in the context of peptide therapeutics.
+    - slug: Glycosylation-Sites
+      title: Side-stepping Glycosylation Sites
+      description: Exploring glycosylation sites as a consideration in peptidomimetic interaction design.
