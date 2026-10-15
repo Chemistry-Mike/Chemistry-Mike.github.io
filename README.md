@@ -48,3 +48,13 @@ Open a pull request from `website-overhaul` into `master`. Confirm the repositor
 ## Backup
 
 Before editing, a complete repository archive and a verified Git bundle were saved in the workspace’s `backups/` directory (outside this repository). The original commit is `ec1001f217f5c428de708ec8444e4b8ce7d75ae0`; `master` remains at that commit during local development.
+
+## Related publications on project pages
+
+Add a `related_publications` list to a portfolio document’s YAML front matter, using the exact `permalink` values from `_publications/`. The shared layout displays matching papers below the project title, ordered newest first, with summary and publisher links. Projects without a list show no publication section.
+
+```yaml
+related_publications:
+  - /publication/2024-JCTC-Expansion
+  - /publication/2024-JCTC-PTM
+```

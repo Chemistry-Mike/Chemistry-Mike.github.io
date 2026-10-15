@@ -1,0 +1,11 @@
+{% if page.collection == 'portfolio' and page.related_publications.size > 0 %}
+  {% assign sorted_papers = site.publications | sort: 'date' | reverse %}
+  {% capture related_papers %}{% for paper in sorted_papers %}{% if page.related_publications contains paper.permalink %}{% include publication-row.html paper=paper %}{% endif %}{% endfor %}{% endcapture %}
+  {% assign related_papers_check = related_papers | strip %}
+  {% if related_papers_check != '' %}
+  <section class="project-publications" aria-labelledby="project-publications-title">
+    <h2 id="project-publications-title">Related publications</h2>
+    {{ related_papers }}
+  </section>
+  {% endif %}
+{% endif %}

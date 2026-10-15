@@ -2,6 +2,9 @@
 title: "Computational NMR Spectroscopy: Advancing Quantum Methods for Disordered Biomolecules"
 excerpt: "Developing and refining advanced computational schemes (MD/ADMA/DFT/QM/MM) to achieve high-accuracy NMR chemical shift predictions for Intrinsically Disordered Proteins (IDPs) and to deconstruct the 31P NMR signal in modified nucleic acids.<br/><img src='/images/Front5-NMR.png'>"
 collection: portfolio
+related_publications:
+  - /publication/2022-PCCP-ADMA
+  - /publication/2024-JCIM-Clustering
 ---
 
 ## Project Goal: Accelerating Quantum Accuracy for Dynamic Biomolecules
