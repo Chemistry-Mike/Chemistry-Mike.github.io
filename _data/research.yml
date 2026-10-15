@@ -1,6 +1,6 @@
-- title: Intrinsic Disorder
+- title: Dark Proteome
   image: Front6-PTM.png
-  description: How flexible regions of p53 and Tau respond to molecular context and chemical modifications.
+  description: While much of the ordered protein machinery has been mapped, the Dark Proteome represents a significant challenge for targeted therapeutics.
   projects:
     - slug: P7-P53
       title: The structural dynamics of p53
@@ -14,9 +14,9 @@
       title: Protein phosphorylation
       image: Front6-PTM.png
       description: Understanding how chemical modifications influence protein structure and dynamics.
-- title: Orphan Nuclear Receptors
+- title: Undruggable Receptors
   image: Front3-ONR.png
-  description: Investigating the interfaces and interactions that govern nuclear receptor function.
+  description: Many proteins represent a complex challenge for scientists, as not even a natural ligand has been found. Complex challenges require elegant solutions.
   projects:
     - slug: P1-DBD
       title: DNA binding domains
@@ -28,6 +28,6 @@
       description: Combining virtual screening and molecular simulations to investigate receptor ligands.
 - title: Peptidomimetics
   image: LoadedPolyProline.png
-  description: A current research focus connecting peptide-inspired molecular design with pharmaceutical modeling.
+  description: While small-molecule ligands are frequently tested in large quantities using HITS, peptidomimetics present a unique solution – hijacking biology itself.
   projects: []
   contact_label: Discuss this research
