@@ -1,6 +1,6 @@
 - title: Dark Proteome
   research_title: The Dark Proteome (IDPs)
-  image: Front6-PTM.png
+  image: DarkProteome.png
   description: While much of the ordered protein machinery has been mapped, the Dark Proteome represents a significant challenge for targeted therapeutics.
   projects:
     - slug: P7-P53
@@ -17,7 +17,7 @@
       description: Understanding how chemical modifications influence protein structure and dynamics.
 - title: Undruggable Receptors
   research_title: Orphan Nuclear Receptors
-  image: Front3-ONR.png
+  image: UndruggableReceptor.png
   description: Many proteins represent a complex challenge for scientists, as not even a natural ligand has been found. Complex challenges require elegant solutions.
   projects:
     - slug: NR2F6-PROTAC
