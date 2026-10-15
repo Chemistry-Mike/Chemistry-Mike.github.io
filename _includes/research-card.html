@@ -1,1 +1,8 @@
-<article class="research-card"><a href="{{ '/portfolio/' | append: include.project.slug | append: '/' | relative_url }}"><div class="card-image"><img src="{{ '/images/' | append: include.project.image | relative_url }}" alt="{{ include.project.title | escape }}" loading="lazy"></div><div class="card-copy"><h3>{{ include.project.title }} <span aria-hidden="true">↗</span></h3><p>{{ include.project.description }}</p><span class="text-link">Explore project</span></div></a></article>
+<article class="research-card">
+  <a href="{{ '/portfolio/' | append: include.project.slug | append: '/' | relative_url }}">
+    <div class="card-image{% unless include.project.image %} card-image-placeholder{% endunless %}"{% unless include.project.image %} aria-hidden="true"{% endunless %}>
+      {% if include.project.image %}<img src="{{ '/images/' | append: include.project.image | relative_url }}" alt="{{ include.project.title | escape }}" loading="lazy">{% endif %}
+    </div>
+    <div class="card-copy"><h3>{{ include.project.title }} <span aria-hidden="true">↗</span></h3><p>{{ include.project.description }}</p><span class="text-link">Explore project</span></div>
+  </a>
+</article>

@@ -175,3 +175,7 @@ p { text-align: left; }
   .personal-closing { grid-template-columns: 1fr; gap: 25px; }
   .contact-portrait { width: 240px; height: auto; aspect-ratio: 1; }
 }
+
+/* Larger opening label on the Research page only. */
+.research-landing .section-intro > .eyebrow { font-size: 20px; line-height: 1.5; letter-spacing: .05em; }
+.card-image-placeholder { background: var(--qp-surface); border-bottom: 1px solid var(--qp-line); }

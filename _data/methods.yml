@@ -3,10 +3,13 @@
   description: Building efficient approaches to characterize complex molecular ensembles.
   projects:
     - slug: P4-DR
-      title: Making sense of molecular ensembles
+      title: Ensemble Decoding Strategies
       image: Front4-DR.png
       description: Dimensionality reduction and clustering for representative protein ensembles.
     - slug: P5-NMR
-      title: Computational NMR spectroscopy
+      title: Enhanced NMR Spectroscopy
       image: Front5-NMR.png
       description: Connecting molecular dynamics, fragmentation, and quantum chemical calculations.
+    - slug: IDR-Simulations
+      title: Better Simulations of IDRs
+      description: Exploring how to better represent intrinsically disordered regions in molecular simulations.
