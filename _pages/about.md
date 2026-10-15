@@ -31,8 +31,8 @@ redirect_from:
 
 <section class="home-section" aria-labelledby="themes-title">
   <div class="section-heading">
-    <div><p class="eyebrow">Research focus</p><h2 id="themes-title">Three main projects.<br>One pharmaceutical focus.</h2></div>
-    <p>My current researches focuses on the areas of pharmacology which are either unattainable or unresolved in current research by focusing on the dark proteome, peptidomimetics and orphan nuclear receptors.</p>
+    <div><p class="eyebrow">Research focus</p><h2 id="themes-title">Three unexplored paths.<br>One concentric goal.<br><strong>Explore the Unexplored.</strong></h2></div>
+    <p>My research focuses on less-explored areas of pharmacology: diving into the dark proteome through intrinsically disordered proteins, seeking matches for orphan nuclear receptors, and devising new therapeutic strategies by mimicking protein interactions through peptidomimetics.</p>
   </div>
   <div class="theme-grid">
     {% for theme in site.data.research %}
@@ -47,9 +47,9 @@ redirect_from:
 <section class="contact-panel personal-closing" aria-labelledby="contact-title">
   <img class="contact-portrait" src="{{ '/images/ConferenceImage2.png' | relative_url }}" alt="Michael Bakker" width="160" height="160" loading="lazy">
   <div>
-    <p class="eyebrow">Michael Bakker · Ph.D.</p>
+    <p class="eyebrow">Michael Bakker · B.Sc., M.Sc., Ph.D.</p>
     <h2 id="contact-title">Let’s connect.</h2>
-    <p>I’m a postdoctoral researcher at Charles University in the Czech Republic. Interested in protein dynamics or computational chemistry? Get in touch to discuss ideas and potential collaborations.</p>
+    <p>I’m a postdoctoral researcher at Charles University in the Czech Republic, with ongoing collaborations with researchers in Germany, Sweden, and the United States. Interested in bioinformatics, pharmaceutical modeling, or protein dynamics? Get in touch to discuss ideas and potential collaborations.</p>
     <div class="actions"><a class="action" href="mailto:{{ site.author.email }}">Get in touch ↗</a><a class="action secondary" href="{{ '/cv/' | relative_url }}">About me & CV →</a></div>
   </div>
 </section>

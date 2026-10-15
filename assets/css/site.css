@@ -17,10 +17,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 h1, h2, h3 { color: #f0f6ff; letter-spacing: -.035em; line-height: 1.16; }
 p { margin: 0 0 1.25em; }
 .site-header { flex-wrap: wrap; max-width: 1280px; margin: auto; padding: 28px 40px; display: flex; align-items: center; justify-content: space-between; gap: 30px; border-bottom: 1px solid var(--qp-line); }
-.brand { display: flex; align-items: center; gap: 13px; color: #f0f6ff; font-weight: 700; font-size: 18px; text-decoration: none; white-space: normal; }
-.brand small { display: block; font-size: 10px; color: var(--qp-muted); font-weight: 400; letter-spacing: .06em; }
-.brand-symbol { color: var(--qp-accent); font-size: 39px; line-height: 1; letter-spacing: -.16em; padding-right: 7px; }
-.brand-symbol span { font-size: 24px; }
+.brand { display: flex; align-items: center; gap: 13px; color: #f0f6ff; font-weight: 700; font-size: clamp(24px, 2.4vw, 27px); text-decoration: none; white-space: normal; }
+.brand small { display: block; font-size: 0.555555556em; color: var(--qp-muted); font-weight: 400; letter-spacing: .06em; }
+.brand-symbol { flex-shrink: 0; color: var(--qp-accent); font-size: 2.166666667em; line-height: 1; letter-spacing: -.16em; padding-right: 7px; }
+.brand-symbol span { font-size: 0.615384615em; }
 .site-header nav ul { flex-wrap: wrap; list-style: none; display: flex; gap: 24px; margin: 0; padding: 0; }
 .site-header nav a { color: var(--qp-muted); text-decoration: none; font-size: 26px; padding: 9px 0; display: block; }
 .site-header nav a:hover, .site-header nav a[aria-current] { color: var(--qp-accent); }
