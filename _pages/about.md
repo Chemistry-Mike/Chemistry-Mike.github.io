@@ -34,7 +34,7 @@ redirect_from:
     <div><p class="eyebrow">Research focus</p><h2 id="themes-title">Three unexplored paths.<br>One concentric goal.<br><strong>Explore the Unexplored.</strong></h2></div>
     <p>My research focuses on less-explored areas of pharmacology: diving into the dark proteome through intrinsically disordered proteins, seeking matches for orphan nuclear receptors, and devising new therapeutic strategies by mimicking protein interactions through peptidomimetics.</p>
   </div>
-  <div class="theme-grid">
+  <div class="theme-grid home-project-grid">
     {% for theme in site.data.research %}
     <a class="theme-card theme-card-illustrated" href="{{ '/research/' | relative_url }}#{{ theme.title | slugify }}">
       <div class="theme-illustration"><img src="{{ '/images/' | append: theme.image | relative_url }}" alt="" loading="lazy"></div>
