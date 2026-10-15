@@ -14,6 +14,7 @@ authors:
 doi: "10.1016/j.bpj.2026.03.024"
 paperurl: "https://doi.org/10.1016/j.bpj.2026.03.024"
 citation: 'Berggren, A., Bakker, M., Fisher, H., & Skepö, M. (2026). Conformational flexibility and transient structure of the proline-rich domain in p53. <i>Biophysical Journal</i>, 125(8), 1914–1925.'
+first_author: false
 ---
 
 ## Research summary

@@ -7,6 +7,7 @@ date: 2024-01-01
 venue: 'Journal of Chemical Information and Modeling'
 paperurl: 'https://pubs.acs.org/doi/10.1021/acs.jcim.4c00941'
 citation: # 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+first_author: false
 ---
 
 [See Publication Here.](https://pubs.acs.org/doi/10.1021/acs.jcim.4c00941)

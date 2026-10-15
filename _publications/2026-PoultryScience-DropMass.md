@@ -15,6 +15,7 @@ authors:
 doi: "10.1016/j.psj.2026.107159"
 paperurl: "https://doi.org/10.1016/j.psj.2026.107159"
 citation: 'Bakker, M., Vraníková, B., Duintjer Tebbens, E. J., & Šklubalová, Z. (2026). Comparative analysis of drop mass variance for manual and automatic delivery of large-scale eye drop poultry vaccine. <i>Poultry Science</i>, 105(11), 107159.'
+first_author: true
 ---
 
 ## Research summary

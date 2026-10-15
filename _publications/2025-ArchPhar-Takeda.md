@@ -7,6 +7,7 @@ date: 2025-01-01
 venue: 'Archiv der Pharmazie (2025)'
 paperurl: 'https://pubmed.ncbi.nlm.nih.gov/39801251/'
 citation: # 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+first_author: false
 ---
 
 [See Publication Here.](https://pubmed.ncbi.nlm.nih.gov/39801251/)

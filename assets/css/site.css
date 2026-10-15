@@ -215,3 +215,8 @@ p { text-align: left; }
 @media (max-width: 400px) {
   .metrics-grid { grid-template-columns: 1fr; }
 }
+
+/* Authorship is conveyed by both the star and its accessible label. */
+.first-author-star { color: #ffd166; font-family: Arial, sans-serif; font-size: 1em; white-space: nowrap; }
+.publication-legend { color: var(--qp-muted); font-size: 14px; margin-bottom: 24px; }
+.publication-legend .first-author-star { margin-right: 6px; }

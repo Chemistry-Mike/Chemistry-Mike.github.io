@@ -7,6 +7,7 @@ date: 2024-01-01
 venue: 'Energies'
 paperurl: 'https://www.mdpi.com/1996-1073/17/10/2433'
 citation: # 'Bakker, Michael. (2024). &quot;Exploring the Role of Globular Domain Locations on an Intrinsically Disordered Region of p53: A Molecular Dynamics Investigation.&quot; <i>JCTC</i>. 1(3).'
+first_author: true
 ---
 
 [See Publication Here.](https://www.mdpi.com/1996-1073/17/10/2433)
