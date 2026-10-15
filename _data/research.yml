@@ -18,7 +18,7 @@
       description: Understanding how chemical modifications influence protein structure and dynamics.
 - title: Undruggable Receptors
   research_title: Orphan Nuclear Receptors
-  image: UndruggableReceptor.png
+  image: UndruggableReceptor-4c76ed6fde.png
   description: Many proteins represent a complex challenge for scientists, as not even a natural ligand has been found. Complex challenges require elegant solutions.
   projects:
     - slug: NR2F6-PROTAC
