@@ -1,4 +1,4 @@
-<article class="research-card">
+<article class="research-card{% if include.project.raised_image %} research-card-raised{% endif %}">
   <a href="{{ '/portfolio/' | append: include.project.slug | append: '/' | relative_url }}">
     <div class="card-image{% unless include.project.image %} card-image-placeholder{% endunless %}"{% unless include.project.image %} aria-hidden="true"{% endunless %}>
       {% if include.project.image %}<img src="{{ '/images/' | append: include.project.image | relative_url }}" alt="{{ include.project.title | escape }}" loading="lazy">{% endif %}
