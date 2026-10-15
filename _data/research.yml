@@ -29,9 +29,9 @@
       image: NR2F6-NSD1-Interactions.png
       description: Modeling peptide-inspired approaches to NR2F6–NSD1 interactions.
     - slug: PXR-Allosteric
-      title: 'PXR: Potential New Allosteric Sites?'
-      image: Front3-ONR.png
-      description: Investigating potential new allosteric sites in PXR.
+      title: 'PXR: New Allosteric Site'
+      image: PXR-InteractionNetwork-d70bb98177.png
+      description: Investigating an allosteric site in PXR and its relevance to pharmaceutical modeling.
 - title: Peptidomimetics
   image: Peptidomimetics-8aaf339adc.png
   description: While small-molecule ligands are frequently tested in large quantities using HITS, peptidomimetics present a unique solution – hijacking biology itself.
