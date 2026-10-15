@@ -33,7 +33,7 @@
       image: Front3-ONR.png
       description: Investigating potential new allosteric sites in PXR.
 - title: Peptidomimetics
-  image: Peptidomimetics.png
+  image: Peptidomimetics-transparent.png
   description: While small-molecule ligands are frequently tested in large quantities using HITS, peptidomimetics present a unique solution – hijacking biology itself.
   projects:
     - slug: Cyclic-Peptides
