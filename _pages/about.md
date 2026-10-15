@@ -54,25 +54,6 @@ redirect_from:
   </div>
 </section>
 
-<section class="featured-story home-section" aria-labelledby="p53-title">
-  <figure class="story-figure">
-    <img src="{{ '/images/P53-C.png' | relative_url }}" alt="Molecular illustration of the p53 pre-tetramerization loop" loading="lazy">
-    <figcaption>The pre-tetramerization loop: a flexible region of p53.</figcaption>
-  </figure>
-  <div class="story-copy">
-    <p class="eyebrow">Featured research · p53</p>
-    <h2 id="p53-title">What can a flexible<br>protein region tell us?</h2>
-    <p>My p53 research asks how the context around a disordered region changes the structures it can adopt, and how phosphorylation influences its dynamics.</p>
-    <p>Using molecular dynamics simulations, we investigate how neighboring domains constrain the pre-tetramerization loop. Comparing these simulated ensembles with experimental NMR chemical shifts helps assess how well the models capture its behavior.</p>
-    <a class="action secondary" href="{{ '/portfolio/P7-P53/' | relative_url }}">Explore the p53 project →</a>
-    <div class="story-papers" aria-label="Related p53 publications">
-      <span class="eyebrow">Related papers</span>
-      <a href="{{ '/publication/2024-JCTC-Expansion' | relative_url }}">Domain context & conformational dynamics →</a>
-      <a href="{{ '/publication/2024-JCTC-PTM' | relative_url }}">Phosphorylation of the regulatory domain →</a>
-    </div>
-  </div>
-</section>
-
 <section class="home-section" aria-labelledby="papers-title">
   <div class="section-heading">
     <div><p class="eyebrow">Selected work</p><h2 id="papers-title">From simulations<br>to published insights.</h2></div>
