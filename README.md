@@ -58,3 +58,7 @@ related_publications:
   - /publication/2024-JCTC-Expansion
   - /publication/2024-JCTC-PTM
 ```
+
+## Publication metrics
+
+The Publications page counts `_publications/` automatically at each Jekyll build. Scholar h-index, citations, and the author-confirmed first-author count are stored in `_data/publication_metrics.yml`. Update those values and `last_checked` together when refreshing them. These three figures are a dated snapshot, not a live Google Scholar connection.
