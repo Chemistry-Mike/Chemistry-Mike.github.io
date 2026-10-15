@@ -1,5 +1,5 @@
 ---
-title: "Mimicking the Correct Interactions"
+title: "Mimicking Protein Interactions"
 collection: portfolio
 nav_section: Research
 ---

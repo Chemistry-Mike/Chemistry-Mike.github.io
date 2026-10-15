@@ -4,10 +4,19 @@ collection: publications
 permalink: /publication/2025-ArchPhar-Takeda
 excerpt: 'An integrated computational approach led to the discovery of Hit-3 (CSC089939231), a new nonsteroidal Takeda G protein-coupled receptor 5 (TGR5) modulator, with molecular dynamics simulations suggesting its activation is supported by a hydrogen bond interaction with Tyr240.'
 date: 2025-01-01
-venue: 'Archiv der Pharmazie (2025)'
-paperurl: 'https://pubmed.ncbi.nlm.nih.gov/39801251/'
-citation: # 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+venue: "Archiv der Pharmazie"
+paperurl: "https://doi.org/10.1002/ardp.202400423"
+citation: "Salam, R., Bakker, M., Krutáková, M., Štefela, A., Pávek, P., Duintjer Tebbens, J., & Zitko, J. (2025). The discovery of a new nonbile acid modulator of Takeda G protein-coupled receptor 5: An integrated computational approach. <i>Archiv der Pharmazie</i>, 358(1), e2400423."
 first_author: false
+doi: "10.1002/ardp.202400423"
+authors:
+  - "Rudy Salam"
+  - "Michael Bakker"
+  - "Mária Krutáková"
+  - "Alžbeta Štefela"
+  - "Petr Pávek"
+  - "Jurjen Duintjer Tebbens"
+  - "Jan Zitko"
 ---
 
 [See Publication Here.](https://pubmed.ncbi.nlm.nih.gov/39801251/)

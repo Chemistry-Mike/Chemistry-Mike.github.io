@@ -4,10 +4,15 @@ collection: publications
 permalink: /publication/2024-JCIM-Decomp
 excerpt: 'This study introduces an approach to better understand the conformational ensemble (CoE) of intrinsically disordered proteins (IDPs) by decomposing the ensemble of the model peptide histatin 5 into groups separated by their radius of gyration (Rg​) using a combination of small-angle X-ray scattering (SAXS) and all-atomistic molecular dynamics simulations.'
 date: 2024-01-01
-venue: 'Journal of Chemical Information and Modeling'
-paperurl: 'https://pubs.acs.org/doi/10.1021/acs.jcim.4c00941'
-citation: # 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+venue: "Journal of Chemical Information and Modeling"
+paperurl: "https://doi.org/10.1021/acs.jcim.4c00941"
+citation: "Svensson, O., Bakker, M. J., & Skepö, M. (2024). Deeper Insight of the Conformational Ensemble of Intrinsically Disordered Proteins. <i>Journal of Chemical Information and Modeling</i>, 64(15), 6105–6114."
 first_author: false
+doi: "10.1021/acs.jcim.4c00941"
+authors:
+  - "Oskar Svensson"
+  - "Michael J. Bakker"
+  - "Marie Skepö"
 ---
 
 [See Publication Here.](https://pubs.acs.org/doi/10.1021/acs.jcim.4c00941)

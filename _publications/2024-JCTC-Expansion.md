@@ -4,10 +4,15 @@ collection: publications
 permalink: /publication/2024-JCTC-Expansion
 excerpt: 'This paper is about an investigation made into the disordered regions of p53 using molecular dynamics and machine learning techniques.'
 date: 2024-01-17
-venue: 'Journal of Chemical Theory and Computation'
-paperurl: 'https://pubs.acs.org/doi/full/10.1021/acs.jctc.3c00971'
-citation: # 'Bakker, Michael. (2024). &quot;Exploring the Role of Globular Domain Locations on an Intrinsically Disordered Region of p53: A Molecular Dynamics Investigation.&quot; <i>JCTC</i>. 1(3).'
+venue: "Journal of Chemical Theory and Computation"
+paperurl: "https://doi.org/10.1021/acs.jctc.3c00971"
+citation: "Bakker, M. J., Sørensen, H. V., & Skepö, M. (2024). Exploring the Role of Globular Domain Locations on an Intrinsically Disordered Region of p53: A Molecular Dynamics Investigation. <i>Journal of Chemical Theory and Computation</i>, 20(3), 1423–1433."
 first_author: true
+doi: "10.1021/acs.jctc.3c00971"
+authors:
+  - "Michael J. Bakker"
+  - "Henrik V. Sørensen"
+  - "Marie Skepö"
 ---
 
 [See Publication Here.](https://pubs.acs.org/doi/10.1021/acs.jctc.3c00971)

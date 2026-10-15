@@ -4,10 +4,19 @@ collection: publications
 permalink: /publication/2024-JCIM-Clustering
 excerpt: 'This study streamlines the sampling procedure for predicting NMR chemical shifts (CS) in intrinsically disordered proteins (IDPs) by merging dimensionality reduction (DR) (specifically using solvent-accessible surface area (SASA)) and clustering algorithms (CA) to generate clustered ensembles (CEs) that outperform traditional sequential ensembles.'
 date: 2024-01-01
-venue: 'Journal of Chemical Information and Modeling'
-paperurl: 'https://pubs.acs.org/doi/10.1021/acs.jcim.4c00809'
-citation: # 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+venue: "Journal of Chemical Information and Modeling"
+paperurl: "https://doi.org/10.1021/acs.jcim.4c00809"
+citation: "Bakker, M. J., Gaffour, A., Juhás, M., Zapletal, V., Stošek, J., Bratholm, L. A., & Pavlíková Přecechtělová, J. (2024). Streamlining NMR Chemical Shift Predictions for Intrinsically Disordered Proteins: Design of Ensembles with Dimensionality Reduction and Clustering. <i>Journal of Chemical Information and Modeling</i>, 64(16), 6542–6556."
 first_author: true
+doi: "10.1021/acs.jcim.4c00809"
+authors:
+  - "Michael J. Bakker"
+  - "Amina Gaffour"
+  - "Martin Juhás"
+  - "Vojtěch Zapletal"
+  - "Jakub Stošek"
+  - "Lars A. Bratholm"
+  - "Jana Pavlíková Přecechtělová"
 ---
 
 [See Publication Here.](https://pubs.acs.org/doi/10.1021/acs.jcim.4c00809)

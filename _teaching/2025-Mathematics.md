@@ -5,6 +5,7 @@ type: "Teaching Assistant"
 permalink: /teaching/2025-Mathematics
 venue: "Charles University, Faculty of Pharmacy, Department of Inorganic and Organic Chemistry"
 date: 2025-09-01
+display_years: "2025–2026"
 location: "Hradec Králové, CZ"
 ---
 
