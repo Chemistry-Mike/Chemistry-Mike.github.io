@@ -45,7 +45,7 @@ redirect_from:
 </section>
 
 <section class="contact-panel personal-closing" aria-labelledby="contact-title">
-  <img class="contact-portrait" src="{{ '/images/ConferenceImage2.png' | relative_url }}" alt="Michael Bakker" width="160" height="160" loading="lazy">
+  <img class="contact-portrait" src="{{ '/images/ConferenceImage2.png' | relative_url }}" alt="Michael Bakker" width="320" height="320" loading="lazy">
   <div>
     <p class="eyebrow">Michael Bakker · B.Sc., M.Sc., Ph.D.</p>
     <h2 id="contact-title">Let’s connect.</h2>
