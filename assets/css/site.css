@@ -191,3 +191,12 @@ p { text-align: left; }
 .research-card-raised { overflow: visible; }
 .research-card-raised .card-image { height: 234px; margin-top: -24px; padding: 0 12px 18px; background: transparent; }
 .research-card-raised .card-image img { object-position: center top; }
+
+/* Papers appear immediately below the project title, before the overview. */
+.project-publications { margin: 30px 0 45px; padding: 26px; border: 1px solid var(--qp-line); border-radius: 6px; background: var(--qp-surface); }
+.project-publications > h2 { margin: 0 0 22px; font-size: 26px; }
+.project-publications .publication-row { padding: 22px 0; }
+.project-publications .publication-row:last-child { padding-bottom: 0; }
+@media (max-width: 700px) {
+  .project-publications { padding: 20px 16px; }
+}

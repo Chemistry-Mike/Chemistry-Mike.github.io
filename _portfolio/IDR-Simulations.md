@@ -2,6 +2,8 @@
 title: "Better Simulations of IDRs"
 collection: portfolio
 nav_section: Research
+related_publications:
+  - /publication/2024-JCTC-Expansion
 ---
 
 ## Research focus

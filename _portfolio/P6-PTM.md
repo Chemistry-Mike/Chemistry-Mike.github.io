@@ -2,6 +2,9 @@
 title: "Unraveling Protein Phosphorylation Dynamics"
 excerpt: "Investigating how phosphorylation and phosphomimetic modifications influence protein structure and dynamics, focusing on biomolecular size, secondary structure changes, and effects on protein-protein interactions. <br/><img src='/images/Front6-PTM.png'>"
 collection: portfolio
+related_publications:
+  - /publication/2025-Biophys-Tau
+  - /publication/2024-JCTC-PTM
 ---
 
 ## Project Goal: Characterizing the Structural and Dynamic Consequences of Phosphorylation
