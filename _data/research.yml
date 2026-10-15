@@ -5,7 +5,8 @@
   projects:
     - slug: P7-P53
       title: Exploring the Disordered Regions of P53
-      image: P53-A.png
+      image: p53DisorderedRegions.png
+      raised_image: true
       description: Exploring the conformational landscapes of four intrinsically disordered regions.
     - slug: P2-PRD
       title: Untangling the Proline-Rich Regions of Tau
@@ -26,7 +27,7 @@
       description: Exploring a potential PROTAC strategy for NR2F6.
     - slug: NR2F6-NSD1
       title: Peptidomimetic Modeling of the NR2F6:NSD1 Interactions
-      image: Front3-ONR.png
+      image: NR2F6-NSD1-Interactions.png
       description: Modeling peptide-inspired approaches to NR2F6–NSD1 interactions.
     - slug: PXR-Allosteric
       title: 'PXR: Potential New Allosteric Sites?'

@@ -12,7 +12,7 @@ redirect_from:
   <div class="hero-copy">
     <p class="eyebrow hero-identity">Michael Bakker · Bioinformatics & Pharmaceuticals</p>
     <h1 id="home-title">Understanding proteins<br><em>in motion.</em></h1>
-    <p class="lede">I combine molecular simulations, quantum chemistry, and machine learning to investigate how protein dynamics shape biological function and disease.</p>
+    <p class="lede">I explore new possibilities for drug discovery by modeling disordered proteins, orphan nuclear receptors, and peptidomimetics—bringing molecular insight to challenging pharmaceutical questions.</p>
     <p class="hero-affiliation">Postdoctoral researcher · Charles University, Czech Republic</p>
     <div class="actions">
       <a class="action" href="{{ '/research/' | relative_url }}">Explore Research →</a>
@@ -21,7 +21,6 @@ redirect_from:
   </div>
   <figure class="hero-art">
     <img src="{{ '/images/NewMainImage.png' | relative_url }}" alt="Protein ribbon visualization with highlighted helices and a bound molecule" width="1181" height="1261" fetchpriority="high">
-    <figcaption>Exploring the unexplored regions of pharmacology.</figcaption>
   </figure>
 </section>
 

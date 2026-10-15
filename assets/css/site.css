@@ -32,14 +32,14 @@ p { margin: 0 0 1.25em; }
 .hero-identity { font-size: clamp(15px, 1.7vw, 19px); line-height: 1.5; letter-spacing: .025em; text-transform: none; }
 .hero h1 em { color: var(--qp-accent); font-family: Georgia, serif; font-weight: 400; }
 .lede { color: var(--qp-muted); font-size: 18px; line-height: 1.8; max-width: 660px; }
-.hero-affiliation { font-size: 12px; color: var(--qp-muted); margin: 28px 0; }
+.hero-affiliation { font-size: 15px; color: var(--qp-muted); margin: 28px 0; }
 .actions { display: flex; gap: 12px; flex-wrap: wrap; }
 .action { background: var(--qp-accent); color: var(--qp-bg); border: 1px solid var(--qp-accent); padding: 13px 20px; display: inline-block; font-size: 13px; font-weight: 650; text-decoration: none; border-radius: 4px; }
 .action:hover { color: var(--qp-bg); background: #c3e2ff; }
 .action.secondary { color: #f0f6ff; background: transparent; border-color: var(--qp-line); }
 .action.secondary:hover { border-color: var(--qp-accent); }
 .hero-art { margin: 0; position: relative; padding: 30px; border: 1px solid var(--qp-line); border-radius: 50% 50% 8px 8px; background: radial-gradient(ellipse at center, #264d7d 0%, var(--qp-bg) 70%); }
-.hero-art img { display: block; width: 100%; height: 330px; object-fit: contain; }
+.hero-art img { display: block; width: 100%; height: 330px; object-fit: contain; transform: scale(1.25); }
 .hero-art figcaption { color: var(--qp-muted); text-align: center; font-size: 11px; margin-top: 20px; }
 .discipline-strip { border-top: 1px solid var(--qp-line); border-bottom: 1px solid var(--qp-line); padding: 22px 0; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; color: var(--qp-muted); font-size: 16px; text-transform: uppercase; letter-spacing: .06em; }
 .home-section, .research-theme { margin: 85px 0; }
@@ -181,3 +181,13 @@ p { text-align: left; }
 /* Larger opening label on the Research page only. */
 .research-landing .section-intro > .eyebrow { font-size: 20px; line-height: 1.5; letter-spacing: .05em; }
 .card-image-placeholder { background: var(--qp-surface); border-bottom: 1px solid var(--qp-line); }
+
+/* Homepage emphasis and full-width Research introduction. */
+.hero .actions .action { font-size: 17px; }
+.research-landing .section-intro,
+.research-landing .section-intro .lede { max-width: none; }
+/* Make room for the p53 figure above its research card without clipping it. */
+.research-theme .card-grid { padding-top: 24px; row-gap: 48px; }
+.research-card-raised { overflow: visible; }
+.research-card-raised .card-image { height: 234px; margin-top: -24px; padding: 0 12px 18px; background: transparent; }
+.research-card-raised .card-image img { object-position: center top; }
