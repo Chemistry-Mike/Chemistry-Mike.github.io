@@ -4,10 +4,17 @@ collection: publications
 permalink: /publication/2022-PCCP-ADMA
 excerpt: 'This paper is about the generation of NMR chemical shifts ab-inito from IDP trajectories using a multiscale approach.'
 date: 2022-11-02
-venue: 'Physical Chemistry and Chemical Physics'
-paperurl: 'https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp01638a'
-citation:
+venue: "Physical Chemistry Chemical Physics"
+paperurl: "https://doi.org/10.1039/D2CP01638A"
+citation: "Bakker, M. J., Mládek, A., Semrád, H., Zapletal, V., & Pavlíková Přecechtělová, J. (2022). Improving IDP theoretical chemical shift accuracy and efficiency through a combined MD/ADMA/DFT and machine learning approach. <i>Physical Chemistry Chemical Physics</i>, 24(44), 27678–27692."
 first_author: true
+doi: "10.1039/D2CP01638A"
+authors:
+  - "Michael J. Bakker"
+  - "Arnošt Mládek"
+  - "Hugo Semrád"
+  - "Vojtěch Zapletal"
+  - "Jana Pavlíková Přecechtělová"
 ---
 
 This work presents an improved computational scheme for calculating NMR chemical shifts in intrinsically disordered proteins. The scheme couples molecular dynamics simulations with density functional theory calculations and incorporates partial geometry optimization and machine-learning based cluster analysis. Results show that the scheme can produce accurate CS calculations with reduced computational cost compared to conventional methods. 

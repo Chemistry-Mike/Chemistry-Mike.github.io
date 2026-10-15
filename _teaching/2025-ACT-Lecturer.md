@@ -5,6 +5,7 @@ type: "Practical Classes"
 permalink: /teaching/2025-ACT-Lecturer
 venue: "Charles University, Faculty of Pharmacy"
 date: 2025-01-01
+display_years: "2025–2026"
 location: "Hradec Králové, CZ"
 ---
 

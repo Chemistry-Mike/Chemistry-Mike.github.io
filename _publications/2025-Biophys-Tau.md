@@ -4,10 +4,16 @@ collection: publications
 permalink: /publication/2025-Biophys-Tau
 excerpt: "All-atomistic molecular dynamics simulations of the Tau(210-240)/BIN1 SH3 complex reveal that additional phosphate charges reduce salt-bridge formation by up to 32% and cause a strong preference in Tau for contact with the distal and n-Src loops instead of the RT-Src loop."
 date: 2025-01-01
-venue: "Biophysical Journal (2025)"
-paperurl: 'https://pubmed.ncbi.nlm.nih.gov/41035200/'
-citation: # 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+venue: "Biophysical Journal"
+paperurl: "https://doi.org/10.1016/j.bpj.2025.09.037"
+citation: "Gaffour, A., Bakker, M., Bera, K., & Pavlíková Přecechtělová, J. (2025). Reduced Binding of Tau(210-240) to BIN1: Phosphate Charges Prefer n-Src/Distal Loops over RT-Src Loops. <i>Biophysical Journal</i>, 124(21), 3800–3810."
 first_author: false
+doi: "10.1016/j.bpj.2025.09.037"
+authors:
+  - "Amina Gaffour"
+  - "Michael Bakker"
+  - "Krishnendu Bera"
+  - "Jana Pavlíková Přecechtělová"
 ---
 
 [See Publication Here.](https://pubmed.ncbi.nlm.nih.gov/41035200/)

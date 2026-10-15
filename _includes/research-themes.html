@@ -1,6 +1,6 @@
 {% for theme in site.data.research %}
 <section class="research-theme" id="{{ theme.title | slugify }}">
-  <div class="section-heading"><h2>{{ theme.research_title | default: theme.title }}</h2><p>{{ theme.description }}</p></div>
+  <div class="section-heading"><h2>{{ theme.research_title | default: theme.title }}</h2><p class="research-callout">{{ theme.description }}</p></div>
   {% if theme.projects.size > 0 %}
   <div class="card-grid">{% for project in theme.projects %}{% include research-card.html project=project %}{% endfor %}</div>
   {% else %}
@@ -9,6 +9,6 @@
 </section>
 {% endfor %}
 <section class="research-theme" id="computational-methods">
-  <div class="section-heading"><h2>Computational Methods: Added Insights</h2><p>Dimensionality reduction, clustering, and NMR prediction provide tools for investigating molecular ensembles.</p></div>
+  <div class="section-heading"><h2>Computational Methods: Added Insights</h2><p class="research-callout">Dimensionality reduction, clustering, and NMR prediction provide tools for investigating molecular ensembles.</p></div>
   <div class="card-grid">{% for group in site.data.methods %}{% for project in group.projects %}{% include research-card.html project=project %}{% endfor %}{% endfor %}</div>
 </section>

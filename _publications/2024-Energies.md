@@ -4,10 +4,14 @@ collection: publications
 permalink: /publication/2024-Energies
 excerpt: 'The long-term unsustainability of petroleum-based products is addressed by investigating the direct molecular dynamics simulation of the pyrolysis of methyl linoleate (a biodiesel substitute) to understand the atomistic details of its decomposition and identify alternative, renewable pathways to produce valuable petrochemical precursors like ethene and propene.'
 date: 2024-01-01
-venue: 'Energies'
-paperurl: 'https://www.mdpi.com/1996-1073/17/10/2433'
-citation: # 'Bakker, Michael. (2024). &quot;Exploring the Role of Globular Domain Locations on an Intrinsically Disordered Region of p53: A Molecular Dynamics Investigation.&quot; <i>JCTC</i>. 1(3).'
+venue: "Energies"
+paperurl: "https://doi.org/10.3390/en17102433"
+citation: "Bakker, M. J., & Siebert, M. R. (2024). Atomistic Details of Methyl Linoleate Pyrolysis: Direct Molecular Dynamics Simulation of Converting Biodiesel to Petroleum Products. <i>Energies</i>, 17(10), 2433."
 first_author: true
+doi: "10.3390/en17102433"
+authors:
+  - "Michael J. Bakker"
+  - "Matthew R. Siebert"
 ---
 
 [See Publication Here.](https://www.mdpi.com/1996-1073/17/10/2433)

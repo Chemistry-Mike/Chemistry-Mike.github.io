@@ -4,10 +4,16 @@ collection: publications
 permalink: /publication/2024-JCTC-PTM
 excerpt: 'This study uses fully atomistic explicit water molecular dynamics simulations to explore the functional landscape of the intrinsically disordered p53 regulatory domain, revealing a detailed understanding of how varying the number of phosphorylated amino acids impacts its conformational dynamics, flexibility, structural effects, protein interactivity, and energy landscapes.'
 date: 2024-01-01
-venue: 'Journal of Chemical Theory and Computation'
-paperurl: 'https://pubs.acs.org/doi/10.1021/acs.jctc.4c00570'
-citation: # 'Bakker, Michael. (2024). &quot;Exploring the Role of Globular Domain Locations on an Intrinsically Disordered Region of p53: A Molecular Dynamics Investigation.&quot; <i>JCTC</i>. 1(3).'
+venue: "Journal of Chemical Theory and Computation"
+paperurl: "https://doi.org/10.1021/acs.jctc.4c00570"
+citation: "Bakker, M. J., Svensson, O., Sørensen, H. V., & Skepö, M. (2024). Exploring the Functional Landscape of the p53 Regulatory Domain: The Stabilizing Role of Post-Translational Modifications. <i>Journal of Chemical Theory and Computation</i>, 20(14), 5842–5853."
 first_author: true
+doi: "10.1021/acs.jctc.4c00570"
+authors:
+  - "Michael J. Bakker"
+  - "Oskar Svensson"
+  - "Henrik V. Sørensen"
+  - "Marie Skepö"
 ---
 
 [See Publication Here.](https://pubs.acs.org/doi/10.1021/acs.jctc.4c00570)

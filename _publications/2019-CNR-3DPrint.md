@@ -4,10 +4,15 @@ collection: publications
 permalink: /publication/2019-CNR-3DPrint
 excerpt: 'This paper discusses a method for creating 3D printed models of NMR data using Mathematica and a 3D printer, which can serve as a helpful teaching tool for students to understand complex information in NMR spectra.'
 date: 2019-04-02
-venue: 'Concepts in Magnetic Resonance'
-paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1002/cmr.a.21470'
-citation: # 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+venue: "Concepts in Magnetic Resonance Part A"
+paperurl: "https://doi.org/10.1002/cmr.a.21470"
+citation: "Bakker, M., Boyd, B., & Meints, G. A. (2019). 3D printed NMR spectra: From 1D and 2D acquisition to 3D visualization. <i>Concepts in Magnetic Resonance Part A</i>, 47A(1), e21470."
 first_author: true
+doi: "10.1002/cmr.a.21470"
+authors:
+  - "Michael Bakker"
+  - "Ben Boyd"
+  - "Gary A. Meints"
 ---
 
 We have developed a method for creating 3D printed models of NMR data. This involves converting FT NMR data into a 3D graph using Mathematica, and then printing it using a 3D printer. These physical models can be used as a teaching tool to help students understand the complex information presented in two-dimensional and relaxation NMR spectra.
