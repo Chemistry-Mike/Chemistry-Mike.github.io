@@ -58,3 +58,7 @@ related_publications:
   - /publication/2024-JCTC-Expansion
   - /publication/2024-JCTC-PTM
 ```
+
+## Publication metrics
+
+The Publications page counts `_publications/` automatically at each Jekyll build. First-author publications are counted from `first_author: true` in publication front matter; the same flag displays a yellow star beside their titles. Set this flag when adding a new paper. Scholar h-index and citations are stored in `_data/publication_metrics.yml`. Update those values and `last_checked` together when refreshing them. These citation figures are a dated snapshot, not a live Google Scholar connection.

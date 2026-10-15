@@ -6,6 +6,7 @@ permalink: /publications/
 nav_section: Publications
 description: Research spanning molecular dynamics, NMR prediction, protein interactions, computational chemistry, educational models, pharmaceutical delivery, and applications of machine learning across disciplines.
 ---
-<p><a class="text-link" href="{{ site.author.googlescholar }}">View my Google Scholar profile ↗</a></p>
+{% include publication-metrics.html %}
+<p class="publication-legend"><span class="first-author-star" aria-hidden="true">&#9733;</span> First-author publication</p>
 {% assign papers = site.publications | sort: 'date' | reverse %}
 {% for paper in papers %}{% include publication-row.html paper=paper %}{% endfor %}

@@ -1,0 +1,11 @@
+{% assign metrics = site.data.publication_metrics %}
+{% assign first_author_papers = site.publications | where: "first_author", true %}
+<section class="publication-metrics" aria-label="Publication and citation metrics">
+  <dl class="metrics-grid">
+    <div class="metric-card"><dt>Publications</dt><dd>{{ site.publications.size }}<span>Papers listed on this website</span></dd></div>
+    <div class="metric-card"><dt>First-author publications</dt><dd>{{ first_author_papers.size }}<span>Marked with a star below</span></dd></div>
+    <div class="metric-card"><dt>H-index</dt><dd>{{ metrics.h_index }}<span>Google Scholar · All time</span></dd></div>
+    <div class="metric-card"><dt>Citations</dt><dd>{{ metrics.citations }}<span>Google Scholar · All time</span></dd></div>
+  </dl>
+  <p class="metrics-note">Citation metrics last checked <time datetime="{{ metrics.last_checked }}">{{ metrics.last_checked | date: '%B %-d, %Y' }}</time>. <a href="{{ site.author.googlescholar }}">View Google Scholar ↗</a></p>
+</section>
