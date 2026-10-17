@@ -1,0 +1,5 @@
+# Add more figures here to extend the homepage slideshow.
+- image: NewMainImage.png
+  alt: NR2F6 protein ribbon visualization with highlighted helices and a bound molecule
+- image: VEGFR2-ECD-Bilayer.png
+  alt: Molecular visualization of the VEGFR2 extracellular domain and a lipid bilayer
