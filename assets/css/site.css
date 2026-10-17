@@ -235,3 +235,14 @@ p { text-align: left; }
 .project-status-publication { color: #bbdcff; background: #1d3556; }
 .project-status-patent { color: #ffe2a3; background: #3c301c; border-color: #806535; }
 .project-disclosure-note { padding: 16px 20px; border-left: 3px solid #ffe2a3; background: var(--qp-surface); color: var(--qp-muted); }
+
+/* Crossfade research figures in a fixed frame to prevent layout shifts. */
+.hero-slides { display: grid; }
+.hero-slides .hero-slide { grid-area: 1 / 1; min-width: 0; opacity: 0; transition: opacity 1.2s ease-in-out; pointer-events: none; }
+.hero-slides .hero-slide.is-active { opacity: 1; }
+.hero-slide-controls:not([hidden]) { display: flex; justify-content: center; align-items: center; gap: 12px; margin-top: 52px; position: relative; z-index: 1; }
+.hero-slide-controls button { background: var(--qp-bg); color: var(--qp-accent); border: 1px solid var(--qp-line); border-radius: 6px; padding: 10px 14px; min-height: 44px; min-width: 44px; font-size: 12px; cursor: pointer; }
+.hero-slide-controls button:hover { border-color: var(--qp-accent); }
+@media (prefers-reduced-motion: reduce) {
+  .hero-slides .hero-slide { transition: none; }
+}

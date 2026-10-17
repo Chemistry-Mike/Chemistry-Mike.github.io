@@ -19,8 +19,17 @@ redirect_from:
       <a class="action secondary" href="{{ '/publications/' | relative_url }}">View Publications</a>
     </div>
   </div>
-  <figure class="hero-art">
-    <img src="{{ '/images/NewMainImage.png' | relative_url }}" alt="Protein ribbon visualization with highlighted helices and a bound molecule" width="1181" height="1261" fetchpriority="high">
+  <figure class="hero-art hero-slideshow" aria-label="Research illustrations" aria-roledescription="carousel">
+    <div class="hero-slides">
+      {% for slide in site.data.hero_images %}
+      <img class="hero-slide{% if forloop.first %} is-active{% endif %}" src="{{ '/images/' | append: slide.image | relative_url }}" alt="{{ slide.alt | escape }}"{% if forloop.first %} fetchpriority="high"{% else %} aria-hidden="true"{% endif %}>
+      {% endfor %}
+    </div>
+    <div class="hero-slide-controls" hidden>
+      <button type="button" data-slide="previous" aria-label="Previous research illustration">←</button>
+      <button type="button" data-slide="pause">Pause slideshow</button>
+      <button type="button" data-slide="next" aria-label="Next research illustration">→</button>
+    </div>
   </figure>
 </section>
 

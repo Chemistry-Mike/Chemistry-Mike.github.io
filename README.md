@@ -66,3 +66,7 @@ The Publications page counts `_publications/` automatically at each Jekyll build
 ## Project status badges
 
 Set `awaiting_publication: true` or `patent_related: true` in a `_portfolio/` document’s YAML front matter. Shared templates display an hourglass or lock with a visible label on its research card and detail page. Patent-related pages also show “Details withheld due to ongoing patent work.” These are disclosure labels; they do not restrict access or remove content. Only flag projects identified by the author as patent-related.
+
+## Homepage slideshow
+
+Add figures under `images/`, then add an `image` filename and descriptive `alt` text to `_data/hero_images.yml`. The homepage fades between all listed figures every six seconds, with previous/next and pause controls. Reduced-motion visitors start with autoplay paused; without JavaScript the first figure remains visible. The slideshow pauses in background tabs and skips unloaded or failed images.
