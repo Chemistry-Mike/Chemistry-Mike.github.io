@@ -1,0 +1,122 @@
+[
+  {
+    "path": "images/research/p53-gsm/context/ca_distances.png",
+    "sha256": "d9b8a2211a1f727357d75464f4a14b3063249e575dfc35a212b30a0092c088d2"
+  },
+  {
+    "path": "images/research/p53-gsm/context/chemical_shifts.png",
+    "sha256": "c082a692c2e8b5b626ea7e555ce7f3046c275ccfc408d07be09f65cfa0546a76"
+  },
+  {
+    "path": "images/research/p53-gsm/context/dssp.png",
+    "sha256": "6350baadbceb7bcb137ad7b3cebcee27c0a01e9798b899830a0fab36422ba080"
+  },
+  {
+    "path": "images/research/p53-gsm/context/full_figure.png",
+    "sha256": "d2da81fe8df62e46ac6653b38a0d2c519447c42a17d1dd66973cd3b2472bb7f6"
+  },
+  {
+    "path": "images/research/p53-gsm/context/ramachandran.png",
+    "sha256": "cae804d5f2bff6c96b70148a0bcd6fa4025ff531e3686dc6ccdc59871ebc856c"
+  },
+  {
+    "path": "images/research/p53-gsm/context/rmsf.png",
+    "sha256": "e1d00f01ebc78d1a63391fdcf17c4139db061a58d3895e422d106d1437bcbc9b"
+  },
+  {
+    "path": "files/research/p53-gsm/context/ca_distances.csv",
+    "sha256": "e9b55e2a2b1a03f320dda60263f066251ad1a6e98cb880f991cb5412af1ee8b7"
+  },
+  {
+    "path": "files/research/p53-gsm/context/chemical_shift_matches.csv",
+    "sha256": "58761eda96549c64e19ed300fdb0ef9f5c3a8fdaa0194411be04690332d74af4"
+  },
+  {
+    "path": "files/research/p53-gsm/context/chemical_shift_metrics.csv",
+    "sha256": "ff513416e332e33546b406081986dce639909569b930a1d9a41e2ddfcbe4d9a0"
+  },
+  {
+    "path": "files/research/p53-gsm/context/dssp.csv",
+    "sha256": "293ad639c0908011c10c3ebafc855d2e444e8f63351000ea72cc2f1b1f7f8aef"
+  },
+  {
+    "path": "files/research/p53-gsm/context/rmsf.csv",
+    "sha256": "c72720b75f865974743a9ccf4aa2ae1ab05925f0618f3af1bf42d8e77e153c00"
+  },
+  {
+    "path": "images/research/p53-gsm/pipeline/final_figure_v4.png",
+    "sha256": "f2cba6f46eab14ae4782f295a33ae43512c42221ca23b1379b89e9992c778707"
+  },
+  {
+    "path": "images/research/p53-gsm/pipeline/nmr_heatmap_v11.png",
+    "sha256": "2459ef6e94d15f87af488885115a445e2fb61233d78e4756514e8b213b3ee8ca"
+  },
+  {
+    "path": "images/research/p53-gsm/pipeline/ramachandran_v8.png",
+    "sha256": "688cfb358d841a8d4eed4cc13299ef1eeaf445e4f4aeb6e5da09842c10e7d691"
+  },
+  {
+    "path": "images/research/p53-gsm/pipeline/rmsf_comparison_v8.png",
+    "sha256": "2a499f74285cd83c62b6f62633a05096f76f6b98ae82bf806471ed0f9c138e68"
+  },
+  {
+    "path": "files/research/p53-gsm/pipeline/nmr_before_after_alignment.tsv",
+    "sha256": "8c87a19c5699cc1fa98136664f8ec7e1e91be4d899fbf09ab288fecfc80db246"
+  },
+  {
+    "path": "files/research/p53-gsm/pipeline/nmr_before_after_changes.tsv",
+    "sha256": "2139e4043fd48df9a19aee094458d45dfb8122336254713251e618e1bfe6df80"
+  },
+  {
+    "path": "files/research/p53-gsm/pipeline/nmr_before_after_metadata.json",
+    "sha256": "3a4d000abb3081b9fd848c26913ef686456f88e7f1f73f4f39881907e68ccb18"
+  },
+  {
+    "path": "files/research/p53-gsm/pipeline/nmr_before_after_metrics.tsv",
+    "sha256": "a1a17a505ce3b234770a76facc6110d30f16135a4cb07b6475dea358806e47ae"
+  },
+  {
+    "path": "files/research/p53-gsm/pipeline/nmr_heatmap_data_v11.tsv",
+    "sha256": "3ec155fb94d166b23b6bdcd68aa0a038ab6fb88bfbe46dd6a8e7b088775b0648"
+  },
+  {
+    "path": "files/research/p53-gsm/pipeline/ramachandran_summary_v1.tsv",
+    "sha256": "5ce6dde07c018064ffc6c41003a8b8c2a634b2b40aa9989b9a3eb701c60168af"
+  },
+  {
+    "path": "files/research/p53-gsm/pipeline/rmsf_alignment_v2.tsv",
+    "sha256": "55bc4c239df5e9f56744701b68cdba38be9d1899b540e4c6bf9f5d9de8059d42"
+  },
+  {
+    "path": "files/research/p53-gsm/pipeline/rmsf_plot_data_v2.tsv",
+    "sha256": "e0cc2ca57ed3e552000c74049743b5ec466f8df6cb2e92179684ed0dacb8be7e"
+  },
+  {
+    "path": "images/research/p53-gsm/qr/destinations.json",
+    "sha256": "74ac2d210cdf37b0c96bb4bbdde84a09100d163f8e69acab89c16f536497b1c0"
+  },
+  {
+    "path": "images/research/p53-gsm/qr/sequence-context.pdf",
+    "sha256": "fb418fa83e787c538c198a512a6504e0650f1c36dde3b3c5f8324400aeba630f"
+  },
+  {
+    "path": "images/research/p53-gsm/qr/sequence-context.png",
+    "sha256": "826fddc63eb10579ef081c90421fed23d1ea1be975cb4bdd94d9566959313532"
+  },
+  {
+    "path": "images/research/p53-gsm/qr/short-md-pipeline.png",
+    "sha256": "31143456fdff924d8b59e3947c790b4c3541a0d5add9def48efb4bd9178f286a"
+  },
+  {
+    "path": "images/research/p53-gsm/qr/short-md-pipeline.pdf",
+    "sha256": "570269b15c5957ff160ad08fd8182326fa2a4262194922f435247eb0ae59f5a0"
+  },
+  {
+    "path": "images/research/p53-gsm/qr/short-md-pipeline.tex",
+    "sha256": "672a81814caf0964033f2d02014049f7f0dcc5b959610c2f1e1681d177f26ca7"
+  },
+  {
+    "path": "images/research/p53-gsm/qr/sequence-context.tex",
+    "sha256": "12ccdecb9548f26803ca1bcd5995b239714f15c9a804007f21500a00efd3edea"
+  }
+]

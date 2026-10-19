@@ -1,0 +1,13 @@
+method	state	frames	paired_angles	paired_residues_per_frame
+AF3	Original	1002	26052	26
+AF3	Relaxed	1000	26000	26
+Boltz	Original	1148	29848	26
+Boltz	Relaxed	1148	29848	26
+AlphaFlow	Original	1000	26000	26
+AlphaFlow	Relaxed	1000	26000	26
+BioEmu	Original	960	24960	26
+BioEmu	Relaxed	959	24934	26
+idpSAM	Original	1000	26000	26
+idpSAM	Relaxed	998	25948	26
+IDPFold	Original	3000	78000	26
+IDPFold	Relaxed	2998	77948	26
