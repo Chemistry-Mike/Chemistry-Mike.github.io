@@ -1,0 +1,4 @@
+
+# Preserve scientific downloads byte-for-byte, including original CRLF and empty columns.
+files/research/p53-gsm/context/*.csv -text whitespace=cr-at-eol,-blank-at-eol
+files/research/p53-gsm/pipeline/*.tsv -text whitespace=cr-at-eol,-blank-at-eol

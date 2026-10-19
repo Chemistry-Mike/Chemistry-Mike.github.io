@@ -70,3 +70,26 @@ Set `awaiting_publication: true` or `patent_related: true` in a `_portfolio/` do
 ## Homepage slideshow
 
 Add figures under `images/`, then add an `image` filename and descriptive `alt` text to `_data/hero_images.yml`. The homepage fades between all listed figures every six seconds, with previous/next and pause controls. Reduced-motion visitors start with autoplay paused; without JavaScript the first figure remains visible. The slideshow pauses in background tabs and skips unloaded or failed images.
+
+## p53 conference-poster landing pages
+
+Stable poster destinations (preserve these URLs):
+
+- `/research/p53-gsm-sequence-context/`
+- `/research/p53-gsm-short-md-pipeline/`
+
+Page sources are `_pages/p53-gsm-*.md`. Original figure assets are under `images/research/p53-gsm/`; downloadable data and the public SHA-256 manifest are under `files/research/p53-gsm/`. QR PNGs, vector PDFs, TeX sources, and `destinations.json` are in `images/research/p53-gsm/qr/`. Only public handoff assets are copied; private manuscript/provenance notes remain outside the repository.
+
+Checks from the repository root:
+
+```sh
+python3 scripts/check_p53_poster.py
+python3 scripts/verify_poster_qr.py
+bundle exec jekyll build
+python3 scripts/check_p53_poster.py --site _site
+python3 scripts/check_site.py _site
+```
+
+The QR check uses ImageMagick `convert` to read the supplied pristine, axis-aligned version-5/M PNGs. It decodes their URL payloads and compares them exactly with the manifest; it is not a general camera decoder or a printed-poster scan test.
+
+After merging and deployment, open both HTTPS routes and test images/downloads on a phone, then scan each QR at its intended printed size (roughly 30–40 mm including the white quiet zone). Do not finalize poster printing until both destinations are live and public. A local source/data check does not verify live deployment or mobile rendering.

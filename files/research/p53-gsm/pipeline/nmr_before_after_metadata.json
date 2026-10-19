@@ -1,0 +1,25 @@
+{
+  "reference": "BMRB 17760",
+  "common_matched_assignments": 124,
+  "metrics": {
+    "r2_predictive": "1 - sum((predicted - observed)^2) / sum((observed - mean(observed))^2); may be negative",
+    "pearson_r_squared": "squared Pearson correlation; does not penalize constant offsets or scale errors",
+    "rmse_ppm": "sqrt(mean((predicted - observed)^2))"
+  },
+  "aggregation": "arithmetic mean over finite conformer predictions; equal conformer weights",
+  "mask": "intersection of experimental assignments and finite means across all six methods and both states",
+  "scopes": {
+    "all_available": "all common assignments at residues 1\u201328",
+    "interior_2-27": "omit modeled terminal residues"
+  },
+  "missing_HA": "BMRB 17760 has no HA assignments; metrics left empty",
+  "source_limitations": [
+    "Pickles contain residue numbers and atom names but no residue identities; checked original PDB sequences and mapped ordered residue labels",
+    "Matching frame counts do not by themselves establish exact frame identity",
+    "Original uses all available columns, relaxed uses surviving conformers; no frame pairing assumed",
+    "Before/after includes reconstruction and relaxation effects",
+    "Experimental p53 1\u201393 vs modeled p53 1\u201328; terminal context differs"
+  ],
+  "referencing_correction": "none",
+  "pooled_nucleus_score": "not calculated; nucleus ranges differ"
+}

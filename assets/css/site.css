@@ -246,3 +246,29 @@ p { text-align: left; }
 @media (prefers-reduced-motion: reduce) {
   .hero-slides .hero-slide { transition: none; }
 }
+
+/* Poster QR landing pages: full-width text, original figures, scrollable tables. */
+.poster-study .section-intro, .poster-study .section-intro .lede { max-width: none; }
+.poster-study h2 { margin-top: 52px; font-size: 28px; }
+.poster-study > p, .poster-study > ul { line-height: 1.85; }
+.poster-study-status { padding: 16px 22px; border: 1px solid var(--qp-line); border-radius: 8px; background: var(--qp-surface); color: var(--qp-accent); }
+.poster-figure { margin: 28px 0 46px; padding: 16px; background: #fff; border-radius: 8px; }
+.poster-figure img { display: block; width: 100%; height: auto; }
+.poster-figure figcaption { margin-top: 16px; color: #21344c; font-size: 14px; line-height: 1.7; }
+.poster-figure figcaption a { color: #14599d; text-decoration: underline; }
+.poster-table-scroll { max-width: 100%; overflow-x: auto; margin: 28px 0 38px; border: 1px solid var(--qp-line); border-radius: 8px; }
+.poster-table-scroll:focus-visible { outline: 3px solid var(--qp-accent); outline-offset: 3px; }
+.poster-table-scroll table { width: 100%; margin: 0; font-size: 14px; }
+.poster-table-scroll caption { text-align: left; padding: 16px; color: #f0f6ff; font-weight: 600; }
+.poster-table-scroll th, .poster-table-scroll td { padding: 14px; white-space: nowrap; text-align: left; }
+.poster-workflow { display: flex; flex-wrap: wrap; gap: 12px; list-style: none; counter-reset: step; padding: 0; margin: 26px 0; }
+.poster-workflow li { counter-increment: step; background: #213e65; border: 1px solid #3a608d; border-radius: 8px; padding: 14px 18px; }
+.poster-workflow li::before { content: counter(step) '. '; color: var(--qp-accent); }
+.poster-downloads { overflow-wrap: anywhere; }
+.poster-study-links { margin: 50px 0; padding: 26px; border: 1px solid var(--qp-line); background: var(--qp-surface); border-radius: 8px; }
+.poster-study-links h2 { margin-top: 0; }
+@media (max-width: 700px) {
+ .poster-figure { padding: 10px; }
+ .poster-study .section-intro h1 { font-size: 34px; }
+ .poster-study-links { padding: 20px; }
+}
